@@ -1,5 +1,7 @@
 # EverythingPBR by lenship2
 
+Steam workshop version: https://steamcommunity.com/sharedfiles/filedetails/?id=3594428478
+
 This is a collection of little over 200 high quality recreations of Portal 2 assets that I've made over the past few months. Everything here was made from scratch in either Blender or Substance Designer/Painter. This addon will hopefully be updated continuously as I make more assets. 
 
 If anything is broken, or if you have any feedback, feel free to reach me on Discord. If you have any specific requests for either the addon or a separate project, I'll happily take commissions!
