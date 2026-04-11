@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\props\circuit_breaker_Color"
+		$mraotexture			"models\pbr\props\circuit_breaker_MRAO"
+		$bumpmap				"models\pbr\props\circuit_breaker_Normal"
+		$emissiontexture		"models\pbr\props\circuit_breaker_red_SelfIllum"
+	}
+}

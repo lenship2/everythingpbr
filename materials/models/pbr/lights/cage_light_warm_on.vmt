@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\lights\cage_light_Color"
+		$mraotexture			"models\pbr\lights\cage_light_MRAO"
+		$bumpmap				"models\pbr\lights\cage_light_Normal"
+		$emissiontexture		"models\pbr\lights\cage_light_SelfIllum"
+		
+		$emissionscale			"[0.476 0.445 0.363]"
+	}
+}

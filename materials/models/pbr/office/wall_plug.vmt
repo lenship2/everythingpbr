@@ -1,0 +1,9 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\wall_plug_Color"
+		$mraotexture			"models\pbr\office\wall_plug_MRAO"
+	}
+}

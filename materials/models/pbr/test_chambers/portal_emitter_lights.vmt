@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture 			"models/props/portal_emitter_lights_off"
+$translucent 			"1"
+$additive 				"1"
+}

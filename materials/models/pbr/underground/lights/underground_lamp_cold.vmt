@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\lights\underground_lamp_Color"
+		$mraotexture			"models\pbr\underground\lights\underground_lamp_MRAO"
+		$bumpmap				"models\pbr\underground\lights\underground_lamp_Normal"
+		$emissiontexture		"models\pbr\underground\lights\underground_lamp_SelfIllum"
+		
+		$emissionscale			"[0.451 0.557 0.67]"
+	}
+}

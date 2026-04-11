@@ -1,0 +1,14 @@
+PBR
+{
+	$basetexture 			"dev/default_mrao"
+	$mraotexture			"models/pbr/test_chambers/faithplate_specular_mrao"
+
+	$color2					"[0 0 0]"
+
+	$envmap					"env_cubemap"
+	$envmaptint				"[0.3 0.3 0.3]"
+	$envmaplightscale		"0.6"
+
+	$model					"1"
+	$additive				"1"
+}

@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\props\danger_sign_contaminated_Color"
+		$mraotexture			"models\pbr\props\danger_sign_MRAO"
+		$bumpmap				"models\pbr\props\danger_sign_Normal"
+	}
+}

@@ -1,0 +1,18 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/underground/wood/lobby_wood_color"
+		$bumpmap 				"pbr/underground/wood/lobby_wood_parallax"
+		$mraotexture			"pbr/underground/wood/lobby_wood_mrao"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$parallax 				"1"
+		$parallaxcenter 		"0.55"
+		$parallaxdepth 			"0.025"
+		
+		$surfaceprop			"wood"
+	}
+}

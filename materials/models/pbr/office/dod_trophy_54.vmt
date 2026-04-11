@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\dod_trophy_54_Color"
+		$mraotexture			"models\pbr\office\dod_trophy_54_MRAO"
+		$bumpmap				"models\pbr\office\dod_trophy_54_Normal"
+	}
+}

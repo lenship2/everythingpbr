@@ -1,0 +1,9 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\exo_2_Color"
+		$mraotexture			"models\pbr\underground\exo_2_MRAO"
+	}
+}

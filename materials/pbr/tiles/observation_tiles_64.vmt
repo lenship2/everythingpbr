@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr\tiles\observation_tiles_64_Color"
+		$bumpmap 				"pbr\tiles\observation_tiles_64_Normal"
+		$mraotexture			"pbr\tiles\observation_tiles_64_MRAO"
+		
+		$surfaceprop			"tile"
+	}
+}

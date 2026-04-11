@@ -1,0 +1,22 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/underground/grating/underground_grating_a_color"
+		$bumpmap 				"pbr/underground/grating/underground_grating_a_parallax"
+		$mraotexture			"pbr/underground/grating/underground_grating_a_mrao"
+		
+		$surfaceprop			"metalgrate"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$mraoscale              "[0.75 0.8 1]"
+		$hsv					"[1 1 4]"
+		
+		$alphatest				"1"
+		
+		"%compilepassbullets"	"1"
+		"%nopaint"				"1"
+	}
+}

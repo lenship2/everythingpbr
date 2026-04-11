@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\construction_crane\construction_crane_platform_Color"
+		$mraotexture			"models\pbr\underground\construction_crane\construction_crane_platform_MRAO"
+		$bumpmap				"models\pbr\underground\construction_crane\construction_crane_platform_Normal"
+	}
+}

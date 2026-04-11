@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr\plaster\plaster_wall_brown_01_Color"
+		$bumpmap 				"pbr\plaster\plaster_wall_01_Normal"
+		$mraotexture			"pbr\plaster\plaster_wall_01_MRAO"
+		
+		$surfaceprop			"plaster"
+	}
+}

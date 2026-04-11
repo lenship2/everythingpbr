@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\faithplate_glass_Color"
+		$mraotexture			"models\pbr\test_chambers\faithplate_glass_MRAO"
+		$translucent			"1"
+		$nocull					"1"
+	}
+}

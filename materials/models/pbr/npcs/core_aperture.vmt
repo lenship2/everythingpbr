@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\npcs\core_aperture_Color"
+		$bumpmap				"models\pbr\npcs\core_aperture_Normal"
+		$mraotexture			"dev\default_MRAO"
+
+		$mraoscale              "[0.9 0.35 1]"
+	}
+}

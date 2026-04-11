@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\lobby_lamp_Color"
+		$mraotexture			"models\pbr\underground\lobby_lamp_MRAO"
+		$emissiontexture		"models\pbr\underground\lobby_lamp_SelfIllum"
+		
+		$emissionscale			"[0.5 0.5 0.5]"
+	}
+}

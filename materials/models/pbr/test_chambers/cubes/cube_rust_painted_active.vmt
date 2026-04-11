@@ -1,0 +1,27 @@
+PBR
+{
+$basetexture 			"models\pbr\test_chambers\cubes\cube_rust_painted_Color"
+$bumpmap 				"models\pbr\test_chambers\cubes\cube_rust_painted_Normal"
+$mraotexture			"models\pbr\test_chambers\cubes\cube_rust_painted_MRAO"
+$emissiontexture		"models\pbr\test_chambers\cubes\cube_rust_painted_SelfIllum"
+
+$model					"1"
+$blendtintbymraoalpha	"1"
+
+$mraoscale				"[0.9 1 1]"
+$emissionscale			"[0.708 0.491 0.063]"
+
+$parallax 				"0"
+
+$envmap					"env_cubemap"
+$envmaptint				"[0.3 0.3 0.3]"
+
+Proxies
+{
+	PaintOverlayColor
+	{
+		resultVar 				$color
+	}
+}
+
+}

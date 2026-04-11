@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture			"pbr/carpet/elevator_carpet_color"
+		$bumpmap				"pbr/carpet/elevator_carpet_normal"
+		$mraotexture			"pbr/carpet/elevator_carpet_MRAO"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$envmaptint				"[0.05 0.05 0.05]"
+		
+		$surfaceprop			"carpet"
+	}
+}

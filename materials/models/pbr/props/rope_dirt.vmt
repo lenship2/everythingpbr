@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\props\rope_dirt_Color"
+		$mraotexture			"models\pbr\props\rope_dirt_MRAO"
+		$bumpmap				"models\pbr\props\rope_dirt_Normal"
+	}
+}

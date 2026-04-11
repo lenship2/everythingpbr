@@ -1,0 +1,194 @@
+Rectangles
+{
+	rectangle
+	{
+		min		"16 0"
+		max		"48 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"16 256"
+		max		"48 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"58 256"
+		max		"90 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"58 0"
+		max		"90 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"58 256"
+		max		"90 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"0 0"
+		max		"64 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"0 256"
+		max		"64 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"16 0"
+		max		"48 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"59 0"
+		max		"91 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"59 0"
+		max		"91 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"92 0"
+		max		"124 512"
+		alt		1
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"136 0"
+		max		"168 512"
+		alt		1
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"0 0"
+		max		"64 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"120 0"
+		max		"184 512"
+		alt		1
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"464 0"
+		max		"496 128"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"464 128"
+		max		"496 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"464 256"
+		max		"496 384"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"464 384"
+		max		"496 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"421 0"
+		max		"453 128"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"421 128"
+		max		"453 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"421 256"
+		max		"453 384"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"421 384"
+		max		"453 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"448 0"
+		max		"512 128"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"448 128"
+		max		"512 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"448 256"
+		max		"512 384"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"448 384"
+		max		"512 512"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"168 0"
+		max		"424 512"
+		rotate	1
+	}
+}

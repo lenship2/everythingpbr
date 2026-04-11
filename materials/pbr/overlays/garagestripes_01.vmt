@@ -1,0 +1,23 @@
+PBR
+{
+$basetexture 			"pbr/overlays/garagestripes_01_basecolor"
+$bumpmap 				"pbr/overlays/garagestripes_normal"
+$mraotexture			"pbr/overlays/garagestripes_mrao"
+
+$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+$bumptransform			"center 0 0 scale 1 1 rotate 0 translate 0 0"
+$mraoscale              "[0.9 0.85 1]"
+$color					"[1 1 1]"
+
+$decal					"1"
+$alphatest				"1"
+$allowalphatocoverage	"1"
+$alphatestreference		"0.2"
+
+$parallax 				"0"
+
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+$envmaptint				"[0.3 0.3 0.3]"
+"%noportal"				"1"
+}

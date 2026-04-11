@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\cubes\sphere_rust_Color"
+		$bumpmap 				"models\pbr\test_chambers\cubes\sphere_rust_Normal"
+		$mraotexture			"models\pbr\test_chambers\cubes\sphere_rust_MRAO"
+	}
+}

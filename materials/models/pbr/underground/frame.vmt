@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\frame_Color"
+		$bumpmap				"models\pbr\underground\frame_Normal"
+		$mraotexture			"models\pbr\underground\frame_MRAO"
+		
+		$envmaptint				"[0.1 0.1 0.1]"
+	}
+}

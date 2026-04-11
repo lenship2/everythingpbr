@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\copymachine_Color"
+		$mraotexture			"models\pbr\office\copymachine_MRAO"
+		$bumpmap				"models\pbr\office\copymachine_Normal"
+		$emissiontexture		"models\pbr\office\copymachine_Selfillum"
+	}
+}

@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\chemistry_trophy_01_Color"
+		$bumpmap				"models\pbr\office\chemistry_trophy_01_Normal"
+		$mraotexture			"models\pbr\office\chemistry_trophy_01_MRAO"
+	}
+}

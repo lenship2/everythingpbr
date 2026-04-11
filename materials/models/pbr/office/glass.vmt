@@ -1,0 +1,12 @@
+Refract
+{
+ 	$model 				"1"
+ 	$refractamount 		"0.05"
+	$bluramount			"2"
+	$normalmap 			"glass/glass_normal"
+	$envmap 			"env_cubemap"
+	$envmaptint			"[0.2 0.2 0.2]"
+	$nowritez			"1"
+	$refracttint		"[2 2 2]"
+	$refracttinttexture	"effects/flashlight002"
+}

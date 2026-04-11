@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\underground\wooden_box_Color"
+		$bumpmap 				"models\pbr\test_chambers\underground\wooden_box_Normal"
+		$mraotexture			"models\pbr\test_chambers\underground\wooden_box_MRAO"
+	}
+}

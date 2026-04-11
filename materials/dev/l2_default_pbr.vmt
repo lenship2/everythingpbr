@@ -1,0 +1,20 @@
+PBR
+{
+	//fixup for most higher-res basetextures
+	$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+
+	//fix really dark metallic and make cubemaps look okayish 
+	$mraoscale              "[0.9 1 1]"
+	$envmaptint				"[0.3 0.3 0.3]"	
+	$envmaplightscale		"0.9"
+
+	//disable parallax usually, but when it is enabled turn off dithering and set to the highest quality
+	$parallax 				"0"
+	$parallaxdither        	"0"
+	$parallaxscale          "2"
+
+	$envmap					"env_cubemap"
+
+	//most materials aren't portalable
+	"%noportal"				"1"
+}

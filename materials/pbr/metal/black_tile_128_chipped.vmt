@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/pbr/metal/black_tile_template.vmt"
+	insert
+	{
+		$basetexture 			"pbr/metal/black_tiles_128_chipped_color"
+		$bumpmap 				"pbr/metal/black_tiles_128_chipped_Normal"
+		$mraotexture			"pbr/metal/black_tiles_128_chipped_mrao"
+		$detailmask				"pbr/metal/black_tiles_128_chipped_mask"
+	}
+}

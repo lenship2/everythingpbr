@@ -1,0 +1,24 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/grating/portal_grating_color"
+		$bumpmap 				"pbr/grating/portal_grating_parallax"
+		$mraotexture			"pbr/grating/portal_grating_MRAO"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$alphatest				"1"
+		$AlphaTestReference 	"0.5"
+		$AllowAlphaToCoverage 	"1"
+		
+		$mraoscale              "[0.9 0.9 1]"
+		$envmaptint				"[0.15 0.15 0.15]"
+		
+		$surfaceprop			"metalgrate"
+		
+		"%compilepassbullets"	"1"
+		"%nopaint"				"1"
+	}
+}

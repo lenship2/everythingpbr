@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\cable_black_baseColor"
+		$mraotexture			"dev\default_MRAO"
+		
+		$hsv					"[1 1 2]"
+		
+		$mraoscale              "[0 0.45 1]"
+	}
+}

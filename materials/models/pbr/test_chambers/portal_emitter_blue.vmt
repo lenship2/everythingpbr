@@ -1,0 +1,48 @@
+PBR
+{
+$basetexture 			"models\pbr\test_chambers\portal_emitter_Color"
+$mraotexture			"models\pbr\test_chambers\portal_emitter_MRAO"
+$emissiontexture		"models\pbr\test_chambers\portal_emitter_SelfIllum"
+
+$model					"1"
+
+$mraoscale              "[0.9 1 1]"
+
+$parallax 				"0"
+
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+$envmaptint				"[0.3 0.3 0.3]"
+
+$v_alternate 			"0"
+$v_defaultColor 		"{0 60 255}"
+$v_zero 				"0"
+$v_defaultTint 			"[1 1 1]"
+$v_portalColor 			"{255 255 255}"
+
+Proxies
+{
+    PortalColor
+	{
+        teamNumber 		"0"
+        portalNumber 	"1"
+        resultVar 		"$v_portalColor"
+    }
+
+    PortalAlternateColor
+    {
+        resultVar 		"$v_alternate"
+    }
+
+    LessOrEqual
+    {
+        srcVar1         "$v_alternate"     
+        srcVar2         "$v_zero"
+		
+        resultVar       "$emissionscale"      
+		
+        LessEqualVar    "$v_defaultColor"     
+        greaterVar      "$v_portalColor"
+    }
+}
+}

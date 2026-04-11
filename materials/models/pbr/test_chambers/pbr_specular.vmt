@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"dev/default_mrao"
+		$mraotexture			"models/pbr/test_chambers/testchmb_bits_mrao"
+		$bumpmap				"models/pbr/test_chambers/testchmb_bits_normal"
+		
+		$color2					"[0 0 0]"
+		$additive				"1"
+	}
+}

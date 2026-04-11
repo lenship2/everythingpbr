@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/glass/portal_glass_256_Color"
+		$bumpmap 				"pbr/glass/portal_glass_256_Normal"
+		$mraotexture			"pbr/glass/portal_glass_256_MRAO"
+		
+		$translucent			"1"
+		
+		$envmaptint				"[1 1 1]"
+		
+		$surfaceprop			"glass"
+	}
+}

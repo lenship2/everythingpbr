@@ -1,0 +1,27 @@
+PBR
+{
+	$basetexture 			"models\pbr\elevator\elevator_shell_Color"
+	$mraotexture			"models\pbr\elevator\elevator_shell_MRAO"
+	$bumpmap				"models\pbr\elevator\elevator_shell_Normal"
+	$emissiontexture		"models\pbr\elevator\elevator_shell_SelfIllum"
+
+	$mraoscale				"[0.85 1 1]"
+	$envmaptint				"[0.3 0.3 0.3]"
+	
+	$model					"1"
+
+	$envmaplightscale		"0.9"
+	$blendtintbymraoalpha	"1"
+
+	$envmap					"env_cubemap"
+	
+	proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar			"$emissiontexture"
+			animatedtextureframenumvar	"$emissionframe"
+			animatedtextureframerate	"2"
+		}
+	}
+}

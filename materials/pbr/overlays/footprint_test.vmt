@@ -1,0 +1,22 @@
+PBR
+{
+$basetexture 			"pbr/overlays/footprint_test_basecolor"
+$bumpmap 				"pbr/overlays/footprint_test_Parallax"
+$mraotexture			"pbr/overlays/footprint_test_MRAO"
+
+$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+$bumptransform			"center 0 0 scale 1 1 rotate 0 translate 0 0"
+
+$decal					"1"
+$alphatest				"1"
+$allowalphatocoverage	"1"
+$alphatestreference		"0.1"
+
+$alpha 					"0"
+
+$parallax 				"1"
+$parallaxcenter 		"0.2"
+$parallaxdepth 			"0.075"
+$parallaxdither        	"0"
+$parallaxscale          "128"
+}

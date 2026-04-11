@@ -1,0 +1,16 @@
+PBR
+{
+$basetexture 			"pbr/dev/dev_pbr_floor_color"
+$mraotexture			"pbr/dev/dev_pbr_floor_mrao"
+
+$basetexturetransform	"center 0 0 scale 0.25 0.25 rotate 0 translate 0 0"
+
+$parallax 				"0"
+
+$surfaceprop			"default"
+
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+
+%noportal				"1"
+}

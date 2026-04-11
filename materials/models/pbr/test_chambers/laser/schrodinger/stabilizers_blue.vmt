@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\laser\schrodinger\stabilizers_Color"
+		$mraotexture			"models\pbr\test_chambers\laser\schrodinger\stabilizers_MRAO"
+		//$emissiontexture		"models\pbr\test_chambers\laser\schrodinger\stabilizers_SelfIllum"
+		
+		//$emissionscale			"[0.708 0.491 0.063]"
+	}
+}

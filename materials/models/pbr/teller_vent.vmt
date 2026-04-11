@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/teller_vent_Color"
+		$bumpmap				"models/pbr/teller_vent_Normal"
+		$mraotexture			"models/pbr/teller_vent_MRAO"
+		
+		$mraoscale              "[0.75 0.8 1]"
+	}
+}

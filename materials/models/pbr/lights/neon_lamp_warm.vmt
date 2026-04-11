@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\lights\neon_lamp_warm_Color"
+		$bumpmap				"models\pbr\lights\neon_lamp_Normal"
+		$mraotexture			"models\pbr\lights\neon_lamp_MRAO"
+		$emissiontexture		"models\pbr\lights\neon_lamp_warm_SelfIllum"
+	}
+}

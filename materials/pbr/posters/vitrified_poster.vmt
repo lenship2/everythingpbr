@@ -1,0 +1,18 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/posters/vitrified_poster_basecolor"
+		$bumpmap 				"pbr/posters/vitrified_poster_normal"
+		$mraotexture			"pbr/posters/vitrified_poster_MRAO"
+		
+		$decalscale				"0.125"
+		$alphatest				"1"
+		$AlphaTestReference 	"0.5"
+		$AllowAlphaToCoverage 	"1"
+		$decal					"1"
+		
+		$surfaceprop			"paper"
+	}
+}

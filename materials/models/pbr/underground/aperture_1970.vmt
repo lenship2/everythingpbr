@@ -1,0 +1,15 @@
+PBR
+{
+$basetexture 			"models\pbr\underground\aperture_1970_Color"
+$mraotexture			"models\pbr\underground\aperture_1970_MRAO"
+
+$model					"1"
+
+$mraoscale              "[0.9 1 1]"
+
+$parallax 				"0"
+
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+$envmaptint				"[0.3 0.3 0.3]"
+}

@@ -1,0 +1,66 @@
+Rectangles
+{
+	rectangle
+	{
+		min		"0 0"
+		max		"512 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"0 1024"
+		max		"512 2048"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"512 0"
+		max		"1024 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"512 1024"
+		max		"1024 2048"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"1024 0"
+		max		"1536 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"1024 1024"
+		max		"1536 2048"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"1536 0"
+		max		"2048 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"1536 1024"
+		max		"2048 2048"
+		rotate	1
+		reflect 1
+	}
+}

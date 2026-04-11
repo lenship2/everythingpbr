@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\clock_glass_Color"
+		$mraotexture			"models\pbr\office\clock_glass_MRAO"
+		$nowritez 				"1"
+		$translucent			"1"
+	}
+}

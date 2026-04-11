@@ -1,0 +1,4 @@
+vertexlitgeneric
+{
+$basetexture	"models\pbr\cable_black_baseColor"
+}

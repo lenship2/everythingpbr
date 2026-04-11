@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/underground/wood/underground_white_wood_d_color"
+		$bumpmap 				"pbr/underground/wood/underground_white_wood_d_normal"
+		$mraotexture			"pbr/underground/wood/underground_white_wood_d_mrao"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$surfaceprop			"wood"
+		
+		%noportal				"0"
+	}
+}

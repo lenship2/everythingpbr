@@ -1,0 +1,20 @@
+Refract
+{
+$basetexture 		"models/pbr/test_chambers/testchmb_bits_color"
+$normalmap 			"models/pbr/test_chambers/testchmb_bits_normal"
+
+$envmap				"cubemaps/cubemap_glass_01"
+
+$model 				"1"
+
+$refractamount 		"0.025"
+$bluramount 		"1"
+
+$localrefract 		"1"
+$localrefractdepth 	"0.02"
+
+$scale 				"[1 1]"
+
+//rgb door color
+$refracttint 		"[0.5 0.8 1]"
+}

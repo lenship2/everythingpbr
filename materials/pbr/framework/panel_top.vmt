@@ -1,0 +1,33 @@
+PBR
+{
+
+	$basetexture 			"pbr/framework/panel_top_color"
+	$bumpmap 				"pbr/framework/panel_top_normal"
+	$mraotexture			"pbr/framework/panel_top_MRAO"
+	$emissiontexture		"pbr/framework/panel_top_selfillum"
+	
+	$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
+
+	$mraoscale              "[0.9 1 1]"
+	$envmaptint				"[0.6 0.6 0.6]"
+
+	$parallax 				"0"
+	$parallaxdither        	"0"
+	$parallaxscale          "2"
+	$envmaplightscale		"0.6"
+
+	$envmap					"env_cubemap"
+	$surfaceprop			"metal"
+
+	"%noportal"				"1"
+	
+	Proxies
+	{
+		ToggleTexture
+		{
+			toggleTextureVar 		 $emissiontexture
+			toggleTextureFrameNumVar $emissionframe
+			toggleTextureShouldWrap  "0"
+		}
+	}
+}

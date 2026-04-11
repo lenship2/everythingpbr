@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\construction_cone_Color"
+		$mraotexture			"models\pbr\construction_cone_MRAO"
+		$bumpmap				"models\pbr\construction_cone_Normal"
+	}
+}

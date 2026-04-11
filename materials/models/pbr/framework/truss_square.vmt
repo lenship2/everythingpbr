@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/framework/truss_square_color"
+		$bumpmap				"models/pbr/framework/truss_square_normal"
+		$mraotexture			"models/pbr/framework/truss_square_mrao"
+		
+		$mraoscale              "[0.85 1 1]"
+	}
+}

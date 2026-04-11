@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/pbr/underground/metal_wall/underground_metal_wall_template.vmt"
+	insert
+	{		
+		$basetexture 			"pbr/underground/metal_wall/underground_metal_wall_10_color"
+		$bumpmap 				"pbr/underground/metal_wall/underground_metal_wall_10_normal"
+		$mraotexture			"pbr/underground/metal_wall/underground_metal_wall_10_mrao"
+	}
+}

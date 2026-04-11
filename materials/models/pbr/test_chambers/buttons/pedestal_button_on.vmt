@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\buttons\pedestal_button_Color"
+		$emissiontexture 		"models\pbr\test_chambers\buttons\pedestal_button_SelfIllum"
+		$bumpmap				"models\pbr\test_chambers\buttons\pedestal_button_Normal"
+		$mraotexture			"models\pbr\test_chambers\buttons\pedestal_button_MRAO"
+		
+		$emissionscale			"[0.4851 0.305 0.0262]"
+	}
+}

@@ -1,0 +1,56 @@
+VertexLitGeneric
+{
+    $basetexture 		"models/props/portal_emitter_lights_on"
+    $selfillum 			"1"
+    $additive 			"1"
+    $vertexcolor 		"1"
+    $vertexalpha 		"1"
+
+    // Custom proxy variables
+    $v_alternate 		"0"
+	$v_sineconstant 	"1"
+    $v_defaultColor 	"{233 78 2}"
+    $v_zero 			"0"
+    $v_portalColor 		"{255 255 255}"
+	$v_portaltype  		"{255 255 255}"
+
+
+    Proxies
+    {
+        PortalColor
+        {
+            teamNumber		"0"
+            portalNumber	"2"
+            resultVar 		"$v_portalColor"
+        }
+
+        PortalAlternateColor
+        {
+            resultVar 		"$v_alternate"
+        }
+
+        LessOrEqual
+        {
+            srcVar1         "$v_alternate"        
+            srcVar2         "$v_zero"             
+            resultVar       "$v_portaltype"       
+            LessEqualVar    "$v_defaultColor"     
+            greaterVar      "$v_portalColor"      
+        }
+		
+		Sine
+		{
+			sineperiod		"1.00"
+			sinemin			"1"
+			sinemax			"2"
+			resultVar		"$v_sineconstant"
+		}
+		
+		Multiply
+		{
+			srcVar1			"$v_portaltype"
+			srcVar2			"$v_sineconstant"
+			resultVar		"$selfillumtint"
+		}
+    }
+}

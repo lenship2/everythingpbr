@@ -1,0 +1,106 @@
+Rectangles
+{
+	rectangle
+	{
+		min		"0 0"
+		max		"512 512"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"0 512"
+		max		"512 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"512 0"
+		max		"768 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"512 512"
+		max		"768 768"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"512 768"
+		max		"768 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"512 768"
+		max		"768 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"768 896"
+		max		"896 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"768 768"
+		max		"896 896"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"768 640"
+		max		"896 768"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"960 512"
+		max		"1024 1024"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"896 512"
+		max		"960 768"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"896 768"
+		max		"960 896"
+		rotate	1
+		reflect 1
+	}
+	
+	rectangle
+	{
+		min		"896 896"
+		max		"960 1024"
+		rotate	1
+		reflect 1
+	}
+}

@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\lights\cage_light_Color"
+		$bumpmap				"models\pbr\lights\cage_light_Normal"
+		$mraotexture			"models\pbr\lights\cage_light_MRAO"
+	}
+}

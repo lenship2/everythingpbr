@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\fizzler_nice_Color"
+		$mraotexture			"models\pbr\test_chambers\fizzler_evil_MRAO"
+		$bumpmap				"models\pbr\test_chambers\fizzler_evil_Normal"
+		$emissiontexture		"models\pbr\test_chambers\fizzler_nice_SelfIllum"
+	}
+}

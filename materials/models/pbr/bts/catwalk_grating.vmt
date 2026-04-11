@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/bts/catwalk_grating_color"
+		$bumpmap				"models/pbr/bts/catwalk_grating_normal"
+		$mraotexture			"models/pbr/bts/catwalk_grating_mrao"
+		
+		$alphatest				"1"
+		$allowalphatocoverage 	"1"
+	}
+}

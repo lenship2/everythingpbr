@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\lab_server_Color"
+		$mraotexture			"models\pbr\office\lab_server_MRAO"
+		$emissiontexture		"models\pbr\office\lab_server_Selfillum"
+	}
+}

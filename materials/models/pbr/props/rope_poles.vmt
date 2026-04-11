@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\props\rope_poles_Color"
+		$mraotexture			"models\pbr\props\rope_poles_MRAO"
+		$bumpmap				"models\pbr\props\rope_poles_Normal"
+		
+		$envmaptint				"[0.5 0.5 0.5]"
+		$mraoscale              "[0.9 0.9 1]"
+	}
+}

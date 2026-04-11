@@ -1,0 +1,22 @@
+PBR
+{
+	//fix really dark metallic and make cubemaps look okayish 
+	$mraoscale              "[0.9 1 1]"
+	$envmaptint				"[0.3 0.3 0.3]"
+	$envmaplightscale		"0.95"
+	
+	$model					"1"
+
+	//disable parallax usually, but when it is enabled turn off dithering and set to the highest quality.
+	//don't do parallax on models though.
+	$parallax 				"0"
+	$parallaxdither        	"0"
+	$parallaxscale          "2"
+
+	//there's not really a situation where you would want this off. 
+	//the mrao maps have full alpha by default so enabling this doesnt change anything in most situations,
+	//therefore it's nice to have it on by default for when you do need it..
+	$blendtintbymraoalpha	"1"
+
+	$envmap					"env_cubemap"
+}

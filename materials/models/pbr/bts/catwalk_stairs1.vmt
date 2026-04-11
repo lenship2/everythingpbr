@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/bts/catwalk_stairs1_color"
+		$bumpmap				"models/pbr/bts/catwalk_stairs1_normal"
+		$mraotexture			"models/pbr/bts/catwalk_stairs1_mrao"
+		
+		$mraoscale              "[0.85 1 1]"
+	}
+}

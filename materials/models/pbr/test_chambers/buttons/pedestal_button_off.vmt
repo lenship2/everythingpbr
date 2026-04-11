@@ -1,0 +1,28 @@
+PBR
+{
+$basetexture 			"models\pbr\test_chambers\buttons\pedestal_button_Color"
+$bumpmap				"models\pbr\test_chambers\buttons\pedestal_button_Normal"
+$mraotexture			"models\pbr\test_chambers\buttons\pedestal_button_MRAO"
+
+$model					"1"
+
+$mraoscale              "[0.9 1 1]"
+
+$parallax 				"0"
+
+$envmap					"env_cubemap"
+$envmaptint				"[0.2 0.2 0.2]"
+$envmaplightscale		"0.6"
+$surfaceprop			"metal"
+}
+
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\buttons\pedestal_button_Color"
+		$bumpmap				"models\pbr\test_chambers\buttons\pedestal_button_Normal"
+		$mraotexture			"models\pbr\test_chambers\buttons\pedestal_button_MRAO"
+	}
+}

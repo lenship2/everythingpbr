@@ -1,0 +1,31 @@
+PBR
+{
+	$basetexture 			"models\pbr\npcs\space_Color"
+	$bumpmap				"models\pbr\npcs\fact_Normal"
+	$mraotexture			"models\pbr\npcs\fact_MRAO"
+	$emissiontexture		"models\pbr\npcs\fact_selfillum"
+
+	$mraoscale              "[0.9 1 1]"
+	$envmaptint				"[0.1 0.1 0.1]"
+	
+	$model					"1"
+
+	$parallax 				"0"
+	$parallaxdither        	"0"
+	$parallaxscale          "2"
+
+	$envmaplightscale		"0.6"
+	$blendtintbymraoalpha	"1"
+
+	$envmap					"env_cubemap"
+
+	"%noportal"				"1"
+	
+	proxies
+	{
+		LightedMouth
+		{
+			resultvar					"$emissionscale"
+		}
+	}
+}

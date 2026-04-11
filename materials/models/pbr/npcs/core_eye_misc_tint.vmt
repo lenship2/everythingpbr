@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\npcs\core_eye_misc_tint_Color"
+		$bumpmap				"models\pbr\npcs\core_eye_misc_Normal"
+		$mraotexture			"models\pbr\npcs\core_eye_misc_MRAO"
+	}
+}

@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\lightbridge_Color"
+		$bumpmap				"models\pbr\test_chambers\lightbridge_Normal"
+		$mraotexture			"models\pbr\test_chambers\lightbridge_MRAO"
+		$emissiontexture 		"models\pbr\test_chambers\lightbridge_SelfIllum"
+	}
+}

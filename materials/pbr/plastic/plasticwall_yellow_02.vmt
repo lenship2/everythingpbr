@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/plastic/plasticwall_yellow_02_color"
+		$bumpmap 				"pbr/plastic/plasticwall_yellow_02_Parallax"
+		$mraotexture			"pbr/plastic/plasticwall_yellow_02_mrao"
+		
+		$parallax 				"1"
+		$parallaxcenter 		"0.1"
+		$parallaxdepth 			"0.05"
+		
+		$surfaceprop			"plastic"
+	}
+}

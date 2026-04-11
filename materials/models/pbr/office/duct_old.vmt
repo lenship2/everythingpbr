@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\duct_Color"
+		$bumpmap				"models\pbr\office\duct_Normal"
+		$mraotexture			"models\pbr\office\duct_MRAO"
+	}
+}

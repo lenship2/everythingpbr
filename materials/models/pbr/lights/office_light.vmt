@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\lights\office_light_Color"
+		$bumpmap				"models\pbr\lights\office_light_Normal"
+		$mraotexture			"models\pbr\lights\office_light_MRAO"
+		$emissiontexture		"models\pbr\lights\office_light_SelfIllum"
+		
+		$emissionscale			"[0.343 0.306 0.205]"
+	}
+}

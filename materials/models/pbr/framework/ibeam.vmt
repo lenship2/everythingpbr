@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/framework/ibeam_color"
+		$bumpmap				"models/pbr/framework/ibeam_normal"
+		$mraotexture			"models/pbr/framework/ibeam_mrao"
+	}
+}

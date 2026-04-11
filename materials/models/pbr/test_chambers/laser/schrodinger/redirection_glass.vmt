@@ -1,0 +1,15 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/test_chambers/laser/redirectionglass_color"
+		$mraotexture			"dev/default_mrao"
+		
+		$color2					"[1 0.44 0.4]"
+		$mraoscale				"[0 0.15 1]"
+		
+		$translucent			"1"
+		$nocull					"1"
+	}
+}

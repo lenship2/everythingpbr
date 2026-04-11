@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\lights\underground_lamp_hanging_Color"
+		$bumpmap				"models\pbr\underground\lights\underground_lamp_hanging_Normal"
+		$mraotexture			"models\pbr\underground\lights\underground_lamp_hanging_MRAO"
+	}
+}

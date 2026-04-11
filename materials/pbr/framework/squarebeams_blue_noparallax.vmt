@@ -1,0 +1,18 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/framework/squarebeams_blue_color"
+		$bumpmap 				"pbr/framework/squarebeams_blue_Parallax"
+		$mraotexture			"pbr/framework/squarebeams_blue_mrao"
+		%rectanglemap			"pbr/framework/squarebeams_hotspot"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$mraoscale              "[0.67 1.25 1]"
+		$envmaptint				"[0.7 0.7 0.7]"
+		
+		$surfaceprop			"metal"
+	}
+}

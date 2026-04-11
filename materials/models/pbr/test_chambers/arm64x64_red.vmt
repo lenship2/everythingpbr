@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\arm64x64_Color"
+		$emissiontexture 		"models\pbr\test_chambers\arm64x64_SelfIllum"
+		$mraotexture			"models\pbr\test_chambers\arm64x64_MRAO"
+		$bumpmap				"models\pbr\test_chambers\arm64x64_Normal"
+		
+		$emissionscale			"[0.604 0 0]"
+	}
+}

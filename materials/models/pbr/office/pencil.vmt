@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\pencil_Color"
+		$bumpmap				"models\pbr\office\pencil_Normal"
+		$mraotexture			"models\pbr\office\pencil_MRAO"
+	}
+}

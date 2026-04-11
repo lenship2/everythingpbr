@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\laser\laser_emitter_base_Color"
+		$bumpmap 				"models\pbr\test_chambers\laser\laser_emitter_base_Normal"
+		$mraotexture			"models\pbr\test_chambers\laser\laser_emitter_base_MRAO"
+	}
+}

@@ -1,0 +1,17 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr\elevator\elevator_screen_Color"
+		$bumpmap 				"pbr\elevator\elevator_screen_Normal"
+		$mraotexture			"pbr\elevator\elevator_screen_MRAO"
+		%rectanglemap			"pbr\elevator\elevator_screen_hotspot"
+		
+		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+		
+		$envmaptint				"[0.9 0.9 0.9]"
+		
+		$surfaceprop			"glass"
+	}
+}

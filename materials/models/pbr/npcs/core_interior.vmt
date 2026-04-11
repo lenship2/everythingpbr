@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\npcs\core_interior_Color"
+		$bumpmap				"models\pbr\npcs\core_interior_Normal"
+		$mraotexture			"models\pbr\npcs\core_interior_MRAO"
+		
+		$envmaptint				"[0.1 0.1 0.1]"
+	}
+}

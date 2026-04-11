@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\base_Color"
+		$mraotexture			"models\pbr\office\base_MRAO"
+		$emissiontexture		"models\pbr\office\base_selfillum"
+		
+		$emissionscale			"[0.5 0.5 0.5]"
+	}
+}

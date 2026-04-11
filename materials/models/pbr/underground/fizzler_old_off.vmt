@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\fizzler_old_Color"
+		$bumpmap				"models\pbr\underground\fizzler_old_Normal"
+		$mraotexture			"models\pbr\underground\fizzler_old_MRAO"
+	}
+}

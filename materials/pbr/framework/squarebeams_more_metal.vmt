@@ -1,0 +1,23 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+	
+		//for the people of p2ce who prefer shininess ig idk
+		$basetexture 			"pbr/framework/squarebeams_color"
+		$bumpmap 				"pbr/framework/squarebeams_Parallax"
+		$mraotexture			"pbr/framework/squarebeams_mrao"
+		%rectanglemap			"pbr/framework/squarebeams_hotspot"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$mraoscale              "[0.9 0.9 1]"
+		
+		$parallax 				"1"
+		$parallaxcenter 		"0.65"
+		$parallaxdepth 			"0.04"
+		
+		$surfaceprop			"metal"
+	}
+}

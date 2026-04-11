@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/framework/squarebeams_blue_color"
+		$bumpmap 				"pbr/framework/squarebeams_blue_Parallax"
+		$mraotexture			"pbr/framework/squarebeams_blue_mrao"
+	}
+}

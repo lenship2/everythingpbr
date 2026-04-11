@@ -1,0 +1,17 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/glass/reinforced_glass_Color"
+		$mraotexture			"pbr/glass/reinforced_glass_MRAO"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$translucent			"1"
+		
+		$envmaptint				"[1 1 1]"
+		
+		$surfaceprop			"glass"
+	}
+}

@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\cubes\cube_rust_comp_Color"
+		$bumpmap 				"models\pbr\test_chambers\cubes\cube_rust_Normal"
+		$mraotexture			"models\pbr\test_chambers\cubes\cube_rust_MRAO"
+		$emissiontexture		"models\pbr\test_chambers\cubes\cube_rust_SelfIllum"
+		
+		$emissionscale			"[0.564 0.351 0.445]"
+	}
+}

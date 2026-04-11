@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/framework/dest_squarebeam_color"
+		$bumpmap 				"models/pbr/framework/dest_squarebeam_normal"
+		$mraotexture			"models/pbr/framework/dest_squarebeam_mrao"
+		
+		$mraoscale              "[0.85 1 1]"
+	}
+}

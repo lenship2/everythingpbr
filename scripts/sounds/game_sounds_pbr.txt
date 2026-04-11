@@ -1,0 +1,104 @@
+"Pencil.Break"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"1.5"
+	"rndwave"
+	{
+		"wave"		"physics/wood/pencil_break1.wav"
+		"wave"		"physics/wood/pencil_break2.wav"
+	}
+}
+
+"Doors.FullOpen7"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+	"wave"	"doors/door_metal_gate_close1.wav"
+}
+
+"Doors.FullClose7"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.7"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+	"wave"	"doors/door_metal_large_close2.wav"
+}
+
+"coast.baittrain_lightswitch"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"wave"			"buttons/lever6.wav"
+}
+
+"l2.clock_tick"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"	"SNDLVL_40dB"
+	"volume"		"0.8,0.9"
+	"pitch"			"80,120"
+	"wave"			"l2/clock2.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"volume_apply_occlusion"
+			{
+				"input2" "1.0"
+			}
+
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "200"
+			}
+		}
+	}
+}
+
+"l2.lightbulb_hum"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_45dB"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"wave"			"l2/lightbulb_hum.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "p2_update_music_spatial_portals"
+			"source_info"
+			{
+				"source"   "entity"
+			}
+			"volume_apply_occlusion"
+			{
+				"input2" "1.0"
+			}
+
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "200"
+			}
+		}
+	}
+}

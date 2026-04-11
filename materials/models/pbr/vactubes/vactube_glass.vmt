@@ -1,0 +1,18 @@
+PBR
+{
+$basetexture 			"models/pbr/vactubes/vactube_glass_basecolor"
+$mraotexture			"models/pbr/vactubes/vactube_glass_MRAO"
+$bumpmap				"models/pbr/vactubes/vactube_glass_Normal"
+
+$model					"1"
+
+$mraoscale              "[0.85 1 1]"
+
+$translucent			"1"
+
+$parallax 				"0"
+
+$envmaptint				"[0.9 0.9 0.9]"
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+}

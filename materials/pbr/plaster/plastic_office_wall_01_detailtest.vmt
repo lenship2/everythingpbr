@@ -1,0 +1,15 @@
+pbr
+{
+	$basetexture 			"pbr\plaster\plastic_office_wall_01_Color"
+	$detail					"detail\detail_blackfloor"
+		
+	$detailblendfactor		"1"
+	$detailblendmode		"2"
+	$detailtint				"[255 106 0]"
+	$detailtransform		"center 0 0 scale 0.5 0.5 rotate 0 translate 0 0"
+		
+	$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+	$surfaceprop			"plaster"
+
+}

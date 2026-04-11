@@ -1,0 +1,14 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/underground/wood/underground_plywood_portal_color"
+		$bumpmap 				"pbr/underground/wood/underground_plywood_normal"
+		$mraotexture			"pbr/underground/wood/underground_plywood_mrao"
+		
+		$envmaptint				"[0.05 0.05 0.05]"
+		
+		$surfaceprop			"wood"
+	}
+}

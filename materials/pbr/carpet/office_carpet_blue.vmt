@@ -1,0 +1,20 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/carpet/office_carpet_blue_color"
+		$bumpmap 				"pbr/carpet/office_carpet_parallax"
+		$mraotexture			"pbr/carpet/office_carpet_MRAO"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$parallax 				"1"
+		$parallaxcenter 		"0.175"
+		$parallaxdepth 			"0.01"
+		
+		$envmaptint				"[0.05 0.05 0.05]"
+		
+		$surfaceprop			"carpet"
+	}
+}

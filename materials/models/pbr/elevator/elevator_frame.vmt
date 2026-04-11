@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\elevator\elevator_frame_Color"
+		$mraotexture			"models\pbr\elevator\elevator_frame_MRAO"
+		$bumpmap				"models\pbr\elevator\elevator_frame_Normal"
+	}
+}

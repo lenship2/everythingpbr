@@ -1,0 +1,34 @@
+PBR
+{
+	$basetexture 			"pbr/signage/antlines_color"
+	$bumpmap 				"pbr/signage/antlines_normal"
+	$mraotexture			"pbr/signage/antlines_MRAO"
+	$emissiontexture		"pbr/signage/antlines_selfillum"
+	
+	$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
+
+	$mraoscale              "[0.9 1 1]"
+	$envmaptint				"[0.6 0.6 0.6]"
+
+	$decalscale				"0.125"
+	$alphatest				"1"
+	$AlphaTestReference 	"0.5"
+	$AllowAlphaToCoverage 	"1"
+	$decal					"1"
+	$envmaplightscale		"0.6"
+
+	$surfaceprop			"glass"
+	$envmap					"env_cubemap"
+
+	"%noportal"				"1"
+	
+	Proxies
+	{
+		ToggleTexture
+		{
+			toggleTextureVar 		 $emissiontexture
+			toggleTextureFrameNumVar $emissionframe
+			toggleTextureShouldWrap  "0"
+		}
+	}
+}

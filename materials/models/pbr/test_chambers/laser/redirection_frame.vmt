@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\laser\redirection_frame_Color"
+		$bumpmap 				"models\pbr\test_chambers\laser\redirection_frame_Normal"
+		$mraotexture			"models\pbr\test_chambers\laser\redirection_frame_MRAO"
+	}
+}

@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/metal/bts_metal_panel_01_color"
+		$bumpmap 				"pbr/metal/bts_metal_panel_01_normal"
+		$mraotexture			"pbr/metal/bts_metal_panel_01_mrao"
+
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+
+		$surfaceprop			"metalpanel"
+		
+		$reflectivity 			"[0.65 0.65 0.65]" 
+	}
+}

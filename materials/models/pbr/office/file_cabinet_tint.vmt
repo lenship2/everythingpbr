@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\file_cabinet_tint_Color"
+		$mraotexture			"models\pbr\office\file_cabinet_tint_MRAO"
+		$bumpmap				"models\pbr\office\file_cabinet_Normal"
+	}
+}

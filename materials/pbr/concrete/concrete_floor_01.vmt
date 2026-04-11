@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr\concrete\concrete_floor_01_Color"
+		$bumpmap 				"pbr\concrete\concrete_floor_01_Normal"
+		$mraotexture			"pbr\concrete\concrete_floor_01_MRAO"
+		
+		$envmaptint				"[0.1 0.1 0.1]"
+		
+		$surfaceprop			"concrete"
+		
+		"%noportal"				"0"
+	}
+}

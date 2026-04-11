@@ -1,0 +1,25 @@
+PBR
+{
+$basetexture 			"models\pbr\test_chambers\laser\redirection_frame_painted_Color"
+$bumpmap 				"models\pbr\test_chambers\laser\redirection_frame_painted_Normal"
+$mraotexture			"models\pbr\test_chambers\laser\redirection_frame_painted_MRAO"
+
+$model					"1"
+$blendtintbymraoalpha	"1"
+
+$mraoscale              "[0.9 1 1]"
+
+$parallax 				"0"
+
+$envmaptint				"[0.3 0.3 0.3]"
+$envmap					"env_cubemap"
+
+Proxies
+{
+	PaintOverlayColor
+	{
+		resultVar 				$color
+	}
+}
+
+}

@@ -1,0 +1,11 @@
+Refract
+{
+ 	$model 				"1"
+ 	$refractamount 		"0.05"
+	$bluramount			"1"
+	$normalmap 			"glass/glass_normal"
+	$envmap 			"env_cubemap"
+	$envmaptint			"[0.2 0.2 0.2]"
+	$nowritez			"1"
+	$refracttint		"[1 1 1]"
+}

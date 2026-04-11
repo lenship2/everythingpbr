@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models/pbr/framework/triple_pipes/frame_Color"
+		$bumpmap				"models/pbr/framework/triple_pipes/frame_Normal"
+		$mraotexture			"models/pbr/framework/triple_pipes/frame_MRAO"
+	}
+}

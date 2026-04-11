@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\laser\schrodinger\exterior_Color"
+		$bumpmap				"models\pbr\test_chambers\laser\schrodinger\exterior_Normal"
+		$mraotexture			"models\pbr\test_chambers\laser\schrodinger\exterior_MRAO"
+	}
+}

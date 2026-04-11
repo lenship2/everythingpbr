@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/concrete/modular_concrete_wall_alt_Color"
+		$bumpmap 				"pbr/concrete/modular_concrete_wall_Normal"
+		$mraotexture			"pbr/concrete/modular_concrete_wall_MRAO"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$surfaceprop			"concrete"
+		
+		"%noportal"				"0"
+	}
+}

@@ -1,0 +1,25 @@
+PBR
+{
+$basetexture 			"pbr/overlays/metalgrate_01_basecolor"
+$bumpmap 				"pbr/overlays/metalgrate_01_Parallax"
+$mraotexture			"pbr/overlays/metalgrate_01_mrao"
+
+$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+$bumptransform			"center 0 0 scale 1 1 rotate 0 translate 0 0"
+$mraoscale              "[0.9 1 1]"
+$color					"[1 1 1]"
+
+$decal					"1"
+
+$parallax 				"1"
+$parallaxcenter 		"0.2"
+$parallaxdepth 			"0.075"
+$parallaxdither        	"0"
+$parallaxscale          "128"
+
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+$envmaptint				"[0.3 0.3 0.3]"
+$surfaceprop			metalgrate
+"%noportal"				"1"
+}

@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+	$basetexture 			"pbr\plaster\plastic_office_wall_01_Color"
+	$detail					"detail\detail_blackfloor"
+	
+	$detailblendfactor		"1"
+	$detailblendmode		"2"
+	$detailtint				"[255 106 0]"
+	$detailscale			"0.125 0.125"
+		
+	$surfaceprop			"plaster"
+
+}

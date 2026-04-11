@@ -1,0 +1,9 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\laser\laser_relay_frame_Color"
+		$mraotexture			"models\pbr\test_chambers\laser\laser_relay_frame_MRAO"
+	}
+}

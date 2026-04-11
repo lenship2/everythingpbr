@@ -1,0 +1,9 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\test_chambers\pistons\piston_Color"
+		$mraotexture			"models\pbr\test_chambers\pistons\piston_MRAO"
+	}
+}

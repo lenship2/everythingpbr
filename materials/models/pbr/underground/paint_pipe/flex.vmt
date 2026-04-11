@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\paint_pipe\flex_Color"
+		$mraotexture			"models\pbr\underground\paint_pipe\flex_MRAO"
+		$bumpmap				"models\pbr\underground\paint_pipe\flex_Normal"
+	}
+}

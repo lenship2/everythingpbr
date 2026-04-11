@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\paint_pipe\paint_pipe_90_Color"
+		$mraotexture			"models\pbr\underground\paint_pipe\paint_pipe_90_MRAO"
+		$bumpmap				"models\pbr\underground\paint_pipe\paint_pipe_90_Normal"
+		
+		$envmaptint				"[0.1 0.1 0.1]"
+	}
+}

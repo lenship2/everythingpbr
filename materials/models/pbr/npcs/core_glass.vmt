@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\npcs\core_glass_Color"
+		$mraotexture			"models\pbr\npcs\core_glass_MRAO"
+		
+		$envmaptint				"[0.7 0.7 0.7]"
+		
+		$translucent			"1"
+	}
+}
