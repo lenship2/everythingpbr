@@ -5,7 +5,7 @@ PBR
 	$bumpmap				"models\pbr\elevator\elevator_shell_Normal"
 	$emissiontexture		"models\pbr\elevator\elevator_shell_SelfIllum"
 
-	$mraoscale				"[0.85 1 1]"
+	$mraoscale				"[0.9 1 1]"
 	$envmaptint				"[0.3 0.3 0.3]"
 	
 	$model					"1"
