@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10597"
-	"mapversion" "408"
+	"editorbuild" "10761"
+	"mapversion" "410"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,20 +23,20 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-232.565 -6211.57 406.515)"
-			"angle" "[51.9998 3.20802 0]"
+			"position" "(302.96 -1667 126.501)"
+			"angle" "[2.79981 170.808 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(225.808 -6266.4 65536)"
+			"position" "(225.808 -6266.4 0)"
 			"zoom" "2.15692"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -6547.52 74.4438)"
-			"zoom" "2.14958"
+			"position" "(65536 -1678.36 40.2763)"
+			"zoom" "1.79132"
 		}
 		v3
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "408"
+	"mapversion" "410"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6559,7 +6559,7 @@ world
 				"point" "2 248 -1664 0"
 				"point" "3 248 -1536 0"
 			}
-			"material" "PBR/METAL/FACTORY_METAL_FLOOR_02"
+			"material" "PBR/PLASTIC/PLASTIC_TRIM"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6578,7 +6578,7 @@ world
 				"point" "2 256 -1664 128"
 				"point" "3 256 -1536 128"
 			}
-			"material" "PBR/METAL/FACTORY_METAL_FLOOR_02"
+			"material" "PBR/PLASTIC/PLASTIC_TRIM"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"

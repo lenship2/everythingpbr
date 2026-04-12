@@ -7,6 +7,6 @@ patch
 		$bumpmap				"models/pbr/bts/catwalk_stairs1_normal"
 		$mraotexture			"models/pbr/bts/catwalk_stairs1_mrao"
 		
-		$mraoscale              "[0.85 1 1]"
+		//$mraoscale              "[0.85 1 1]"
 	}
 }

@@ -1,18 +1,10 @@
-PBR
+patch
 {
-$basetexture 			"pbr/framework/squarebeams_tint_color"
-$bumpmap 				"pbr/framework/squarebeams_blue_Parallax"
-$mraotexture			"pbr/framework/squarebeams_blue_mrao"
-
-$mraoscale              "[0.9 1 1]"
-
-$parallax 				"0"
-$model					"1"
-$blendtintbymraoalpha	"1"
-
-$envmap					"env_cubemap"
-$envmaptint				"[0.3 0.3 0.3]"
-$envmaplightscale		"0.6"
-$surfaceprop			metal
-"%noportal"				"1"
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/framework/squarebeams_tint_color"
+		$bumpmap 				"pbr/framework/squarebeams_blue_Parallax"
+		$mraotexture			"pbr/framework/squarebeams_blue_mrao"
+	}
 }

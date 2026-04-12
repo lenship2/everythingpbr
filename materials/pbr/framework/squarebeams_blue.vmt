@@ -10,7 +10,7 @@ patch
 		
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
-		$mraoscale              "[0.67 1.25 1]"
+		//$mraoscale              "[0.67 1.25 1]"
 		$envmaptint				"[0.7 0.7 0.7]"
 		
 		$parallax 				"1"
