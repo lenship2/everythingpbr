@@ -8,6 +8,7 @@ patch
 		$mraotexture			"models\pbr\test_chambers\cubes\sphere_rust_MRAO"
 		$emissiontexture		"models\pbr\test_chambers\cubes\sphere_rust_SelfIllum"
 		
+		$mraoscale				"[1 1 1]"
 		$emissionscale			"[0.708 0.491 0.063]"
 	}
 }

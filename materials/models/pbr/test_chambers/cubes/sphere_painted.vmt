@@ -8,7 +8,7 @@ $emissiontexture		"models\pbr\test_chambers\cubes\sphere_painted_SelfIllum"
 $model					"1"
 $blendtintbymraoalpha	"1"
 
-$mraoscale				"[0.9 1 1]"
+$mraoscale				"[1 1 1]"
 $emissionscale			"[0.122 0.296 0.456]"
 
 $parallax 				"0"

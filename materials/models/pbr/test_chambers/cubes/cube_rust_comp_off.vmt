@@ -6,5 +6,7 @@ patch
 		$basetexture 			"models\pbr\test_chambers\cubes\cube_rust_comp_Color"
 		$bumpmap 				"models\pbr\test_chambers\cubes\cube_rust_Normal"
 		$mraotexture			"models\pbr\test_chambers\cubes\cube_rust_MRAO"
+		
+		$mraoscale				"[1 1 1]"
 	}
 }
