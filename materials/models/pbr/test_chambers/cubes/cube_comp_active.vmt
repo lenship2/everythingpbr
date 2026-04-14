@@ -8,7 +8,7 @@ patch
 		$mraotexture			"models\pbr\test_chambers\cubes\cube_MRAO"
 		$emissiontexture		"models\pbr\test_chambers\cubes\cube_SelfIllum"
 		
-		$mraoscale				"[1 1 1]"
+		$mraoscale				"[0.9 1 1]"
 		$emissionscale			"[0.708 0.491 0.063]"
 	}
 }

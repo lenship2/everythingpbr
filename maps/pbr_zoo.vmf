@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "423"
+	"mapversion" "424"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(191.052 -6125.46 139.518)"
-			"angle" "[13.2 -98.3907 0]"
+			"position" "(-42.7376 978.224 58.8929)"
+			"angle" "[36.3999 151.209 0]"
 		}
 		v1
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "423"
+	"mapversion" "424"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13330,7 +13330,7 @@ entity
 	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
-	"comp_custom_model_type" "0"
+	"comp_custom_model_type" "1"
 	"delay" "1"
 	"disableflashlight" "0"
 	"disablereceiveshadows" "0"
@@ -13338,63 +13338,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"istimer" "0"
-	"model" "models/props/switch001.mdl"
-	"preventfastreset" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "10"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"targetname" "button2"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	connections
-	{
-		"OnPressed" "button_ornament2Skin40-1"
-		"OnButtonReset" "button_ornament2Skin30-1"
-	}
-	"origin" "-64 992 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "58185"
-	"classname" "prop_dynamic_ornament"
-	"AllowSilentDissolve" "1"
-	"angles" "0 0 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"initialowner" "button2"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
 	"model" "models/pbr/test_chambers/buttons/pedestal_button.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
+	"preventfastreset" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -13403,12 +13348,16 @@ entity
 	"shadowcastdist" "0"
 	"shadowdepthnocache" "0"
 	"skin" "3"
-	"solid" "6"
+	"solid" "1"
 	"spawnflags" "0"
-	"suppressanimsounds" "0"
-	"targetname" "button_ornament2"
+	"targetname" "button2"
 	"texframeindex" "0"
 	"viewhideflags" "0"
+	connections
+	{
+		"OnPressed" "!selfSkin40-1"
+		"OnButtonReset" "!selfSkin30-1"
+	}
 	"origin" "-64 992 0"
 	editor
 	{

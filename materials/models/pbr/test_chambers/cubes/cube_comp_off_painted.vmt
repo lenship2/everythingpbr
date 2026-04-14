@@ -6,7 +6,7 @@ $mraotexture			"models\pbr\test_chambers\cubes\cube_painted_MRAO"
 
 $model					"1"
 
-$mraoscale				"[1 1 1]"
+$mraoscale				"[0.9 1 1]"
 $blendtintbymraoalpha	"1"
 
 $parallax 				"0"

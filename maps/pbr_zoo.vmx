@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "422"
+	"mapversion" "423"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -35,8 +35,8 @@ viewsettings
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -6442.26 68.4339)"
-			"zoom" "0.59991"
+			"position" "(65536 -6302.14 14.0853)"
+			"zoom" "2.14959"
 		}
 		v3
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "422"
+	"mapversion" "423"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12998,7 +12998,7 @@ entity
 	"suppressanimsounds" "0"
 	"texframeindex" "0"
 	"viewhideflags" "0"
-	"origin" "128 -6272 -80"
+	"origin" "128 -6272 -64"
 	editor
 	{
 		"color" "220 30 220"

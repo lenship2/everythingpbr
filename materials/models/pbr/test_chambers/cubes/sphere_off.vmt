@@ -7,6 +7,6 @@ patch
 		$bumpmap 				"models\pbr\test_chambers\cubes\sphere_Normal"
 		$mraotexture			"models\pbr\test_chambers\cubes\sphere_MRAO"
 		
-		$mraoscale				"[1 1 1]"
+		$mraoscale				"[0.9 1 1]"
 	}
 }

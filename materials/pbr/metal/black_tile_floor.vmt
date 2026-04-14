@@ -11,9 +11,10 @@ patch
 		
 		$detailtransform		"center 0 0 scale 16.8 16.8 rotate 0 translate 0 0"
 		
-		$mraoscale              "[0.7 1.1 1]"
+		$mraoscale              "[0.65 1.1 1]"
 		$reflectivity			"[0.7 0.7 0.7]"
-		$envmaptint				"[0.65 0.65 0.65]"
+		$envmaptint				"[0.3 0.3 0.3]"
+		$hsv					"[1 1.05 1]"
 		
 		$detailblendfactor 		"0.6"
 		$detailblendmode 		"7"
