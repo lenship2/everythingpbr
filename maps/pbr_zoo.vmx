@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10762"
-	"mapversion" "423"
+	"mapversion" "427"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -23,20 +23,20 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(191.052 -6125.46 139.518)"
-			"angle" "[13.2 -98.3907 0]"
+			"position" "(368.984 577.092 177.076)"
+			"angle" "[22 124.409 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(168.569 -6276.91 0)"
-			"zoom" "2.5883"
+			"position" "(261.24 770.855 65536)"
+			"zoom" "1.24822"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -6302.14 14.0853)"
-			"zoom" "2.14959"
+			"position" "(65536 127.738 115.546)"
+			"zoom" "3.09541"
 		}
 		v3
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "423"
+	"mapversion" "427"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12957,6 +12957,98 @@ world
 }
 entity
 {
+	"id" "63260"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/test_chambers/pistons/piston_base.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 768 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "63326"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/test_chambers/pistons/piston_mid.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 768 16"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "63349"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/test_chambers/pistons/piston_top.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 768 32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "63364"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/test_chambers/pistons/piston_tip.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "320 768 96"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "62311"
 	"classname" "prop_dynamic"
 	"AllowSilentDissolve" "1"
@@ -13330,7 +13422,7 @@ entity
 	"AllowSilentDissolve" "1"
 	"angles" "0 0 0"
 	"body" "0"
-	"comp_custom_model_type" "0"
+	"comp_custom_model_type" "1"
 	"delay" "1"
 	"disableflashlight" "0"
 	"disablereceiveshadows" "0"
@@ -13338,63 +13430,8 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"istimer" "0"
-	"model" "models/props/switch001.mdl"
-	"preventfastreset" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "10"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"targetname" "button2"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	connections
-	{
-		"OnPressed" "button_ornament2Skin40-1"
-		"OnButtonReset" "button_ornament2Skin30-1"
-	}
-	"origin" "-64 992 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "58185"
-	"classname" "prop_dynamic_ornament"
-	"AllowSilentDissolve" "1"
-	"angles" "0 0 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"initialowner" "button2"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
 	"model" "models/pbr/test_chambers/buttons/pedestal_button.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
+	"preventfastreset" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -13403,12 +13440,16 @@ entity
 	"shadowcastdist" "0"
 	"shadowdepthnocache" "0"
 	"skin" "3"
-	"solid" "6"
+	"solid" "1"
 	"spawnflags" "0"
-	"suppressanimsounds" "0"
-	"targetname" "button_ornament2"
+	"targetname" "button2"
 	"texframeindex" "0"
 	"viewhideflags" "0"
+	connections
+	{
+		"OnPressed" "!selfSkin40-1"
+		"OnButtonReset" "!selfSkin30-1"
+	}
 	"origin" "-64 992 0"
 	editor
 	{
