@@ -5,14 +5,15 @@
 	type = "Asset Pack"
 	id = 3594428478
 	thumbnail = ".assets/everythingpbr.jpg"
-	authors = [  ]
+	authors = 
+	[ 
+		"lenship2"
+	]
 	dependencies = [  ]
 	tags = 
 	[
 		"Materials/Textures",
 		"Models",
-		"Scripts",
-		"Instances/Prefabs",
 	]
 	ignore = [  ]
 	metadata = 
