@@ -1,13 +1,13 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 	mod = "EverythingPBR"
-	description = "[b]pbr_zoo.bsp[/b]\r\n\r\n[h1]EverythingPBR by lenship2[/h1]\r\n\r\n[hr][/hr]\r\n\r\nThis is a collection of little over 200 high quality recreations of Portal 2 assets that I\'ve made over the past few months. Everything here was made from scratch in either Blender or Substance Designer/Painter. This addon will hopefully be updated continuously as I make more assets. \r\n\r\nDo note that there are currently no assets made for overgrown, but that it is planned in the future. \r\n\r\nIf anything is broken, or if you have any feedback, feel free to reach me on Discord. If you have any specific requests for either the addon or a separate project, I\'ll happily take commissions!\r\n\r\nSpecial thanks to Ash for providing a script and instance for replacing cube models!\r\n\r\n[h2]Contents:[/h2]\r\n[list]\r\n    [*]See pbr_zoo.bsp\r\n[/list]\r\n\r\n[h2]Credits:[/h2]\r\nThese assets were made by entirely by me (with the exception of the panel arm and faithplate, which were textured with permission from Hazel), so when using them in a map you should credit as such. If you want to use them in a larger scale mod, please contact me for permission first.\r\n\r\n[hr][/hr]\r\n\r\n[url=https://ko-fi.com/lenship2] [img]https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/670f5a02fcf48af59c591185_support_me_on_kofi_dark.png[/img] [/url]\r\n\r\n[hr][/hr]"
+	description = "[b]pbr_zoo.bsp[/b]\r\n\r\n[h1]EverythingPBR by lenship2[/h1]\r\n\r\n[hr][/hr]\r\n\r\nThis is a collection of little over 200 high quality recreations of Portal 2 assets that I\'ve made over the past few months. Everything here was made from scratch in either Blender or Substance Designer/Painter. This addon will hopefully be updated continuously as I make more assets. \r\n\r\nDo note that there are currently no assets made for overgrown, but that it is planned in the future. \r\n\r\nIf anything is broken, or if you have any feedback, feel free to reach me on Discord. If you have any specific requests for either the addon or a separate project, I\'ll happily take commissions!\r\n\r\nNo AI was used for the creation of any of these assets\r\n\r\n[h2]Contents:[/h2]\r\n[list]\r\n    [*]See pbr_zoo.bsp\r\n[/list]\r\n\r\n[h2]Credits:[/h2]\r\nThese assets were made by entirely by me (with the exception of the panel arm and faithplate, which were textured with permission from Hazel), so when using them in a map you should credit as such. If you want to use them in a larger scale mod, please contact me for permission first.\r\n\r\n[hr][/hr]\r\n\r\n[url=https://ko-fi.com/lenship2] [img]https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/670f5a02fcf48af59c591185_support_me_on_kofi_dark.png[/img] [/url]\r\n\r\n[hr][/hr]"
 	type = "Asset Pack"
 	id = 3594428478
 	thumbnail = ".assets/everythingpbr.jpg"
 	authors = 
-	[ 
-		"lenship2"
+	[
+		"lenship2",
 	]
 	dependencies = [  ]
 	tags = 
