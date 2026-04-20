@@ -3,7 +3,7 @@ PBR
 $basetexture 			"pbr/dev/dev_pbr_metal_color"
 $mraotexture			"pbr/dev/dev_pbr_metal_mrao"
 
-$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
 
 $parallax 				"0"
 

@@ -1,0 +1,12 @@
+PBR
+{
+$basetexture 			"pbr/overlays/dirt_01_color"
+$bumpmap 				"pbr/overlays/dirt_01_normal"
+$mraotexture			"dev/default_mrao"
+
+$mraoscale				"[0 1 1]"
+
+$decal					"1"
+$translucent			"1"
+$decalscale				"0.125"
+}

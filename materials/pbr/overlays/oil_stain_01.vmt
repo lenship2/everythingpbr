@@ -1,0 +1,12 @@
+PBR
+{
+$basetexture 			"pbr/overlays/oil_stain_01_color"
+$bumpmap 				"pbr/overlays/oil_stain_01_normal"
+$mraotexture			"dev/default_mrao"
+
+$mraoscale				"[0 0.15 1]"
+
+$decal					"1"
+$translucent			"1"
+$decalscale				"0.125"
+}

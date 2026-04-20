@@ -8,7 +8,7 @@ patch
 		$detailtransform		"center 0 0 scale 36 36 rotate 0 translate 0 0"
 		
 		$mraoscale              "[0.8 1 0.85]"
-		//$color					"[1 1 1.02]"
+		$srgbtint				"[1 1 1.02]"
 		$reflectivity			"[0.7 0.7 0.7]" 
 		$envmaptint				"[0.1 0.1 0.1]"
 		
