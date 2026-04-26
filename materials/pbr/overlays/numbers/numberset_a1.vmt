@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+$basetexture "pbr/overlays/numbers/numberset_a1_color"
+$translucent 1
+$decal 1
+}

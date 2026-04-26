@@ -1,0 +1,10 @@
+PBR
+{
+$basetexture 			"pbr/overlays/tile_debris_01_color"
+$bumpmap 				"pbr/overlays/tile_debris_01_normal"
+$mraotexture			"pbr/overlays/tile_debris_01_mrao"
+
+$decal					"1"
+$translucent			"1"
+$decalscale				"0.25"
+}

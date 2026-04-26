@@ -1,0 +1,22 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/overlays/bullseye_color"
+		$bumpmap 				"pbr/overlays/bullseye_normal"
+		$mraotexture			"pbr/overlays/bullseye_mrao"
+		
+		$mraoscale				"[0.85 1 1]"
+		
+		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+		
+		$alphatest				"1"
+		$allowalphatocoverage	"1"
+		
+		$decal					"1"
+		$decalscale				"0.0625"
+		
+		$emissionscale			"[0 0.37 0.42]"	
+	}
+}

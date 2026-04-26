@@ -1,0 +1,19 @@
+PBR
+{
+$basetexture 			"pbr/overlays/scorch_color"
+$mraotexture			"dev/default_mrao"
+
+$mraoscale              "[0 1 1]"
+
+$decal					"1"
+$translucent			"1"
+$decalscale				"0.25"
+
+// $parallax 				"1"
+// $parallaxcenter 		"0.2"
+// $parallaxdepth 			"0.02"
+// $parallaxdither        	"0"
+// $parallaxscale          "2"
+
+$envmaptint				"[0 0 0]"
+}

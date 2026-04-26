@@ -1,0 +1,14 @@
+PBR
+{
+$basetexture 			"pbr/overlays/moss_color"
+$bumpmap 				"pbr/overlays/moss_normal"
+$mraotexture			"dev/default_mrao"
+
+$mraoscale              "[0 0.5 1]"
+
+$decal					"1"
+$translucent			"1"
+$decalscale				"0.25"
+
+$envmaptint				"[0.3 0.3 0.3]"
+}

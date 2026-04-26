@@ -1,0 +1,13 @@
+PBR
+{
+$basetexture 			"pbr/overlays/concrete_debris_01_color"
+$bumpmap 				"pbr/overlays/concrete_debris_01_normal"
+$mraotexture			"dev/default_mrao"
+
+$mraoscale				"[0 1 1]"
+$hsv					"[1 1 0.9]"
+
+$decal					"1"
+$translucent			"1"
+$decalscale				"0.25"
+}

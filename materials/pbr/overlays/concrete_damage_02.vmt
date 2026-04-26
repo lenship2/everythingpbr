@@ -1,0 +1,23 @@
+PBR
+{
+$basetexture 			"pbr/overlays/concrete_damage_02_color"
+$bumpmap 				"pbr/overlays/concrete_damage_02_Parallax"
+$mraotexture			"dev/default_mrao"
+
+$mraoscale              "[0 0.6 1]"
+
+$alphatest				"1"
+$allowalphatocoverage	"1"
+
+$decal					"1"
+
+$parallax 				"1"
+$parallaxcenter 		"0.7"
+$parallaxdepth 			"0.03"
+$parallaxdither        	"0"
+$parallaxscale          "2"
+
+$envmap					"env_cubemap"
+$envmaplightscale		"0.6"
+$envmaptint				"[0.1 0.1 0.1]"
+}
