@@ -8,7 +8,7 @@ patch
 		$mraotexture			"pbr/tiles/white_tile_64x128_mrao"
 		
 		$surfaceprop			"concrete"
-		
+
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$reflectivity 			"[0.8 0.8 0.8]" 
