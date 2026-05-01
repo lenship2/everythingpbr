@@ -13,7 +13,8 @@ patch
 		
 		$mraoscale              "[0.75 1.1 1]"
 		$reflectivity			"[0.7 0.7 0.7]"
-		$envmaptint				"[0.3 0.3 0.3]"
+		$envmaptint				"[0.1 0.1 0.1]"
+		$envmaplightscale		"0.9"
 		
 		$detailblendfactor 		"0.6"
 		$detailblendmode 		"7"

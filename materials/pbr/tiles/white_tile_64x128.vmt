@@ -12,6 +12,7 @@ patch
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$reflectivity 			"[0.8 0.8 0.8]" 
+		$mraoscale				"[0 10 1]"
 		
 		"%noportal"				"0"
 	}

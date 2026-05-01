@@ -10,7 +10,7 @@ $parallax 				"0"
 $surfaceprop			"default"
 
 $envmap					"env_cubemap"
-$envmaplightscale		"0.6"
+$envmaplightscale		"0"
 
 %noportal				"1"
 }
