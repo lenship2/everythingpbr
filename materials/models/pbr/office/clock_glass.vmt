@@ -5,7 +5,7 @@ patch
 	{
 		$basetexture 			"models\pbr\office\clock_glass_Color"
 		$mraotexture			"models\pbr\office\clock_glass_MRAO"
-		$nowritez 				"1"
+		//$nowritez 				"1"
 		$translucent			"1"
 	}
 }

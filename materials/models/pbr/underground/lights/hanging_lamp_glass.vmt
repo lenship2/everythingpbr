@@ -5,6 +5,6 @@ Refract
 	$bluramount			"2"
 	$normalmap 			"models/pbr/underground/lights/hanging_lamp_glass_normal"
 	$envmap 			"env_cubemap"
-	$envmaptint			"[0.2 0.2 0.2]"
+	$envmaptint			"[0.6 0.6 0.6]"
 	$nowritez			"1"
 }

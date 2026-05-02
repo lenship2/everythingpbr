@@ -6,7 +6,5 @@ patch
 		$basetexture 			"models\pbr\underground\underground_pedestal_Color"
 		$mraotexture			"models\pbr\underground\underground_pedestal_MRAO"
 		$bumpmap				"models\pbr\underground\underground_pedestal_Normal"
-		
-		$envmaptint				"[0.2 0.2 0.2]"
 	}
 }
