@@ -6,7 +6,7 @@ PBR
 	//fix really dark metallic and make cubemaps look okayish 
 	$mraoscale              "[0.9 1 1]"
 	$envmaptint				"[0.5 0.5 0.5]"	
-	$envmaplightscale		"0.6"
+	$envmaplightscale		"0.9"
 
 	//disable parallax usually, but when it is enabled turn off dithering and set to the highest quality
 	$parallax 				"0"
