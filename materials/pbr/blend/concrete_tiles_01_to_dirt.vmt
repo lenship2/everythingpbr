@@ -1,0 +1,23 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr\concrete\concrete_tiles_01_baseColor"
+		$bumpmap 				"pbr\concrete\concrete_tiles_01_Normal"
+		$mraotexture			"pbr\concrete\concrete_tiles_01_MRAO"
+		
+		$basetexture2			"pbr\blend\dirt_01_color"
+		$bumpmap2				"pbr\blend\dirt_01_normal"
+		$mraotexture2			"dev\default_MRAO"
+		
+		//$blendmodulatetexture	"nature/rockblendtexture001a"
+		
+		$surfaceprop			"concrete"
+		$surfaceprop2			"dirt"
+		
+		$envmaplightscale		"0.6"
+		
+		$mraoscale2				"[0 0.9 1]"
+	}
+}
