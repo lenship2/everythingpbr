@@ -1,5 +1,209 @@
 Rectangles
 {
+
+	//-----------------------
+	//	2 units
+	//-----------------------
+	
+	//2x32
+	//--------------------
+	rectangle
+	{
+		min		"455 0"
+		max		"463 128"
+		rotate	1
+	}
+	
+	//2x64
+	//--------------------
+	rectangle
+	{
+		min		"125 0"
+		max		"133 256"
+		rotate	1
+	}
+	
+	//2x96
+	//--------------------
+	rectangle
+	{
+		min		"455 0"
+		max		"463 384"
+		rotate	1
+	}
+	
+	//2x128
+	//--------------------
+	rectangle
+	{
+		min		"279 0"
+		max		"287 512"
+		rotate	1
+	}
+	
+	//2x192
+	//--------------------
+	rectangle
+	{
+		min		"125 0"
+		max		"133 768"
+		rotate	1
+	}
+	
+	//2x256
+	//--------------------
+	rectangle
+	{
+		min		"279 0"
+		max		"287 1024"
+		rotate	1
+	}
+	
+	//2x320
+	//--------------------
+	rectangle
+	{
+		min		"125 0"
+		max		"133 1280"
+		rotate	1
+	}
+	
+	//2x384
+	//--------------------
+	rectangle
+	{
+		min		"279 0"
+		max		"287 1536"
+		rotate	1
+	}
+	
+	//2x448
+	//--------------------
+	rectangle
+	{
+		min		"125 0"
+		max		"133 1792"
+		rotate	1
+	}
+	
+	//2x512
+	//--------------------
+	rectangle
+	{
+		min		"279 0"
+		max		"287 2048"
+		rotate	1
+	}
+	
+	//-----------------------
+	//	4 units
+	//-----------------------
+	
+	//4x32
+	//--------------------
+	rectangle
+	{
+		min		"496 0"
+		max		"512 128"
+		rotate	1
+	}
+	
+	//4x64
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"16 256"
+		rotate	1
+	}
+	
+	//4x96
+	//--------------------
+	rectangle
+	{
+		min		"496 0"
+		max		"512 384"
+		rotate	1
+	}
+	
+	//4x128
+	//--------------------
+	rectangle
+	{
+		min		"318 0"
+		max		"334 512"
+		rotate	1
+	}
+	
+	//4x192
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"16 768"
+		rotate	1
+	}
+	
+	//4x256
+	//--------------------
+	rectangle
+	{
+		min		"318 0"
+		max		"334 1024"
+		rotate	1
+	}
+	
+	//4x320
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"16 1280"
+		rotate	1
+	}
+	
+	//4x384
+	//--------------------
+	rectangle
+	{
+		min		"318 0"
+		max		"334 1536"
+		rotate	1
+	}
+	
+	//4x448
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"16 1792"
+		rotate	1
+	}
+	
+	//4x512
+	//--------------------
+	rectangle
+	{
+		min		"318 0"
+		max		"334 2048"
+		rotate	1
+	}
+
+	//-----------------------
+	//	8 units
+	//-----------------------
+
+	//8x32
+	//--------------------
+	rectangle
+	{
+		min		"464 0"
+		max		"496 128"
+		rotate	1
+	}
+
+	//8x64
+	//--------------------
 	rectangle
 	{
 		min		"16 0"
@@ -9,46 +213,23 @@ Rectangles
 	
 	rectangle
 	{
-		min		"16 256"
-		max		"48 512"
+		min		"464 0"
+		max		"496 256"
 		rotate	1
+		alt		1
 	}
 	
+	//8x96
+	//--------------------
 	rectangle
 	{
-		min		"58 256"
-		max		"90 512"
+		min		"464 0"
+		max		"496 384"
 		rotate	1
 	}
 	
-	rectangle
-	{
-		min		"58 0"
-		max		"90 256"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"58 256"
-		max		"90 512"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"0 0"
-		max		"64 256"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"0 256"
-		max		"64 512"
-		rotate	1
-	}
-	
+	//8x128
+	//--------------------
 	rectangle
 	{
 		min		"16 0"
@@ -58,105 +239,96 @@ Rectangles
 	
 	rectangle
 	{
-		min		"59 0"
-		max		"91 512"
+		min		"212 0"
+		max		"244 512"
 		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"59 0"
-		max		"91 512"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"92 0"
-		max		"124 512"
 		alt		1
+	}
+	
+	//8x192
+	//--------------------
+	rectangle
+	{
+		min		"16 0"
+		max		"48 768"
+		rotate	1
+	}
+	
+	//8x256
+	//--------------------
+	rectangle
+	{
+		min		"16 0"
+		max		"48 1024"
 		rotate	1
 	}
 	
 	rectangle
 	{
-		min		"136 0"
-		max		"168 512"
+		min		"212 0"
+		max		"244 1024"
+		rotate	1
 		alt		1
+	}
+	
+	//8x320
+	//--------------------
+	rectangle
+	{
+		min		"16 0"
+		max		"48 1280"
+		rotate	1
+	}
+	
+	//8x384
+	//--------------------
+	rectangle
+	{
+		min		"16 0"
+		max		"48 1536"
 		rotate	1
 	}
 	
 	rectangle
 	{
-		min		"0 0"
-		max		"64 512"
+		min		"212 0"
+		max		"244 1536"
 		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"120 0"
-		max		"184 512"
 		alt		1
+	}
+	
+	//8x448
+	//--------------------
+	rectangle
+	{
+		min		"16 0"
+		max		"48 1792"
+		rotate	1
+	}
+	
+	//8x512
+	//--------------------
+	rectangle
+	{
+		min		"16 0"
+		max		"48 2048"
 		rotate	1
 	}
 	
 	rectangle
 	{
-		min		"464 0"
-		max		"496 128"
+		min		"212 0"
+		max		"244 2048"
 		rotate	1
+		alt		1
 	}
+
+	//-----------------------
+	//	16 units
+	//-----------------------
 	
-	rectangle
-	{
-		min		"464 128"
-		max		"496 256"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"464 256"
-		max		"496 384"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"464 384"
-		max		"496 512"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"421 0"
-		max		"453 128"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"421 128"
-		max		"453 256"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"421 256"
-		max		"453 384"
-		rotate	1
-	}
-	
-	rectangle
-	{
-		min		"421 384"
-		max		"453 512"
-		rotate	1
-	}
-	
+	//16x32
+	//--------------------
 	rectangle
 	{
 		min		"448 0"
@@ -166,29 +338,233 @@ Rectangles
 	
 	rectangle
 	{
-		min		"448 128"
-		max		"512 256"
+		min		"388 0"
+		max		"452 128"
+		rotate	1
+	}
+	
+	//16x64
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 256"
 		rotate	1
 	}
 	
 	rectangle
 	{
-		min		"448 256"
+		min		"60 0"
+		max		"124 256"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"448 0"
+		max		"512 256"
+		rotate	1
+		alt		1
+	}
+	
+	rectangle
+	{
+		min		"388 0"
+		max		"452 256"
+		rotate	1
+		alt		1
+	}
+	
+	//16x96
+	//--------------------
+	rectangle
+	{
+		min		"448 0"
 		max		"512 384"
 		rotate	1
 	}
 	
 	rectangle
 	{
-		min		"448 384"
-		max		"512 512"
+		min		"388 0"
+		max		"452 384"
+		rotate	1
+	}
+	
+	//16x128
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 512"
 		rotate	1
 	}
 	
 	rectangle
 	{
-		min		"168 0"
-		max		"424 512"
+		min		"60 0"
+		max		"124 512"
 		rotate	1
 	}
+	
+	rectangle
+	{
+		min		"275 0"
+		max		"340 512"
+		rotate	1
+		alt		1
+	}
+	
+	rectangle
+	{
+		min		"213 0"
+		max		"277 512"
+		rotate	1
+		alt		1
+	}
+	
+	//16x192
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 768"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"60 0"
+		max		"124 768"
+		rotate	1
+	}
+	
+	//16x256
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 1024"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"60 0"
+		max		"124 1024"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"275 0"
+		max		"340 1024"
+		rotate	1
+		alt		1
+	}
+	
+	rectangle
+	{
+		min		"213 0"
+		max		"277 1024"
+		rotate	1
+		alt		1
+	}
+	
+	//16x320
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 1280"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"60 0"
+		max		"124 1280"
+		rotate	1
+	}
+	
+	//16x384
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 1536"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"60 0"
+		max		"124 1536"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"275 0"
+		max		"340 1536"
+		rotate	1
+		alt		1
+	}
+	
+	rectangle
+	{
+		min		"213 0"
+		max		"277 1536"
+		rotate	1
+		alt		1
+	}
+	
+	//16x448
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 1792"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"60 0"
+		max		"124 1792"
+		rotate	1
+	}
+	
+	//16x512
+	//--------------------
+	rectangle
+	{
+		min		"0 0"
+		max		"64 2048"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"60 0"
+		max		"124 2048"
+		rotate	1
+	}
+	
+	rectangle
+	{
+		min		"275 0"
+		max		"340 2048"
+		rotate	1
+		alt		1
+	}
+	
+	rectangle
+	{
+		min		"213 0"
+		max		"277 2048"
+		rotate	1
+		alt		1
+	}
+	
 }

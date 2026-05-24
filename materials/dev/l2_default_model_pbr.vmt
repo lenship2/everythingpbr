@@ -2,7 +2,7 @@ PBR
 {
 	//fix really dark metallic and make cubemaps look okayish 
 	$mraoscale              "[0.9 1 1]"
-	$envmaptint				"[0.5 0.5 0.5]"
+	$envmaptint				"0.5"
 	$envmaplightscale		"0.9"
 	
 	$model					"1"

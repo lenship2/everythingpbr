@@ -1,0 +1,121 @@
+VertexLitGeneric
+{
+$basetexture 		"models\props\schrodinger_cube_light"
+$selfillum 			"1"
+
+//Proxy variables
+
+$p_boolean			"0"
+
+$p_sine				"0.5"
+$p_sineclamp		"1"
+$p_clampvalue		"0"
+$p_clampdefault		"0.5"
+
+$p_flashmin			"0.05"
+$p_flashmax			"2"
+$p_flashmaxheld		"5"
+$p_flashmaxpartner	"25"
+$p_flashvalue		"1.5"
+
+$p_brightness		"0.2"
+
+$p_scrollratemin	"0"
+$p_scrollratemax	"0.1"
+
+$p_scrollrate		"0.1"
+$p_scrolltransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+$p_basetransform	"center 0 0 scale 1 1 rotate 0 translate 0.5 0"
+
+$p_heldcube			"0"
+$p_ispartner		"0"
+
+Proxies
+{
+
+//Are we held or not? What type of cube are we?
+Empty
+//ScrodingerState
+{
+    //partnerVar $p_ispartner
+    //heldVar $p_heldcube
+}
+
+//Set scroll rate to zero if held
+LessOrEqual
+	{
+		srcVar1	$p_heldcube
+		srcVar2	$p_boolean
+		lessEqualVar	$p_scrollratemax
+		greaterVar		$p_scrollratemin
+		resultvar	$p_scrollrate
+	}
+	
+TextureScroll
+	{
+	//texturescrollvar $p_scrolltransform
+	texturescrollvar	$basetexturetransform
+	texturescrollrate $p_scrollrate
+	}
+
+//	Reset transforms so the whole ring is visible when held
+// This seems to be both unnecessary and unfunctional in game
+// LessOrEqual
+	// {
+		// srcVar1	$p_heldcube
+		// srcVar2	$p_boolean
+		// lessEqualVar	$p_scrolltransform
+		// greaterVar		$p_basetransform
+		// resultvar		$basetexturetransform
+	// }
+	
+//Flashing effect when held
+Sine
+	{
+		Sineperiod	"1"
+		Sinemin		"0"
+		sinemax		"1"
+		resultvar	$p_sine
+	}
+	
+//If we're a partner, set brightness higher
+LessOrEqual
+	{
+
+		srcVar1	$p_ispartner
+		srcVar2	$p_boolean
+		lessEqualVar	$p_flashmaxheld
+		greaterVar		$p_flashmaxpartner
+		resultvar	$p_flashmax
+	}
+	
+//Clamp sine values to create the flashing effect
+LessOrEqual
+	{
+		srcVar1			$p_heldcube
+		srcVar2			$p_boolean
+		lessEqualVar	$p_boolean
+		greaterVar		$p_clampdefault
+		resultvar		$p_clampvalue
+	}
+
+LessOrEqual
+	{
+		lessEqualVar $p_flashmin
+		greaterVar	$p_flashmax
+		srcVar1		$p_sine
+		srcVar2		$p_clampvalue
+		resultvar	$p_flashvalue
+	}
+	
+//Reset brightness when idle
+LessOrEqual
+	{
+		lessEqualVar $p_brightness
+		greaterVar	$p_flashvalue
+		srcVar1		$p_heldcube
+		srcVar2		$p_boolean
+		resultvar	$selfillumtint
+	}
+}
+}

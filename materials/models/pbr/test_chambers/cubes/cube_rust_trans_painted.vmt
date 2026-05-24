@@ -14,7 +14,8 @@ $emissionscale			"[0.0568627451 0.5078431373 0.6803921569]"
 $parallax 				"0"
 
 $envmap					"env_cubemap"
-$envmaptint				"[0.3 0.3 0.3]"
+$envmaptint				"[0.5 0.5 0.5]"
+$envmaplightscale		"0.9"
 
 Proxies
 {

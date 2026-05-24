@@ -5,7 +5,7 @@ patch
 	{
 		$basetexture 			"pbr/tiles/white_tile_64x128_slime_color"
 		$bumpmap 				"pbr/tiles/white_tile_64x128_slime_normal"
-		$mraotexture			"pbr/tiles/white_tile_64x128_mrao"
+		$mraotexture			"pbr/tiles/white_tile_64x128_slime_mrao"
 		
 		$surfaceprop			"concrete"
 

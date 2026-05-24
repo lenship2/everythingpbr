@@ -6,7 +6,7 @@ patch
 		$basetexture 			"models/pbr/test_chambers/laser/redirectionglass_color"
 		$mraotexture			"dev/default_mrao"
 		
-		$color2					"[1 0.44 0.4]"
+		$color2					"[1.8 0.64 0.6]"
 		$mraoscale				"[0 0.15 1]"
 		
 		$translucent			"1"

@@ -5,12 +5,11 @@ patch
 	{
 		$basetexture 			"pbr/tiles/dirt/white_tile_64_dirt_01_color"
 		$bumpmap 				"pbr/tiles/dirt/white_tile_64_dirt_normal"
-		$mraotexture			"pbr/tiles/white_tile_64_mrao"
+		$mraotexture			"pbr/tiles/dirt/white_tile_64_dirt_mrao"
 		
 		$surfaceprop			"concrete"
 		
 		$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
-		$mraotexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$reflectivity 			"[0.8 0.8 0.8]" 
 		
