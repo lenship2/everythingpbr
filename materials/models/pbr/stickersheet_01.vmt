@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\stickersheet_01_Color"
+		$mraotexture			"models\pbr\stickersheet_01_MRAO"
+		$bumpmap				"models\pbr\stickersheet_01_Normal"
+		
+		$alphatest				"1"
+		//$decal					"1"
+	}
+}

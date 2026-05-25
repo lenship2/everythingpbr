@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10628"
-	"mapversion" "513"
+	"mapversion" "517"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(293.498 832.791 34.1024)"
-			"angle" "[34.4 -84.791 0]"
+			"position" "(-430.481 -6560.04 94.11)"
+			"angle" "[-1.19999 -176.391 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(343.666 809.638 65536)"
-			"zoom" "2.5883"
+			"position" "(186.294 -8854.83 65536)"
+			"zoom" "1.24822"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -1936.38 215.887)"
-			"zoom" "0.599914"
+			"position" "(65536 -6598.14 76.8568)"
+			"zoom" "2.57952"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(387.338 0 36.7036)"
-			"zoom" "2.22901"
+			"position" "(-4.21203 -65536 21.3624)"
+			"zoom" "3.20977"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "513"
+	"mapversion" "517"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13701,56 +13701,6 @@ world
 }
 entity
 {
-	"id" "74512"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 0 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/error.mdl"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "320 800 9"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "73487"
 	"classname" "prop_weighted_cube"
 	"allowfunnel" "1"
@@ -13828,43 +13778,13 @@ entity
 	"angles" "0 0 0"
 	"lowpriority" "1"
 	"texture" "pbr/overlays/bullseye_off"
-	"origin" "128 -8704 0"
+	"origin" "0 -8832 0"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "71341"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "256 -8960 0"
-	"BasisU" "1 0 0"
-	"BasisV" "0 1 0"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "pbr/overlays/moss_01"
-	"sides" "2305"
-	"startu" "0"
-	"startv" "1"
-	"tint" "255 255 255 255"
-	"uv0" "-64 -64 0"
-	"uv1" "-64 64 0"
-	"uv2" "64 64 0"
-	"uv3" "64 -64 0"
-	"origin" "256 -8960 0"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
 	}
 }
 entity
@@ -13903,7 +13823,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "256 -8704 0"
+	"BasisOrigin" "128 -9088 0"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"endu" "1"
@@ -13918,7 +13838,7 @@ entity
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
 	"uv3" "64 -64 0"
-	"origin" "256 -8704 0"
+	"origin" "128 -9088 0"
 	editor
 	{
 		"color" "80 150 225"
@@ -13933,7 +13853,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "256 -8576 0"
+	"BasisOrigin" "256 -8960 0"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"endu" "1"
@@ -13948,7 +13868,7 @@ entity
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
 	"uv3" "64 -64 0"
-	"origin" "256 -8576 0"
+	"origin" "256 -8960 0"
 	editor
 	{
 		"color" "80 150 225"
@@ -14269,36 +14189,6 @@ entity
 	"uv2" "64 64 0"
 	"uv3" "64 -64 0"
 	"origin" "256 -9088 0"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 20000]"
-	}
-}
-entity
-{
-	"id" "65627"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "128 -9088 0"
-	"BasisU" "1 0 0"
-	"BasisV" "0 1 0"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "pbr/overlays/oil_stain_01"
-	"sides" "2305"
-	"startu" "0"
-	"startv" "1"
-	"tint" "255 255 255 255"
-	"uv0" "-64 -64 0"
-	"uv1" "-64 64 0"
-	"uv2" "64 64 0"
-	"uv3" "64 -64 0"
-	"origin" "128 -9088 0"
 	editor
 	{
 		"color" "80 150 225"
@@ -15583,7 +15473,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-64 -6560 8.99999"
+	"origin" "-64 -6560 8"
 	editor
 	{
 		"color" "255 255 0"
