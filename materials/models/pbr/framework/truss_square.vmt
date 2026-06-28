@@ -7,6 +7,6 @@ patch
 		$bumpmap				"models/pbr/framework/truss_square_normal"
 		$mraotexture			"models/pbr/framework/truss_square_mrao"
 		
-		$mraoscale              "[0.85 1 1]"
+		$srgbtint					"{220 220 220}"
 	}
 }

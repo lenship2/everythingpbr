@@ -7,6 +7,8 @@ patch
 		$bumpmap				"models/pbr/bts/catwalk_normal"
 		$mraotexture			"models/pbr/bts/catwalk_mrao"
 		
-		//$mraoscale              "[0.85 1 1]"
+		$hsv					"[1 1 1.35]"
+		
+		$mraoscale              "[0.85 0.9 1]"
 	}
 }

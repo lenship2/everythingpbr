@@ -6,5 +6,7 @@ patch
 		$basetexture 			"models\pbr\office\file_cabinet\cabinet_Color"
 		$mraotexture			"models\pbr\office\file_cabinet\cabinet_MRAO"
 		$bumpmap				"models\pbr\office\file_cabinet\cabinet_Normal"
+		
+		$srgbtint					"[0.647 0.627 0.569]"
 	}
 }

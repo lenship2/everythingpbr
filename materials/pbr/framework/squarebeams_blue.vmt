@@ -3,7 +3,7 @@ patch
 	include					"materials/dev/l2_default_pbr.vmt"
 	insert
 	{
-		$basetexture 			"pbr/framework/squarebeams_blue_color"
+		$basetexture 			"pbr/framework/squarebeams_tint_color"
 		$bumpmap 				"pbr/framework/squarebeams_blue_Parallax"
 		$mraotexture			"pbr/framework/squarebeams_blue_mrao"
 		%rectanglemap			"pbr/framework/squarebeams_hotspot"
@@ -12,6 +12,8 @@ patch
 		
 		//$mraoscale              "[0.67 1.25 1]"
 		$envmaptint				"[0.7 0.7 0.7]"
+		
+		$srgbtint				"[0.388 0.502 0.675]"
 		
 		$parallax 				"1"
 		$parallaxcenter 		"0.65"

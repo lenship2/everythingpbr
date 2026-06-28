@@ -5,5 +5,7 @@ patch
 	{
 		$basetexture 			"models\pbr\office\lamp_Color"
 		$mraotexture			"models\pbr\office\lamp_MRAO"
+		
+		$srgbtint				"[0.05 0.05 0.05]"
 	}
 }

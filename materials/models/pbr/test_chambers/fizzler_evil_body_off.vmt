@@ -6,5 +6,7 @@ patch
 		$basetexture 			"models\pbr\test_chambers\fizzler_evil_Color"
 		$mraotexture			"models\pbr\test_chambers\fizzler_evil_MRAO"
 		$bumpmap				"models\pbr\test_chambers\fizzler_evil_Normal"
+		
+		$srgbtint				"[0.411 0.049 0.059]"
 	}
 }

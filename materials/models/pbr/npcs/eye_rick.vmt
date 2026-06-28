@@ -27,7 +27,7 @@ PBR
 		{
 			animatedTextureVar			"$emissiontexture"
 			animatedtextureframenumvar	"$emissionframe"
-			animatedtextureframerate	"10"
+			animatedtextureframerate	"6"
 		}
 		LightedMouth
 		{

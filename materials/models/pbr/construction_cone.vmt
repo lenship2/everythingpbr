@@ -6,5 +6,7 @@ patch
 		$basetexture 			"models\pbr\construction_cone_Color"
 		$mraotexture			"models\pbr\construction_cone_MRAO"
 		$bumpmap				"models\pbr\construction_cone_Normal"
+		
+		$srgbtint				"[0.868 0.297 0.079]"
 	}
 }

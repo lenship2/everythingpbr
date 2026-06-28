@@ -8,6 +8,9 @@ patch
 		$bumpmap				"models\pbr\stickersheet_01_Normal"
 		
 		$alphatest				"1"
-		//$decal					"1"
+		$alphatestreference		"0.25"
+		$allowalphatocoverage	"1"
+		//$translucent				"1"
+		$decal					"1"
 	}
 }

@@ -4,8 +4,10 @@ patch
 	insert
 	{
 		$basetexture 			"models\pbr\test_chambers\fizzler_Color"
-		$emissiontexture 		"models\pbr\test_chambers\fizzler_SelfIllum"
+		$emissiontexture 		"models\pbr\test_chambers\fizzler_evil_SelfIllum"
 		$mraotexture			"models\pbr\test_chambers\fizzler_MRAO"
 		$bumpmap				"models\pbr\test_chambers\fizzler_Normal"
+		
+		$emissionscale			"[0.153 0.347 0.546]"
 	}
 }

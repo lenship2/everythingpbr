@@ -5,6 +5,6 @@ patch
 	{
 		$basetexture 			"models\pbr\underground\frame_Color"
 		$bumpmap				"models\pbr\underground\frame_Normal"
-		$mraotexture			"models\pbr\underground\frame_256_MRAO"
+		$mraotexture			"models\pbr\underground\frame_MRAO"
 	}
 }

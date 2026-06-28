@@ -5,7 +5,8 @@ $selfillum 			"1"
 
 //Proxy variables
 
-$p_boolean			"0"
+$p_zero 0
+$p_one  1
 
 $p_sine				"0.5"
 $p_sineclamp		"1"
@@ -14,43 +15,56 @@ $p_clampdefault		"0.5"
 
 $p_flashmin			"0.05"
 $p_flashmax			"2"
-$p_flashmaxheld		"5"
-$p_flashmaxpartner	"25"
+$p_flashmaxheld		"50"
+$p_flashmaxpartner	"75"
 $p_flashvalue		"1.5"
 
-$p_brightness		"0.2"
+$p_brightness		"0.25"
 
 $p_scrollratemin	"0"
 $p_scrollratemax	"0.1"
 
+$p_scrolloffset		0
 $p_scrollrate		"0.1"
 $p_scrolltransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
 $p_basetransform	"center 0 0 scale 1 1 rotate 0 translate 0.5 0"
 
-$p_heldcube			"0"
-$p_ispartner		"0"
+$p_held				0
+$p_partner_held		0
+$p_directly_held	0
+
+$p_final		"1"
+$p_color		"{255 255 255}"
+$p_idlecolor	"{16 64 255}"
+$p_heldcolor	"{255 64 0}"
 
 Proxies
 {
+//Are we held or not? Is our partner held?
+WeightedCube
+	{
+    partnerVar $p_partner_held
+    heldVar $p_directly_held
+	}
 
-//Are we held or not? What type of cube are we?
-Empty
-//ScrodingerState
-{
-    //partnerVar $p_ispartner
-    //heldVar $p_heldcube
-}
+// If partner-held, treat as held in general.
+Add
+	{
+	srcVar1 $p_partner_held
+	srcVar2 $p_directly_held
+	resultVar $p_held
+	}
 
 //Set scroll rate to zero if held
 LessOrEqual
 	{
-		srcVar1	$p_heldcube
-		srcVar2	$p_boolean
+		srcVar1	$p_held
+		srcVar2	$p_zero
 		lessEqualVar	$p_scrollratemax
 		greaterVar		$p_scrollratemin
 		resultvar	$p_scrollrate
 	}
-	
+
 TextureScroll
 	{
 	//texturescrollvar $p_scrolltransform
@@ -62,7 +76,7 @@ TextureScroll
 // This seems to be both unnecessary and unfunctional in game
 // LessOrEqual
 	// {
-		// srcVar1	$p_heldcube
+		// srcVar1	$p_held
 		// srcVar2	$p_boolean
 		// lessEqualVar	$p_scrolltransform
 		// greaterVar		$p_basetransform
@@ -81,9 +95,8 @@ Sine
 //If we're a partner, set brightness higher
 LessOrEqual
 	{
-
-		srcVar1	$p_ispartner
-		srcVar2	$p_boolean
+		srcVar1	$p_partner_held
+		srcVar2	$p_zero
 		lessEqualVar	$p_flashmaxheld
 		greaterVar		$p_flashmaxpartner
 		resultvar	$p_flashmax
@@ -92,9 +105,9 @@ LessOrEqual
 //Clamp sine values to create the flashing effect
 LessOrEqual
 	{
-		srcVar1			$p_heldcube
-		srcVar2			$p_boolean
-		lessEqualVar	$p_boolean
+		srcVar1			$p_held
+		srcVar2			$p_zero
+		lessEqualVar	$p_zero
 		greaterVar		$p_clampdefault
 		resultvar		$p_clampvalue
 	}
@@ -113,9 +126,22 @@ LessOrEqual
 	{
 		lessEqualVar $p_brightness
 		greaterVar	$p_flashvalue
-		srcVar1		$p_heldcube
-		srcVar2		$p_boolean
-		resultvar	$selfillumtint
+		srcVar1		$p_held
+		srcVar2		$p_zero
+		//resultvar	$p_final
+		resultVar	$selfillummaskscale
+		//resultVar	$selfillumtint
+	}
+
+//Experimental: Use a different glow color when held
+LessOrEqual
+	{
+		lessEqualVar $p_idlecolor
+		greaterVar	$p_heldcolor
+		srcVar1		$p_held
+		srcVar2		$p_zero
+		//resultvar	$p_color
+		resultVar	$selfillumtint
 	}
 }
 }
