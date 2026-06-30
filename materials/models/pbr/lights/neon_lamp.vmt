@@ -7,5 +7,9 @@ patch
 		$bumpmap				"models\pbr\lights\neon_lamp_Normal"
 		$mraotexture			"models\pbr\lights\neon_lamp_MRAO"
 		$emissiontexture		"models\pbr\lights\neon_lamp_SelfIllum"
+		
+		$color2					"[2 2 2]"
+		$srgbtint				"[0.338 0.33 0.276]"
+		$emissionscale			"[0.93 0.896 0.73]"
 	}
 }

@@ -11,8 +11,9 @@ patch
 		
 		$mraoscale              "[0.75 1 1]"
 		
-		$color					"1.5"
 		$srgbtint				"[0.482 0.349 0.29]"
+		$hsv					"[1 1 1]"
+		$color 					"1.75"
 		
 		$envmaptint				"[0.45 0.45 0.45]"
 		

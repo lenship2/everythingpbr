@@ -3,9 +3,13 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\lights\neon_lamp_warm_Color"
+		$basetexture 			"models\pbr\lights\neon_lamp_Color"
 		$bumpmap				"models\pbr\lights\neon_lamp_Normal"
 		$mraotexture			"models\pbr\lights\neon_lamp_MRAO"
-		$emissiontexture		"models\pbr\lights\neon_lamp_warm_SelfIllum"
+		$emissiontexture		"models\pbr\lights\neon_lamp_SelfIllum"
+		
+		$color2					"[2 2 2]"
+		$srgbtint				"[0.639 0.269 0.076]"
+		$emissionscale			"[0.863 0.205 0.053]"
 	}
 }

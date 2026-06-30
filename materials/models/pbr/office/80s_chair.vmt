@@ -6,5 +6,7 @@ patch
 		$basetexture 			"models\pbr\office\80s_chair_Color"
 		$bumpmap				"models\pbr\office\80s_chair_Normal"
 		$mraotexture			"models\pbr\office\80s_chair_MRAO"
+		
+		$srgbtint				"[0.784 0.722 0.635]"
 	}
 }

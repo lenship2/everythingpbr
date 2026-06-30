@@ -10,7 +10,5 @@ patch
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$surfaceprop			"metal"
-		
-		$envmaptint				"[0.6 0.6 0.6]"
 	}
 }
