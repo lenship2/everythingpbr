@@ -3,7 +3,7 @@ patch
 	include					"materials/dev/l2_default_pbr.vmt"
 	insert
 	{
-		$basetexture 			"pbr/framework/backpanel_128_white_color"
+		$basetexture 			"pbr/framework/backpanel_128_grey_color"
 		$bumpmap 				"pbr/framework/backpanel_128_Parallax"
 		$mraotexture			"pbr/framework/backpanel_128_mrao"
 		
@@ -11,7 +11,7 @@ patch
 		
 		$mraoscale              "[0.75 1 1]"
 		
-		$srgbtint				"[0.55 0.55 0.55]"
+		//$srgbtint				"[0.55 0.55 0.55]"
 		
 		$envmaptint				"[0.45 0.45 0.45]"
 		
