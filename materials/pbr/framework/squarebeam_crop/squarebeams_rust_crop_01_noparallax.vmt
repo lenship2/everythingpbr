@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/framework/squarebeam_crop/squarebeams_rust_crop_01_color"
+		$bumpmap 				"pbr/framework/squarebeam_crop/squarebeams_rust_crop_01_parallax"
+		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_rust_crop_01_mrao"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		
+		$envmaptint				"[0.45 0.45 0.45]"
+		
+		$surfaceprop			"metal"
+	}
+}
