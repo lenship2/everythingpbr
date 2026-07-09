@@ -3,14 +3,13 @@ patch
 	include					"materials/dev/l2_default_pbr.vmt"
 	insert
 	{
-		$basetexture 			"pbr/metal/factory_metal_floor_03_basecolor"
-		$bumpmap 				"pbr/metal/factory_metal_floor_01_normal"
-		$mraotexture			"pbr/metal/factory_metal_floor_01_mrao"
+		$basetexture 			"pbr/metal/metal_treadplate_brown_color"
+		$bumpmap 				"pbr/metal/metal_treadplate_normal"
+		$mraotexture			"pbr/metal/metal_treadplate_mrao"
 		
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$surfaceprop			"metalpanel"
-		
-		$envmaptint				"[0.6 0.6 0.6]"
+
 	}
 }

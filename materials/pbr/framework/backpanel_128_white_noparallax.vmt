@@ -1,18 +1,12 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/pbr/framework/backpanel_base.vmt"
 	insert
 	{
 		$basetexture 			"pbr/framework/backpanel_128_white_color"
 		$bumpmap 				"pbr/framework/backpanel_128_Parallax"
 		$mraotexture			"pbr/framework/backpanel_128_mrao"
 		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
-		$mraoscale              "[0.75 1 1]"
-		
-		$envmaptint				"[0.45 0.45 0.45]"
-		
-		$surfaceprop			"cardboard"
+		$parallax				"0"
 	}
 }

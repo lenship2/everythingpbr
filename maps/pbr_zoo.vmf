@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10839"
-	"mapversion" "621"
+	"editorbuild" "10689"
+	"mapversion" "628"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(215.396 611.745 71.5404)"
-			"angle" "[45.1999 -27.9872 0]"
+			"position" "(242.874 -1402.13 126.811)"
+			"angle" "[-15.2 -53.989 0]"
 		}
 		v1
 		{
@@ -35,8 +35,8 @@ viewsettings
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -6204.92 13.301)"
-			"zoom" "6.41867"
+			"position" "(0 -1494.49 72.1426)"
+			"zoom" "2.1496"
 		}
 		v3
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "621"
+	"mapversion" "628"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7055,7 +7055,7 @@ world
 				"point" "2 256 -1472 128"
 				"point" "3 256 -1344 128"
 			}
-			"material" "PBR/METAL/FACTORY_METAL_FLOOR_03"
+			"material" "PBR/FRAMEWORK/BACKPANEL_WHITE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -7074,7 +7074,7 @@ world
 				"point" "2 248 -1472 0"
 				"point" "3 248 -1344 0"
 			}
-			"material" "PBR/METAL/FACTORY_METAL_FLOOR_03"
+			"material" "PBR/FRAMEWORK/BACKPANEL_WHITE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"

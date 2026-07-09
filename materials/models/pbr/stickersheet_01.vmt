@@ -11,6 +11,6 @@ patch
 		$alphatestreference		"0.25"
 		$allowalphatocoverage	"1"
 		//$translucent				"1"
-		//$decal					"1"
+		$decal					"1"
 	}
 }

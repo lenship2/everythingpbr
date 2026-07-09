@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$parallax 				"1"
+		$parallaxcenter 		"0"
+		$parallaxdepth 			"0.04"
+		
+		$surfaceprop			"plastic"
+	}
+}
