@@ -1,8 +1,11 @@
 PBR
 {
-$basetexture 			"pbr/overlays/concrete_damage_02_color"
+$basetexture 			"pbr/overlays/concrete_damage_01_color"
 $bumpmap 				"pbr/overlays/concrete_damage_02_Parallax"
 $mraotexture			"dev/default_mrao"
+$detail					"pbr/overlays/concrete_damage_02_trans"
+
+$detailblendmode		"9"
 
 $mraoscale              "[0 0.6 1]"
 
