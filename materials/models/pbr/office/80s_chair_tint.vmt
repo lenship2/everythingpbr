@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\80s_chair_Color"
+		$bumpmap				"models\pbr\office\80s_chair_Normal"
+		$mraotexture			"models\pbr\office\80s_chair_MRAO"
+	}
+}

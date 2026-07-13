@@ -6,6 +6,5 @@ patch
 		$basetexture 			"models\pbr\lights\hanging_lamp_Color"
 		$bumpmap				"models\pbr\lights\hanging_lamp_Normal"
 		$mraotexture			"models\pbr\lights\hanging_lamp_MRAO"
-		$emissiontexture		"models\pbr\lights\hanging_lamp_SelfIllum"
 	}
 }

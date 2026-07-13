@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\underground\arms_Color"
+		$mraotexture			"models\pbr\underground\arms_MRAO"
+		$alphatest				"1"
+		$alphatestreference		"2"
+	}
+}

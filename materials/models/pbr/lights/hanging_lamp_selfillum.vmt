@@ -1,0 +1,4 @@
+unlitgeneric
+{
+	$basetexture	"models/pbr/lights/hanging_lamp_selfillum"
+}

@@ -1,9 +1,15 @@
 PBR
 {
-$basetexture 			"models\pbr\test_chambers\cubes\cube_comp_painted_Color"
+$basetexture 			"models\pbr\test_chambers\cubes\cube_comp_Color"
 $bumpmap 				"models\pbr\test_chambers\cubes\cube_painted_Normal"
 $mraotexture			"models\pbr\test_chambers\cubes\cube_painted_MRAO"
 $emissiontexture		"models\pbr\test_chambers\cubes\cube_painted_SelfIllum"
+
+$detail					"vgui/white"
+$detailmask				"models\pbr\test_chambers\cubes\cube_mask"
+
+$detailblendmode		"2"
+$detailblendfactor		"1"
 
 $model					"1"
 $blendtintbymraoalpha	"1"
@@ -17,12 +23,47 @@ $envmap					"env_cubemap"
 $envmaptint				"[0.5 0.5 0.5]"
 $envmaplightscale		"0.9"
 
+$one					"[1 1 1]"
+$zero					"[0 0 0]"
+$nine					"0.95"
+
 Proxies
 {
 	PaintOverlayColor
 	{
-		resultVar 				$color
+		resultVar 				"$detailtint"
 	}
+	
+	//she was forced to convert srgb to linear with material proxies :(
+	//
+	//this equation is very imprecise in comparison to the actual srgb to linear equation:
+	//y = ((x+0.055)/1.055)^2.4
+	//
+	//but it's close enough and there isn't a way to have it be accurately represented without it 
+	//getting unreasonably messy
+	
+	Multiply
+	{
+		srcVar1		$detailtint
+		srcVar2		$detailtint
+		resultVar	$detailtint
+	}
+	
+	Multiply
+	{
+		srcVar1		$detailtint
+		srcVar2		$nine
+		resultVar	$detailtint
+	}
+	
+	Clamp
+	{
+		max			$one
+		min			$zero
+		srcVar1		$detailtint
+		resultVar	$detailtint
+	}
+	
 }
 
 }
