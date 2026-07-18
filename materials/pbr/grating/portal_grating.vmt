@@ -10,15 +10,15 @@ patch
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$parallax 				"1"
-		$parallaxcenter 		"0.1"
-		$parallaxdepth 			"0.01"
+		$parallaxcenter 		"0.001"
+		$parallaxdepth 			"0.02"
 		
 		$alphatest				"1"
-		$AlphaTestReference 	"0.5"
+		$AlphaTestReference 	"0.55"
 		$AllowAlphaToCoverage 	"1"
 		
-		$mraoscale              "[0.9 0.9 1]"
-		$envmaptint				"[0.15 0.15 0.15]"
+		$mraoscale              "[0.9 1.2 1]"
+		$hsv					"[1 1 10]"
 		
 		$surfaceprop			"metalgrate"
 		

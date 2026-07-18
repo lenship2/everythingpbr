@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10689"
-	"mapversion" "628"
+	"editorbuild" "10856"
+	"mapversion" "645"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(242.874 -1402.13 126.811)"
-			"angle" "[-15.2 -53.989 0]"
+			"position" "(340.607 -1655.53 84.6758)"
+			"angle" "[1.6 146.413 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-332.349 -6240.97 0)"
-			"zoom" "2.5883"
+			"position" "(-161.694 450.39 0)"
+			"zoom" "4.47258"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -1494.49 72.1426)"
-			"zoom" "2.1496"
+			"position" "(0 311.786 480.207)"
+			"zoom" "3.71451"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-167.276 0 187.254)"
-			"zoom" "3.20979"
+			"position" "(226.039 0 41.9692)"
+			"zoom" "4.6221"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "628"
+	"mapversion" "645"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7198,9 +7198,9 @@ world
 				"point" "2 256 -1664 128"
 				"point" "3 256 -1536 128"
 			}
-			"material" "PBR/PLASTIC/PLASTIC_TRIM"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "CONCRETE/SCHOOL_CONCRETE"
+			"uaxis" "[0 1 0 1024] 0.125"
+			"vaxis" "[0 0 -1 1024] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -19400,36 +19400,6 @@ entity
 }
 entity
 {
-	"id" "12597"
-	"classname" "info_overlay"
-	"angles" "0 330 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "192 504 0"
-	"BasisU" "0.866025 -0.5 0"
-	"BasisV" "0.5 0.866025 0"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "pbr/overlays/metalgrate_02"
-	"sides" "2064"
-	"startu" "0"
-	"startv" "1"
-	"tint" "255 255 255 255"
-	"uv0" "-8 -8 0"
-	"uv1" "-8 8 0"
-	"uv2" "8 8 0"
-	"uv3" "8 -8 0"
-	"origin" "192 504 0"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "11182"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -20073,36 +20043,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "9025"
-	"classname" "info_overlay"
-	"angles" "0 90 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "192 472 0"
-	"BasisU" "1.31134e-07 1 0"
-	"BasisV" "-1 1.31134e-07 0"
-	"endu" "1"
-	"endv" "0"
-	"fademindist" "-1"
-	"material" "pbr/overlays/metalgrate_01"
-	"sides" "2064"
-	"startu" "0"
-	"startv" "0.750001"
-	"tint" "255 255 255 255"
-	"uv0" "-16 -12 0"
-	"uv1" "-16 12 0"
-	"uv2" "16 12 0"
-	"uv3" "16 -12 0"
-	"origin" "192 472 0"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 entity

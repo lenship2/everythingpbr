@@ -21,14 +21,23 @@ PBR
 
 	"%noportal"				"1"
 	
+	$emissionfactor			"0.25"
+	
 	Proxies
 	{
 		Sine
 		{
-			sineperiod 3
+			sineperiod 5
 			sinemin 0.1
 			sinemax 0.4
-			resultVar "$emissionscale[0]"
+			resultVar "$emissionscale"
+		}
+		
+		Multiply
+		{
+			srcvar1	$emissionscale
+			srcvar2	$emissionfactor
+			resultVar	$emissionscale
 		}
 	}
 }
