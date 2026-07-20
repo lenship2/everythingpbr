@@ -1,23 +1,12 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/pbr/framework/squarebeams_base.vmt"
 	insert
 	{
 		$basetexture 			"pbr/framework/squarebeam_crop/squarebeams_tint_crop_01_color"
 		$bumpmap 				"pbr/framework/squarebeam_crop/squarebeams_tint_crop_01_parallax"
 		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_tint_crop_01_mrao"
 		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
-		//$mraoscale              "[0.67 1.25 1]"
-		$envmaptint				"[0.7 0.7 0.7]"
-		
 		$srgbtint				"[0.388 0.502 0.675]"
-		
-		$parallax 				"1"
-		$parallaxcenter 		"0.65"
-		$parallaxdepth 			"0.04"
-		
-		$surfaceprop			"metal"
 	}
 }

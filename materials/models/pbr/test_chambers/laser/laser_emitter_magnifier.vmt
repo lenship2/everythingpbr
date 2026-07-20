@@ -1,7 +1,8 @@
 Refract
 {
  	$model 				"1"
- 	$refractamount 		"-0.02"
+ 	$refractamount 		"0.01"
+	$bluramount			"2"
 	$normalmap 			"models/pbr/test_chambers/laser/fisheyelens_normal"
 	$envmap 			"env_cubemap"
 	$envmaptint			"[0.2 0.2 0.2]"
