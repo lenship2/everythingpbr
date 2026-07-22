@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10856"
-	"mapversion" "645"
+	"mapversion" "646"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(340.607 -1655.53 84.6758)"
-			"angle" "[1.6 146.413 0]"
+			"position" "(-411.642 -1785.15 104.083)"
+			"angle" "[11.6 142.413 0]"
 		}
 		v1
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "645"
+	"mapversion" "646"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"

@@ -13,8 +13,7 @@ patch
 		$AlphaTestReference 	"0.55"
 		$AllowAlphaToCoverage 	"1"
 		
-		$mraoscale              "[0.9 1.2 1]"
-		$hsv					"[1 1 10]"
+		$hsv					"[1 1 2]"
 		
 		$surfaceprop			"metalgrate"
 		

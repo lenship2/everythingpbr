@@ -8,5 +8,7 @@ patch
 		$mraotexture			"pbr/framework/squarebeams_rust_MRAO"
 		
 		$envmaptint				"[0.45 0.45 0.45]"
+		
+		$parallax 				"1"
 	}
 }

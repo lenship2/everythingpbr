@@ -9,7 +9,6 @@ patch
 		
 		$envmaptint				"[0.7 0.7 0.7]"
 		
-		$parallax 				"1"
 		$parallaxcenter 		"0.01"
 		$parallaxdepth 			"0.02"
 		

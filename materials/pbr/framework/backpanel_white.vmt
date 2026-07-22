@@ -6,5 +6,7 @@ patch
 		$basetexture 			"pbr/framework/backpanel_white_color"
 		$bumpmap 				"pbr/framework/backpanel_Parallax"
 		$mraotexture			"pbr/framework/backpanel_mrao"
+		
+		$parallax 				"1"
 	}
 }

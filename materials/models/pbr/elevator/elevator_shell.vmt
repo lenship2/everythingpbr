@@ -4,6 +4,10 @@ PBR
 	$mraotexture			"models\pbr\elevator\elevator_shell_MRAO"
 	$bumpmap				"models\pbr\elevator\elevator_shell_Normal"
 	$emissiontexture		"models\pbr\elevator\elevator_shell_SelfIllum"
+	$detail					"models\pbr\elevator\elevator_shell_detail"
+
+	$detailblendmode		"5"
+	$detailblendfactor		"1"
 
 	$mraoscale				"[0.9 1 1]"
 	$envmaptint				"[0.3 0.3 0.3]"
@@ -15,13 +19,21 @@ PBR
 
 	$envmap					"env_cubemap"
 	
+	$p_rng					"0"
+	$p_fps					"1.5"
+	$p_temp1				"1"
+	$p_temp2				"1"
+	
+	$p_zero					"0"
+	$p_one					"1"
+	
 	proxies
 	{
 		AnimatedTexture
 		{
-			animatedTextureVar			"$emissiontexture"
-			animatedtextureframenumvar	"$emissionframe"
-			animatedtextureframerate	"2"
+			animatedTextureVar			"$detail"
+			animatedtextureframenumvar	"$detailframe"
+			animatedtextureframerate	"1.5"
 		}
 	}
 }

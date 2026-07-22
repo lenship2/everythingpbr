@@ -1,15 +1,55 @@
+// patch
+// {
+	// include					"materials/dev/l2_default_model_pbr.vmt"
+	// insert
+	// {
+		// $basetexture 			"models\pbr\test_chambers\laser\redirectionglass_color"
+		// $mraotexture			"dev/default_mrao"
+		
+		// $color2					"[0.65 2 1.95]"
+		// $mraoscale				"[0 0.15 1]"
+		
+		// //$hsv					"[1 2 1]"
+		
+		// $nocull					"1"
+		// $translucent			"1"
+	// }
+// }
+
+// vertexlitgeneric
+// {
+// $baseTexture "models/props/reflecto_cube_glass"
+// $bumpmap "models/props/reflecto_cube_glass_normal"
+// $translucent 1
+
+// //$srgbtint	"{30 34 38}"
+// //$alpha		"0.65"
+
+// $color2		"[5 5 5]"
+
+// $envmap env_cubemap
+// $normalmapalphaenvmapmask 1
+// $envmaptint "[ .1 .1 .1 ]"
+
+// $phong 1
+// $phongexponent 10
+// $phongboost 2
+// $phongfresnelranges "[0.95 0.1 0.3]"
+// $phongwarptexture "models/props/reflecto_cube_iridescence"
+// $nodecal 1
+// $nocull	1
+// $multipass	1
+// }
+
 patch
 {
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\test_chambers\laser\redirectionglass_color"
-		$mraotexture			"dev/default_mrao"
+		$basetexture 			"models\pbr\test_chambers\laser\redirection_glass_color"
+		$mraotexture			"models\pbr\test_chambers\laser\redirection_glass_mrao"
 		
-		$color2					"[0.75 0.88 0.85]"
-		$mraoscale				"[0 0.15 1]"
-		
-		$hsv					"[1 2 1]"
+		$hsv					"[0.459 0.45 0.215]"
 		
 		$nocull					"1"
 		$translucent			"1"

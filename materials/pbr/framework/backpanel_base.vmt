@@ -8,8 +8,7 @@ patch
 		$mraoscale              "[0.75 1 1]"
 		
 		$envmaptint				"[0.45 0.45 0.45]"
-		
-		$parallax 				"1"
+
 		$parallaxcenter 		"0"
 		$parallaxdepth 			"0.025"
 		

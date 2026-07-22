@@ -9,5 +9,7 @@ patch
 		
 		$mraoscale              "[0.8 1.2 1]"
 		$hsv					"[1 1 0.9]"
+		
+		$parallax 				"1"
 	}
 }

@@ -8,5 +8,7 @@ patch
 		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_tint_crop_01_mrao"
 		
 		$srgbtint				"[0.388 0.502 0.675]"
+		
+		$parallax 				"1"
 	}
 }

@@ -8,5 +8,7 @@ patch
 		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_rust_crop_01_mrao"
 		
 		$envmaptint				"[0.45 0.45 0.45]"
+		
+		$parallax 				"1"
 	}
 }

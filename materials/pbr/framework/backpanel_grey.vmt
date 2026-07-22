@@ -6,6 +6,8 @@ patch
 		$basetexture 			"pbr/framework/backpanel_grey_color"
 		$bumpmap 				"pbr/framework/backpanel_Parallax"
 		$mraotexture			"pbr/framework/backpanel_mrao"
+		
+		$parallax 				"1"
 
 		//$srgbtint				"[0.55 0.55 0.55]"
 	}

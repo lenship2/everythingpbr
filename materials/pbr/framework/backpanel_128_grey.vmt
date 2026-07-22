@@ -7,6 +7,8 @@ patch
 		$bumpmap 				"pbr/framework/backpanel_128_Parallax"
 		$mraotexture			"pbr/framework/backpanel_128_mrao"
 		
+		$parallax 				"1"
+		
 		//$srgbtint				"[0.55 0.55 0.55]"
 	}
 }

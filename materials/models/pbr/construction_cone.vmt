@@ -8,5 +8,6 @@ patch
 		$bumpmap				"models\pbr\construction_cone_Normal"
 		
 		$srgbtint				"[0.868 0.297 0.079]"
+		$color2					"[1.3 1.3 1.3]"
 	}
 }
