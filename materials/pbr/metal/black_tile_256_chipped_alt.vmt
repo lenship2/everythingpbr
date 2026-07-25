@@ -1,11 +1,15 @@
 patch
 {
-	include					"materials/pbr/metal/black_tile_template.vmt"
+	include					"materials/dev/l2_default_pbr.vmt"
 	insert
 	{
 		$basetexture 			"pbr/metal/black_tiles_256_chipped_alt_color"
 		$bumpmap 				"pbr/metal/black_tiles_256_chipped_alt_Normal"
 		$mraotexture			"pbr/metal/black_tiles_256_chipped_alt_mrao"
-		$detailmask				"pbr/metal/black_tiles_256_chipped_alt_mask"
+		
+		$surfaceprop			"metalpanel"
+		
+		$envmaptint				"0.15"
+		$reflectivity			"[0.7 0.7 0.7]" 
 	}
 }
