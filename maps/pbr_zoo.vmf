@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10856"
-	"mapversion" "646"
+	"editorbuild" "10867"
+	"mapversion" "653"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,8 +23,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-411.642 -1785.15 104.083)"
-			"angle" "[11.6 142.413 0]"
+			"position" "(340.96 -1958.4 70.2534)"
+			"angle" "[-4.40001 155.213 0]"
 		}
 		v1
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "646"
+	"mapversion" "653"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7179,9 +7179,9 @@ world
 				"point" "2 248 -1664 0"
 				"point" "3 248 -1536 0"
 			}
-			"material" "PBR/PLASTIC/PLASTIC_TRIM"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "METAL/BLACK_FLOOR_METAL_001C"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -7198,9 +7198,9 @@ world
 				"point" "2 256 -1664 128"
 				"point" "3 256 -1536 128"
 			}
-			"material" "CONCRETE/SCHOOL_CONCRETE"
-			"uaxis" "[0 1 0 1024] 0.125"
-			"vaxis" "[0 0 -1 1024] 0.125"
+			"material" "METAL/BLACK_FLOOR_METAL_001C"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -7255,7 +7255,7 @@ world
 		"id" "2894"
 		side
 		{
-			"id" "972"
+			"id" "2699"
 			"plane" "(256 -1856 0) (248 -1856 0) (248 -1856 128)"
 			point_data
 			{
@@ -7274,7 +7274,7 @@ world
 		}
 		side
 		{
-			"id" "971"
+			"id" "2698"
 			"plane" "(256 -1728 128) (248 -1728 128) (248 -1728 0)"
 			point_data
 			{
@@ -7293,7 +7293,7 @@ world
 		}
 		side
 		{
-			"id" "970"
+			"id" "2697"
 			"plane" "(256 -1728 0) (256 -1856 0) (256 -1856 128)"
 			point_data
 			{
@@ -7303,16 +7303,16 @@ world
 				"point" "2 256 -1856 128"
 				"point" "3 256 -1728 128"
 			}
-			"material" "PBR/TILES/DIRT/WHITE_TILE_64_DIRT_01"
-			"uaxis" "[0 1 0 1024] 0.25"
-			"vaxis" "[0 0 -1 512] 0.25"
+			"material" "PBR/METAL/BLACK_TILE_FLOOR"
+			"uaxis" "[0 1 0 1024] 0.125"
+			"vaxis" "[0 0 -1 512] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "969"
+			"id" "2696"
 			"plane" "(248 -1728 128) (248 -1856 128) (248 -1856 0)"
 			point_data
 			{
@@ -7322,16 +7322,16 @@ world
 				"point" "2 248 -1856 0"
 				"point" "3 248 -1728 0"
 			}
-			"material" "PBR/TILES/DIRT/WHITE_TILE_64_DIRT_01"
-			"uaxis" "[0 1 0 1024] 0.25"
-			"vaxis" "[0 0 -1 512] 0.25"
+			"material" "PBR/METAL/BLACK_TILE_FLOOR"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "968"
+			"id" "2695"
 			"plane" "(248 -1856 0) (256 -1856 0) (256 -1728 0)"
 			point_data
 			{
@@ -7350,7 +7350,7 @@ world
 		}
 		side
 		{
-			"id" "967"
+			"id" "2694"
 			"plane" "(248 -1728 128) (256 -1728 128) (256 -1856 128)"
 			point_data
 			{
@@ -7369,7 +7369,7 @@ world
 		}
 		editor
 		{
-			"color" "0 119 136"
+			"color" "0 118 115"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7427,9 +7427,9 @@ world
 				"point" "2 248 -2048 0"
 				"point" "3 248 -1920 0"
 			}
-			"material" "PBR/METAL/BLACK_TILE_FLOOR_B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "METAL/BLACK_FLOOR_METAL_001C"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -7446,9 +7446,9 @@ world
 				"point" "2 256 -2048 128"
 				"point" "3 256 -1920 128"
 			}
-			"material" "PBR/METAL/BLACK_TILE_FLOOR_B"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "METAL/BLACK_FLOOR_METAL_001C"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"

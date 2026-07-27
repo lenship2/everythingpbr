@@ -7,9 +7,7 @@ patch
 		$bumpmap 				"pbr/metal/black_tiles_128x64_chipped_Normal"
 		$mraotexture			"pbr/metal/black_tiles_128x64_chipped_mrao"
 		
-		$surfaceprop			"metalpanel"
-		
-		$mraoscale				"[0.9 0.9 1]"
+		$surfaceprop			"metalpanel"	
 		
 		$envmaptint				"0.3"
 		$reflectivity			"[0.7 0.7 0.7]" 
