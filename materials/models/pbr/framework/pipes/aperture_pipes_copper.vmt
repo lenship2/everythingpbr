@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\framework\pipes\aperture_pipes_copper_Color"
+		$mraotexture			"models\pbr\framework\pipes\aperture_pipes_copper_MRAO"
+		$bumpmap				"models\pbr\framework\pipes\aperture_pipes_copper_Normal"
+	}
+}
