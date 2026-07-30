@@ -1,0 +1,8 @@
+patch
+{
+	include					"materials/pbr/overlays/garage_like.vmt"
+	insert
+	{
+		$basetexture 			"pbr/overlays/univers/univers_v_color"
+	}
+}

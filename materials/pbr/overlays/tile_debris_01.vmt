@@ -1,10 +1,16 @@
-PBR
+patch
 {
-$basetexture 			"pbr/overlays/tile_debris_01_color"
-$bumpmap 				"pbr/overlays/tile_debris_01_normal"
-$mraotexture			"pbr/overlays/tile_debris_01_mrao"
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/overlays/tile_debris_01_color"
+		$bumpmap 				"pbr/overlays/tile_debris_01_normal"
+		$mraotexture			"pbr/overlays/tile_debris_01_mrao"
 
-$decal					"1"
-$translucent			"1"
-$decalscale				"0.25"
+		$basetexturetransform	"center 0.5 0.5 scale 1 1 rotate 0 translate 0 0"
+
+		$decal					"1"
+		$decalscale				"0.25"
+		$translucent			"1"
+	}
 }

@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	$basetexture	"pbr/overlays/arrow"
+	$translucent	1
+	$decal			1
+}

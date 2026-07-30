@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	$basetexture 	"pbr/overlays/avant/avant_2_color"
+	$translucent	1
+	$decal			1
+}

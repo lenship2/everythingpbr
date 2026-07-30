@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	$basetexture	"pbr/overlays/garage_stripes_01"
+	$translucent	1
+	$decal			1
+}

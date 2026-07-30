@@ -1,0 +1,9 @@
+patch
+{
+	include					"materials/pbr/overlays/garage_like.vmt"
+	insert
+	{
+		$basetexture 			"pbr/overlays/rectangle"
+		$detailtransform		"center 0 0 scale 0.4 0.2 rotate 0 translate 0 0"
+	}
+}

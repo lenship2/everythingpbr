@@ -1,0 +1,6 @@
+lightmappedgeneric
+{
+	$basetexture 	"pbr/overlays/univers/univers_4_color"
+	$translucent	1
+	$decal			1
+}
