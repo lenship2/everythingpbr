@@ -11,6 +11,13 @@ $detailmask				"models\pbr\test_chambers\cubes\cube_mask"
 $detailblendmode		"2"
 $detailblendfactor		"1"
 
+// $decaltexture			"models/pbr/paint_color"
+// $decalbump				"models/pbr/paint_normal"
+// $decalmrao				"dev/default_mrao"
+
+// $decalmraointensity		"[0 0.2 1]"
+// $decaltint				"[255 165 0]"
+
 $model					"1"
 $blendtintbymraoalpha	"1"
 
@@ -34,13 +41,7 @@ Proxies
 		resultVar 				"$detailtint"
 	}
 	
-	//she was forced to convert srgb to linear with material proxies :(
-	//
-	//this equation is very imprecise in comparison to the actual srgb to linear equation:
-	//y = ((x+0.055)/1.055)^2.4
-	//
-	//but it's close enough and there isn't a way to have it be accurately represented without it 
-	//getting unreasonably messy
+	//srgb to linear approximation
 	
 	Multiply
 	{

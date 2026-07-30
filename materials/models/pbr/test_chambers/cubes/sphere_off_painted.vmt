@@ -32,13 +32,7 @@ Proxies
 		resultVar 				"$detailtint"
 	}
 	
-	//she was forced to convert srgb to linear with material proxies :(
-	//
-	//this equation is very imprecise in comparison to the actual srgb to linear equation:
-	//y = ((x+0.055)/1.055)^2.4
-	//
-	//but it's close enough and there isn't a way to have it be accurately represented without it 
-	//getting unreasonably messy
+	//srgb to linear approximation
 	
 	Multiply
 	{
