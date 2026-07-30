@@ -1,9 +1,9 @@
 Refract
 {
  	$model 				"1"
- 	$refractamount 		"0.05"
-	$bluramount			"1"
-	$normalmap 			"glass/glass_normal"
+ 	$refractamount 		"0.02"
+	$bluramount			"2"
+	$normalmap 			"models/pbr/office/wavey_normal"
 	$envmap 			"env_cubemap"
 	$envmaptint			"[0.5 0.5 0.5]"
 	$envmaplightscale	"0.6"
