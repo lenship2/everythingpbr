@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\lights\bts_strip_light\light_body_Color"
+		$mraotexture			"models\pbr\lights\bts_strip_light\light_body_MRAO"
+		$bumpmap				"models\pbr\lights\bts_strip_light\light_body_Normal"
+	}
+}

@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture		"models/pbr/lights/bts_strip_light/light_glass"
+		$mraotexture		"dev/default_mrao"
+
+		$mraoscale			"[0 0.2 1]"
+		$srgbtint			"[1.25 0.95 0.8]"
+		$translucent 		"1"
+	}
+}

@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\lights\construction_light\construction_light_Color"
+		$mraotexture			"models\pbr\lights\construction_light\construction_light_MRAO"
+		$bumpmap				"models\pbr\lights\construction_light\construction_light_Normal"
+	}
+}

@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"dev/default_mrao"
+		$mraotexture			"dev/default_mrao"
+		
+		$hsv					"[1 1 0.2]"
+		$mraoscale				"[0 0.15 1]"
+	}
+}

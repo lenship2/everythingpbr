@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/pbr/lights/bts_strip_light/light_source_selfillum"
+	$selfillum	"1"
+	$selfillumtint	"3"
+}
