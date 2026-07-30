@@ -1,0 +1,311 @@
+Rectangles
+{
+    rectangle
+    {
+        min "0 0"
+        max "256 64"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 64"
+        max "256 128"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 128"
+        max "256 160"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 160"
+        max "256 192"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 192"
+        max "256 224"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 224"
+        max "256 256"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 256"
+        max "128 320"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "128 256"
+        max "256 320"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 320"
+        max "64 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "64 320"
+        max "128 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "128 320"
+        max "192 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "192 320"
+        max "256 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 384"
+        max "128 416"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "128 384"
+        max "256 416"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 416"
+        max "128 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "128 416"
+        max "256 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "0 448"
+        max "256 512"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 0"
+        max "384 128"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "384 0"
+        max "512 128"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 128"
+        max "512 160"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 160"
+        max "512 192"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 192"
+        max "512 224"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 224"
+        max "512 256"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 256"
+        max "384 320"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "384 256"
+        max "512 320"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 320"
+        max "320 352"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "320 320"
+        max "384 352"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "384 320"
+        max "448 352"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "448 320"
+        max "512 352"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 352"
+        max "288 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "288 352"
+        max "320 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "320 352"
+        max "352 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "352 352"
+        max "384 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "384 352"
+        max "512 384"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 384"
+        max "384 416"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "384 384"
+        max "448 416"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "448 384"
+        max "512 416"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 416"
+        max "320 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "320 416"
+        max "384 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "384 416"
+        max "416 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "416 416"
+        max "448 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "448 416"
+        max "480 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "480 416"
+        max "512 448"
+		rotate	1
+		reflect 1
+    }
+	rectangle
+    {
+        min "256 448"
+        max "512 512"
+		rotate	1
+		reflect 1
+    }
+}
