@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10797"
-	"mapversion" "661"
+	"mapversion" "671"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -15,7 +15,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "1"
-	"nGridSpacing" "16"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -23,25 +23,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-15.9436 -4551.35 134.927)"
-			"angle" "[21.1999 136.813 0]"
+			"position" "(359.001 -1837.55 166.78)"
+			"angle" "[26.7999 156.813 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-58.8858 -8717.08 65536)"
-			"zoom" "0.866816"
+			"position" "(-97.3005 -6091.61 65536)"
+			"zoom" "16.0261"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -8526.16 189.434)"
-			"zoom" "0.863877"
+			"position" "(65536 -6085.06 116.909)"
+			"zoom" "3.71451"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-226.613 -65536 170.227)"
+			"position" "(-226.613 0 170.227)"
 			"zoom" "9.58439"
 		}
 	}
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "661"
+	"mapversion" "671"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2543,7 +2543,7 @@ world
 		"id" "2662"
 		side
 		{
-			"id" "108"
+			"id" "2981"
 			"plane" "(416 -2304 -64) (-608 -2304 -64) (-608 -2304 0)"
 			point_data
 			{
@@ -2562,7 +2562,7 @@ world
 		}
 		side
 		{
-			"id" "107"
+			"id" "2980"
 			"plane" "(416 -1280 0) (-608 -1280 0) (-608 -1280 -64)"
 			point_data
 			{
@@ -2581,7 +2581,7 @@ world
 		}
 		side
 		{
-			"id" "106"
+			"id" "2979"
 			"plane" "(416 -1280 -64) (416 -2304 -64) (416 -2304 0)"
 			point_data
 			{
@@ -2600,7 +2600,7 @@ world
 		}
 		side
 		{
-			"id" "105"
+			"id" "2978"
 			"plane" "(-608 -1280 0) (-608 -2304 0) (-608 -2304 -64)"
 			point_data
 			{
@@ -2619,7 +2619,7 @@ world
 		}
 		side
 		{
-			"id" "104"
+			"id" "2977"
 			"plane" "(-608 -2304 -64) (416 -2304 -64) (416 -1280 -64)"
 			point_data
 			{
@@ -2638,7 +2638,7 @@ world
 		}
 		side
 		{
-			"id" "103"
+			"id" "2976"
 			"plane" "(-608 -1280 0) (416 -1280 0) (416 -2304 0)"
 			point_data
 			{
@@ -2657,7 +2657,7 @@ world
 		}
 		editor
 		{
-			"color" "0 170 231"
+			"color" "0 174 115"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7179,8 +7179,8 @@ world
 				"point" "2 248 -1664 0"
 				"point" "3 248 -1536 0"
 			}
-			"material" "PBR/TILES/DIRT/WHITE_TILE_64X128_DIRT_02"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PBR/METAL/FACTORY_METAL_FLOOR_HS"
+			"uaxis" "[0 1 0 512] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
@@ -7198,8 +7198,8 @@ world
 				"point" "2 256 -1664 128"
 				"point" "3 256 -1536 128"
 			}
-			"material" "PBR/TILES/DIRT/WHITE_TILE_64X128_DIRT_02"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "PBR/METAL/FACTORY_METAL_FLOOR_HS"
+			"uaxis" "[0 1 0 512] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
@@ -7304,8 +7304,8 @@ world
 				"point" "3 256 -1728 128"
 			}
 			"material" "PBR/CONCRETE/CONCRETE_WALL_01_HOTSPOT"
-			"uaxis" "[0 1 0 2112] 1"
-			"vaxis" "[0 0 -1 128] 1"
+			"uaxis" "[0 1 0 3328] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -7323,8 +7323,8 @@ world
 				"point" "3 248 -1728 0"
 			}
 			"material" "PBR/CONCRETE/CONCRETE_WALL_01_HOTSPOT"
-			"uaxis" "[0 1 0 2240] 1"
-			"vaxis" "[0 0 -1 128] 1"
+			"uaxis" "[0 1 0 3328] 0.25"
+			"vaxis" "[0 0 -1 512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -13711,6 +13711,102 @@ world
 }
 entity
 {
+	"id" "103575"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"enablelightbounce" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/lights/bts_strip_light.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-64 -6080 128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "103610"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"enablelightbounce" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/lights/construction_light.mdl"
+	"renderamt" "255"
+	"rendercolor" "192 255 160"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-112 -6080 128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "103641"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"enablelightbounce" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/lights/construction_light.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 160 160"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-98 -6088 128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "103645"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"enablelightbounce" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/pbr/lights/construction_light.mdl"
+	"renderamt" "255"
+	"rendercolor" "160 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-112 -6096 128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "100213"
 	"classname" "info_overlay"
 	"angles" "0 0 0"
@@ -15175,9 +15271,9 @@ entity
 				"point" "3 -348 -8712 160"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 1 -0.012207] 0.03125"
-			"vaxis" "[0 1 0 275.69] 0.101562"
-			"rotation" "90"
+			"uaxis" "[0 1 0 413.531] 0.0677083"
+			"vaxis" "[0 0 -1 2047.99] 0.0625"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15194,9 +15290,9 @@ entity
 				"point" "3 -298 -8710 156"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 1919.99] 0.03125"
-			"vaxis" "[0 -1 0 -787.69] 0.101562"
-			"rotation" "-90"
+			"uaxis" "[0 1 0 413.531] 0.0677083"
+			"vaxis" "[0 0 -1 0.00585938] 0.0625"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15213,9 +15309,9 @@ entity
 				"point" "3 -296 -8712 160"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 1 0] 0.03125"
-			"vaxis" "[1 0 0 -157.539] 0.101562"
-			"rotation" "90"
+			"uaxis" "[1 0 0 1811.69] 0.0677083"
+			"vaxis" "[0 0 -1 0] 0.0625"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15232,9 +15328,9 @@ entity
 				"point" "3 -298 -8662 156"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 1920] 0.03125"
-			"vaxis" "[-1 0 0 -354.462] 0.101562"
-			"rotation" "-90"
+			"uaxis" "[1 0 0 1811.69] 0.0677083"
+			"vaxis" "[0 0 -1 0] 0.0625"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15251,8 +15347,8 @@ entity
 				"point" "3 -298 -8662 156"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 1077.33] 0.1875"
-			"vaxis" "[0 -1 0 -117.333] 0.1875"
+			"uaxis" "[1 0 0 565.333] 0.1875"
+			"vaxis" "[0 -1 0 -117.332] 0.1875"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -15271,7 +15367,7 @@ entity
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 44.3077] 0.8125"
-			"vaxis" "[0 -1 0 29.5387] 0.8125"
+			"vaxis" "[0 -1 0 -34.4619] 0.8125"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -15423,9 +15519,9 @@ entity
 				"point" "3 -164 -8556 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 1151.92] 0.0156251"
-			"vaxis" "[0 0 -1 1223.11] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 -1 810.667] 0.046875"
+			"vaxis" "[-1 0 0 -1600] 0.03125"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15442,9 +15538,9 @@ entity
 				"point" "3 -164 -8624 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 1152] 0.015625"
-			"vaxis" "[0 0 -1 1223.11] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 -1 810.667] 0.046875"
+			"vaxis" "[-1 0 0 -1599.96] 0.0312502"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15461,7 +15557,7 @@ entity
 				"point" "3 -164 -8624 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -135.537] 0.0885417"
+			"uaxis" "[0 1 0 1912.47] 0.0885417"
 			"vaxis" "[0 0 -1 1966.22] 0.0803571"
 			"rotation" "0"
 			"lightmapscale" "8"
@@ -15480,8 +15576,8 @@ entity
 				"point" "3 -162 -8624 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -135.537] 0.0885417"
-			"vaxis" "[0 0 -1 1966.23] 0.0803571"
+			"uaxis" "[0 1 0 1912.47] 0.0885417"
+			"vaxis" "[0 0 -1 1966.22] 0.0803571"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -15499,9 +15595,9 @@ entity
 				"point" "3 -162 -8624 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 1152.02] 0.015625"
-			"vaxis" "[0 -1 0 -421.647] 0.132812"
-			"rotation" "0"
+			"uaxis" "[0 1 0 1912.47] 0.0885417"
+			"vaxis" "[1 0 0 640.012] 0.03125"
+			"rotation" "90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15518,9 +15614,9 @@ entity
 				"point" "3 -162 -8556 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 1151.98] 0.015625"
-			"vaxis" "[0 -1 0 -421.647] 0.132812"
-			"rotation" "0"
+			"uaxis" "[0 -1 0 -1656.47] 0.0885417"
+			"vaxis" "[-1 0 0 -1599.99] 0.03125"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15547,9 +15643,9 @@ entity
 				"point" "3 -356 -8878 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[1 0 0 1144.47] 0.132812"
-			"rotation" "90"
+			"uaxis" "[1 0 0 692.701] 0.0885417"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15566,9 +15662,9 @@ entity
 				"point" "3 -288 -8878 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[1 0 0 1144.47] 0.132812"
-			"rotation" "90"
+			"uaxis" "[1 0 0 692.701] 0.0885417"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15623,9 +15719,9 @@ entity
 				"point" "3 -288 -8880 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[0 0 -1 1223.11] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 1 -554.675] 0.046875"
+			"vaxis" "[0 1 0 1024] 0.03125"
+			"rotation" "90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15642,9 +15738,9 @@ entity
 				"point" "3 -356 -8880 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[0 0 -1 1223.11] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 -1 810.659] 0.046875"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15747,9 +15843,9 @@ entity
 				"point" "3 -290 -8624 160"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[-1 0 0 -647.998] 0.25"
-			"vaxis" "[0 1 0 739.557] 0.246094"
-			"rotation" "-90"
+			"uaxis" "[0 -1 0 -2645.33] 0.164062"
+			"vaxis" "[-1 0 0 -430.003] 0.142857"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15795,9 +15891,9 @@ entity
 				"point" "3 -356 -8752 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[0 0 -1 1223.12] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 1 -554.675] 0.046875"
+			"vaxis" "[0 1 0 1024] 0.03125"
+			"rotation" "90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15814,9 +15910,9 @@ entity
 				"point" "3 -288 -8752 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[0 0 -1 1223.11] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 1 -554.675] 0.046875"
+			"vaxis" "[0 1 0 1024] 0.03125"
+			"rotation" "90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15871,9 +15967,9 @@ entity
 				"point" "3 -288 -8750 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[1 0 0 1144.47] 0.132812"
-			"rotation" "90"
+			"uaxis" "[1 0 0 692.701] 0.0885417"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -15890,9 +15986,9 @@ entity
 				"point" "3 -356 -8750 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[1 0 0 1144.47] 0.132812"
-			"rotation" "90"
+			"uaxis" "[1 0 0 692.701] 0.0885417"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16043,9 +16139,9 @@ entity
 				"point" "3 -356 -8622 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[1 0 0 1144.47] 0.132812"
-			"rotation" "90"
+			"uaxis" "[1 0 0 692.701] 0.0885417"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16062,9 +16158,9 @@ entity
 				"point" "3 -288 -8622 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[1 0 0 1144.47] 0.132812"
-			"rotation" "90"
+			"uaxis" "[1 0 0 692.701] 0.0885417"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16119,9 +16215,9 @@ entity
 				"point" "3 -288 -8624 158"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[0 0 -1 1223.11] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 -1 810.659] 0.046875"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16138,9 +16234,9 @@ entity
 				"point" "3 -356 -8624 194"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 1 0 -128] 0.015625"
-			"vaxis" "[0 0 -1 1223.12] 0.0703125"
-			"rotation" "0"
+			"uaxis" "[0 0 -1 810.659] 0.046875"
+			"vaxis" "[0 -1 0 -1984] 0.03125"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16167,8 +16263,8 @@ entity
 				"point" "3 -346 -8662 156"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 13.3334] 0.75"
-			"vaxis" "[0 -1 0 34.6667] 0.75"
+			"uaxis" "[1 0 0 13.3333] 0.75"
+			"vaxis" "[0 -1 0 -29.333] 0.75"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -16205,9 +16301,9 @@ entity
 				"point" "3 -298 -8662 154"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 640] 0.015625"
-			"vaxis" "[-1 0 0 -618.667] 0.09375"
-			"rotation" "-90"
+			"uaxis" "[1 0 0 160] 0.0625"
+			"vaxis" "[0 0 -1 384] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16224,9 +16320,9 @@ entity
 				"point" "3 -298 -8710 156"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 1 -768] 0.015625"
-			"vaxis" "[1 0 0 106.667] 0.09375"
-			"rotation" "90"
+			"uaxis" "[1 0 0 160] 0.0625"
+			"vaxis" "[0 0 -1 384] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16243,9 +16339,9 @@ entity
 				"point" "3 -298 -8710 154"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 1 -768.024] 0.015625"
-			"vaxis" "[0 1 0 -789.333] 0.09375"
-			"rotation" "90"
+			"uaxis" "[0 1 0 864] 0.0625"
+			"vaxis" "[0 0 -1 383.988] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16262,9 +16358,9 @@ entity
 				"point" "3 -346 -8710 156"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 1 -768.024] 0.015625"
-			"vaxis" "[0 1 0 -789.333] 0.09375"
-			"rotation" "90"
+			"uaxis" "[0 1 0 864] 0.0625"
+			"vaxis" "[0 0 -1 383.988] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16415,9 +16511,9 @@ entity
 				"point" "3 -128 -8556 0"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 1023.98] 0.015625"
-			"vaxis" "[0 -1 0 -421.647] 0.132812"
-			"rotation" "-90"
+			"uaxis" "[0 1 0 1912.47] 0.0885417"
+			"vaxis" "[0 0 -1 1600.01] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16434,9 +16530,9 @@ entity
 				"point" "3 -164 -8624 0"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 1023.98] 0.015625"
-			"vaxis" "[0 -1 0 -421.647] 0.132812"
-			"rotation" "-90"
+			"uaxis" "[0 1 0 1912.47] 0.0885417"
+			"vaxis" "[0 0 -1 1600.01] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16453,9 +16549,9 @@ entity
 				"point" "3 -164 -8624 0"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 -369.775] 0.140625"
-			"vaxis" "[0 -1 0 -933.647] 0.132812"
-			"rotation" "0"
+			"uaxis" "[0 1 0 1912.47] 0.0885417"
+			"vaxis" "[1 0 0 1592.89] 0.0803571"
+			"rotation" "90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16472,9 +16568,9 @@ entity
 				"point" "3 -128 -8624 2"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[1 0 0 -369.775] 0.140625"
-			"vaxis" "[0 -1 0 -933.647] 0.132812"
-			"rotation" "0"
+			"uaxis" "[0 -1 0 -1656.47] 0.0885417"
+			"vaxis" "[-1 0 0 7.11548] 0.0803571"
+			"rotation" "-90"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16491,9 +16587,9 @@ entity
 				"point" "3 -164 -8624 2"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 1024] 0.015625"
-			"vaxis" "[-1 0 0 739.555] 0.0703125"
-			"rotation" "-90"
+			"uaxis" "[1 0 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 1600] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}
@@ -16510,9 +16606,9 @@ entity
 				"point" "3 -128 -8556 2"
 			}
 			"material" "PBR/METAL/METAL_DUCT_HOTSPOT"
-			"uaxis" "[0 0 -1 1024] 0.015625"
-			"vaxis" "[-1 0 0 739.555] 0.0703125"
-			"rotation" "-90"
+			"uaxis" "[1 0 0 170.667] 0.046875"
+			"vaxis" "[0 0 -1 1600] 0.03125"
+			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
 		}

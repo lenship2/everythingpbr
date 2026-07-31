@@ -8,14 +8,14 @@ patch
 		$mraotexture			"pbr/metal/metal_duct_hotspot_mrao"
 		%rectanglemap			"pbr/metal/metal_duct_hotspot"
 		
-		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
 		
 		$hsv					"[1 1 1.1]"
 		
 		$mraoscale				"[0.8 1 1]"
 		
 		$parallax				"1"
-		$parallaxcenter			"0.00"
+		$parallaxcenter			"0.001"
 		$parallaxdepth			"0.004"
 		
 		$envmaptint				"0.76"

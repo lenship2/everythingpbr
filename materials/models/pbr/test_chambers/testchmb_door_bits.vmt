@@ -1,8 +1,7 @@
 Refract
 {
 $basetexture 		"models/pbr/test_chambers/testchmb_bits_color"
-$normalmap 			"models/pbr/test_chambers/testchmb_bits_normal"
-$envmap				"cubemaps/cubemap_glass_01"
+$normalmap			"models/pbr/test_chambers/testchmb_bits_normal"
 
 $model 				"1"
 
