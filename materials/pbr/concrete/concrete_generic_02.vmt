@@ -1,0 +1,14 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/concrete/concrete_generic_01_color"
+		$bumpmap 				"pbr/concrete/concrete_generic_01_normal"
+		$mraotexture			"pbr/concrete/concrete_generic_01_mrao"
+		
+		$surfaceprop			"concrete"
+		
+		$hsv					"[1 0.9 0.8]"
+	}
+}
