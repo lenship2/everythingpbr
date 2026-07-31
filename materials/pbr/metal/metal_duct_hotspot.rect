@@ -1,0 +1,190 @@
+Rectangles
+{
+    rectangle
+    {
+        min "0 0"
+        max "512 512"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "0 512"
+        max "512 1024"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "0 1024"
+        max "512 1536"
+		rotate	1
+		//reflect 1
+		alt 1
+    }
+	rectangle
+    {
+        min "512 0"
+        max "768 512"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "768 0"
+        max "1024 512"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "1024 0"
+        max "1536 1024"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "1536 0"
+        max "2048 1024"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "1536 1024"
+        max "1792 2048"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "1792 1024"
+        max "2048 2048"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "1280 1024"
+        max "1536 1280"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "1024 1024"
+        max "1280 1280"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "512 1024"
+        max "768 1280"
+		rotate	1
+		//reflect 1
+		alt 1
+    }
+	rectangle
+    {
+        min "768 1280"
+        max "1536 1536"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "512 512"
+        max "896 1024"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "896 512"
+        max "1024 1024"
+		rotate	1
+		//reflect 1
+    }
+	rectangle
+    {
+        min "768 1024"
+        max "1024 1280"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "768 1536"
+        max "1536 1600"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "768 1600"
+        max "1536 2048"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "288 1536"
+        max "384 2048"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "192 1536"
+        max "288 2048"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "0 1792"
+        max "96 2048"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "0 1536"
+        max "192 1792"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "96 1792"
+        max "192 2048"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "384 1408"
+        max "768 1472"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+	rectangle
+    {
+        min "384 1472"
+        max "768 1536"
+		rotate	1
+		//reflect 1
+		alt	1
+    }
+}

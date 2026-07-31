@@ -1,0 +1,25 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/metal/vent_01_color"
+		$bumpmap 				"pbr/metal/vent_01_parallax"
+		$mraotexture			"pbr/metal/vent_01_mrao"
+		
+		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+		
+		$hsv					"[1 1 1.1]"
+		
+		$mraoscale				"[0.8 1 1]"
+		
+		$parallax				"1"
+		$parallaxcenter			"0.0001"
+		$parallaxdepth			"0.25"
+		
+		$envmaptint				"0.76"
+		$envmaplightscale		"0.67"
+		
+		$surfaceprop			"metalvent"
+	}
+}

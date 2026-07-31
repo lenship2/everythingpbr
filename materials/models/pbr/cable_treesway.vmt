@@ -1,0 +1,27 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 	"dev/default_mrao"
+		$mraotexture	"dev/default_mrao"
+		
+		$treesway	"2"
+		$treeswayheight	"-768"
+		$treeswaystartheight	"0"
+		$treeswayspeed	"1"
+		$treeswaystrength	"64"
+		$treeswayscrumblespeed	"0"
+		$treeswayscrumblestrength	"0"
+		$treeswayscrumblefrequency	"0"
+		$treeswayfalloffexp	"2.5"
+		$treeswayscrumblefalloffexp	"1"
+		$treeswayspeedhighwindmultiplier	"2"
+		$treeswayspeedlerpstart	"3"
+		$treeswayspeedlerpend	"6"
+
+		$envmaptint	"0.2"
+		$mraoscale	"[0 0.4 1]"
+		$hsv		"[1 1 0.02]"
+	}
+}
