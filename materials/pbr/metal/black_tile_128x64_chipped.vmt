@@ -9,7 +9,7 @@ patch
 		
 		$surfaceprop			"metalpanel"	
 		
-		$envmaptint				"0.3"
+		$envmaptint				"0.1"
 		$reflectivity			"[0.7 0.7 0.7]" 
 	}
 }
