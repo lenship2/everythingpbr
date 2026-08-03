@@ -10,7 +10,6 @@ $decalbump				"models/pbr/paint_normal"
 $decalmrao				"dev/default_mrao"
 
 $decalmraointensity		"[0 0.15 1]"
-$decalbumpintensity		"1"
 
 $model					"1"
 
