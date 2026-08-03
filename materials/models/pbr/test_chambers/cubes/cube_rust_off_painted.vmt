@@ -1,17 +1,17 @@
 PBR
 {
 $basetexture 			"models\pbr\test_chambers\cubes\cube_rust_Color"
-$bumpmap 				"models\pbr\test_chambers\cubes\cube_rust_painted_Normal"
-$mraotexture			"models\pbr\test_chambers\cubes\cube_rust_painted_MRAO"
+$bumpmap 				"models\pbr\test_chambers\cubes\cube_rust_Normal"
+$mraotexture			"models\pbr\test_chambers\cubes\cube_rust_MRAO"
 
-$detail					"vgui/white"
-$detailmask				"models\pbr\test_chambers\cubes\cube_mask"
+$decaltexture			"models/pbr/paint_color"
+$decalbump				"models/pbr/paint_normal"
+$decalmrao				"dev/default_mrao"
 
-$detailblendmode		"2"
-$detailblendfactor		"1"
+$decalmraointensity		"[0 0.15 1]"
+$decalbumpintensity		"1"
 
 $model					"1"
-$blendtintbymraoalpha	"1"
 
 $mraoscale				"[0.9 1 1]"
 
@@ -21,41 +21,52 @@ $envmap					"env_cubemap"
 $envmaptint				"[0.5 0.5 0.5]"
 $envmaplightscale		"0.9"
 
-$one					"[1 1 1]"
-$zero					"[0 0 0]"
+$temp					"255"
+$one					"1"
+$zero					"0"
 $nine					"0.95"
 
 Proxies
 {
 	PaintOverlayColor
 	{
-		resultVar 				"$detailtint"
-	}
-	
-	//srgb to linear approximation
-	
-	Multiply
-	{
-		srcVar1		$detailtint
-		srcVar2		$detailtint
-		resultVar	$detailtint
+		shouldalpha		"1"
+		"resultVar"		$decaltint
 	}
 	
 	Multiply
 	{
-		srcVar1		$detailtint
+		srcVar1		$decaltint
+		srcVar2		$decaltint
+		resultVar	$decaltint
+	}
+	
+	Multiply
+	{
+		srcVar1		$decaltint
 		srcVar2		$nine
-		resultVar	$detailtint
+		resultVar	$decaltint
 	}
 	
 	Clamp
 	{
 		max			$one
 		min			$zero
-		srcVar1		$detailtint
-		resultVar	$detailtint
+		srcVar1		$decaltint
+		resultVar	$decaltint
 	}
 	
-}
+	Multiply
+	{
+		srcVar1			$decaltint
+		srcVar2			$temp
+		resultVar		$decaltint
+	}
 
+	Equals
+	{
+		srcVar1			$temp
+		resultVar		"$decaltint[3]"
+	}
+}
 }
