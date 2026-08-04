@@ -1,10 +1,12 @@
 PBR
 {
-$basetexture 			"models\pbr\office\lab_display_Color"
+$basetexture 			"dev/default_mrao"
 $mraotexture			"models\pbr\office\lab_display_MRAO"
 $emissiontexture		"models\pbr\office\lab_display_Selfillum"
 
 $model					"1"
+
+$srgbtint				"{13 40 23}"
 
 $mraoscale              "[0.9 1 1]"
 
@@ -19,7 +21,7 @@ Proxies
 	TextureScroll
 	{
 		textureScrollVar		$emissiontransform
-		textureScrollRate 		"1"
+		textureScrollRate 		"0.05"
 		textureScrollAngle 		"0"
 	}
 }
