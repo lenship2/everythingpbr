@@ -11,8 +11,8 @@ patch
 		
 		$detailblendmode		"10"
 		
-		$detailtransform		"center 0.5 0.5 scale 72 72 rotate 0 translate 0 0"
-		$basetexturetransform	"center 0.5 0.5 scale 8 8 rotate 0 translate 0 0"
+		$detailtransform		"center 0 0 scale 72 72 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
 		
 		$surfaceprop			"concrete"
 	}

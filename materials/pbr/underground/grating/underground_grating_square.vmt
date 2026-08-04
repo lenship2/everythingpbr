@@ -4,7 +4,7 @@ $basetexture 			"pbr/underground/grating/underground_grating_square_color"
 $bumpmap 				"pbr/underground/grating/underground_grating_square_normal"
 $mraotexture			"pbr/underground/grating/underground_grating_square_mrao"
 
-$basetexturetransform	"center 0.5 0.5 scale 4 4 rotate 0 translate 0 0"
+$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 $mraoscale              "[1 1 1]"
 $color					"[1 1 1]"
 

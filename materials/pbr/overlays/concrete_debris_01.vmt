@@ -7,7 +7,7 @@ patch
 		$bumpmap 				"pbr/overlays/concrete_debris_01_normal"
 		$mraotexture			"dev/default_mrao"
 
-		$basetexturetransform	"center 0.5 0.5 scale 1 1 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
 
 		$mraoscale				"[0 1 1]"
 		$hsv					"[1 1 0.9]"

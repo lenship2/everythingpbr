@@ -5,7 +5,7 @@ PBR
 	$mraotexture			"pbr/signage/antlines_indicator_MRAO"
 	$emissiontexture		"pbr/signage/antlines_indicator_selfillum"
 	
-	$basetexturetransform	"center 0.5 0.5 scale 8 8 rotate 0 translate 0 0"
+	$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
 
 	$mraoscale              "[0.9 1.7 1]"
 	$envmaptint				"[0.6 0.6 0.6]"

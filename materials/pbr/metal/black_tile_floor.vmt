@@ -7,7 +7,7 @@ patch
 		$bumpmap 				"pbr/metal/black_floor_01_normal"
 		$mraotexture			"pbr/metal/black_floor_01_mrao"
 
-		$basetexturetransform	"center 0.5 0.5 scale 4 4 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 
 		$hsv					"[1 1 0.95]"
 		$reflectivity			"[0.6 0.6 0.6]"

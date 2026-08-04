@@ -7,7 +7,7 @@ patch
 		$bumpmap 				"pbr/overlays/metalgrate_02_Parallax"
 		$mraotexture			"pbr/overlays/metalgrate_02_mrao"
 
-		$basetexturetransform	"center 0.5 0.5 scale 1 1 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
 
 		$decal					"1"
 

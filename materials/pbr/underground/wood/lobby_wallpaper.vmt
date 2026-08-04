@@ -7,7 +7,7 @@ patch
 		$bumpmap 				"pbr/underground/wood/lobby_wallpaper_normal"
 		$mraotexture			"pbr/underground/wood/lobby_wallpaper_mrao"
 		
-		$basetexturetransform	"center 0.5 0.5 scale 4 4 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$surfaceprop			"paper"
 	}

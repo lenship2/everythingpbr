@@ -10,5 +10,7 @@ patch
 		$surfaceprop			"concrete"
 		
 		$hsv					"[1 0.9 0.8]"
+		
+		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 	}
 }

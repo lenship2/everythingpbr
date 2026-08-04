@@ -1,8 +1,8 @@
 PBR
 {
 	//fixup for most higher-res basetextures
-	$basetexturetransform	"center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
-	$basetexturetransform2	"center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
+	$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+	$basetexturetransform2	"center 0 0 scale 2 2 rotate 0 translate 0 0"
 
 	//make cubemaps and metal look okayish. envmaplightscale doesnt account for clustered but its okay because  
 	//ambient lighting still affects it. maybe one day we can have better cubemap mipmapping
