@@ -1,8 +1,13 @@
 PBR
 {
-$basetexture 			"models\pbr\test_chambers\laser\schrodinger\schrodinger_painted_Color"
+$basetexture 			"models\pbr\test_chambers\laser\schrodinger\schrodinger_Color"
 $bumpmap				"models\pbr\test_chambers\laser\schrodinger\schrodinger_painted_Normal"
 $mraotexture			"models\pbr\test_chambers\laser\schrodinger\schrodinger_painted_MRAO"
+$detail					"dev/default_mrao"
+$detailmask				"models\pbr\test_chambers\laser\schrodinger\schrodinger_detail"
+
+$detailblendmode		"1"
+$detailblendfactor		"1"
 
 $model					"1"
 $blendtintbymraoalpha	"1"
@@ -11,15 +16,41 @@ $mraoscale              "[0.9 1 1]"
 
 $parallax 				"0"
 
-$envmaplightscale		"0.6"
 $envmaptint				"[0.5 0.5 0.5]"
+$envmaplightscale		"0.6"
 $envmap					"env_cubemap"
+
+$one					"1"
+$zero					"0"
+$nine					"0.95"
 
 Proxies
 {
 	PaintOverlayColor
 	{
-		resultVar 				$color
+		"resultVar"		$detailtint
+	}
+	
+	Multiply
+	{
+		srcVar1		$detailtint
+		srcVar2		$detailtint
+		resultVar	$detailtint
+	}
+	
+	Multiply
+	{
+		srcVar1		$detailtint
+		srcVar2		$nine
+		resultVar	$detailtint
+	}
+	
+	Clamp
+	{
+		max			$one
+		min			$zero
+		srcVar1		$detailtint
+		resultVar	$detailtint
 	}
 }
 
