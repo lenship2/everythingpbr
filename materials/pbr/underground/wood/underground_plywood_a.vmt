@@ -1,14 +1,30 @@
-patch
+PBR
 {
-	include					"materials/dev/l2_default_pbr.vmt"
-	insert
+	$basetexture 			"pbr/underground/wood/plywood_01_basecolor"
+	$bumpmap 				"pbr/underground/wood/plywood_01_normal"
+	$mraotexture			"pbr/underground/wood/plywood_01_mrao"
+	
+	$envmaptint				"[0.05 0.05 0.05]"
+	$mraoscale              "[0.9 1 1]"
+
+	$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+
+	$envmaplightscale		"0.5"
+
+	$parallax 				"0"
+	$parallaxdither        	"0"
+	$parallaxscale          "2"
+
+	$blendtintbymraoalpha	"1"
+
+	$envmap					"env_cubemap"
+	$surfaceprop			"wood"
+
+	"%noportal"				"1"
+	
+	Proxies
 	{
-		$basetexture 			"pbr/underground/wood/plywood_01_basecolor"
-		$bumpmap 				"pbr/underground/wood/plywood_01_normal"
-		$mraotexture			"pbr/underground/wood/plywood_01_mrao"
+		PaintColor
 		
-		$envmaptint				"[0.05 0.05 0.05]"
-		
-		$surfaceprop			"wood"
 	}
 }
