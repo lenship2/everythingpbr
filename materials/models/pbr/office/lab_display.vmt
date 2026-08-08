@@ -7,6 +7,7 @@ $emissiontexture		"models\pbr\office\lab_display_Selfillum"
 $model					"1"
 
 $srgbtint				"{13 40 23}"
+$emissionscale			"[0.6 0.6 0.6]"
 
 $mraoscale              "[0.9 1 1]"
 
