@@ -1,0 +1,15 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/metal/dirt/black_tiles_256_dirt_color"
+		$bumpmap 				"pbr/metal/dirt/black_tiles_256_dirt_Normal"
+		$mraotexture			"pbr/metal/dirt/black_tiles_256_dirt_mrao"
+		
+		$surfaceprop			"metalpanel"
+		
+		$envmaptint				"0.1"
+		$reflectivity			"[0.6 0.6 0.6]" 
+	}
+}
