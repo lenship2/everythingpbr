@@ -1,0 +1,14 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture			"models/pbr/banner/banner_color"
+		$bumpmap				"models/pbr/banner/banner_normal"	
+		$mraotexture			"dev/default_mrao"
+		
+		$mraoscale				"[0 0.9 1]"
+		
+		$nocull					"1"
+	}
+}
