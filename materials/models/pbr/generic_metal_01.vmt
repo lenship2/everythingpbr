@@ -1,0 +1,11 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/metal/generic_metal_01_color"
+		$mraotexture			"pbr/metal/generic_metal_01_mrao"
+		
+		$hsv					"[1 1 1.1]"
+	}
+}
