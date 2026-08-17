@@ -1,37 +1,23 @@
-// pbr
-// {
-	// $basetexture 			"models\pbr\test_chambers\laser\redirectionglass_color"
-	// $mraotexture			"dev/default_mrao"
-	// $srgbtint				"[0.645 1 1]"
-	// //$color2					"1000"
-	// $mraoscale				"[0 0.15 1]"
-	// $model					"1"
-	// $translucent			"1"
-	// //$nocull					"1"
-	// $envmaptint				"[0.5 0.5 0.5]"
-	// $envmaplightscale		"0.6"
-	// $envmap					"env_cubemap"
-// }
-
 vertexlitgeneric
 {
-$baseTexture "models/props/reflecto_cube_glass"
-$bumpmap "models/props/reflecto_cube_glass_normal"
-$translucent 1
+$baseTexture 				"models\pbr\test_chambers\laser\redirection_glass_color"
+$bumpmap 					"models\pbr\test_chambers\laser\relay_glass_normal"
+$phongwarptexture 			"models\pbr\test_chambers\laser\rainbow"
 
-//$srgbtint	"{30 34 38}"
-//$alpha		"0.65"
+$envmap 					"env_cubemap"
+$envmaptint 				"0.1"
+$normalmapalphaenvmapmask 	"1"
 
-$color2		"[5 5 5]"
+$translucent 				"1"
+$nodecal 					"1"
+$nocull						"1"
+$multipass					"1"
 
-$envmap env_cubemap
-$normalmapalphaenvmapmask 1
-$envmaptint "[ .1 .1 .1 ]"
+$srgbtint					"{90 140 160}"
+$color2						"[2 2 2]"
 
-$phong 1
-$phongexponent 10
-$phongboost 2
-$phongfresnelranges "[0.95 0.1 0.3]"
-$phongwarptexture "models/props/reflecto_cube_iridescence"
-$nodecal 1
+$phong 						"1"
+$phongexponent 				"30"
+$phongboost 				"1"
+$phongfresnelranges 		"[1 1 1]"
 }

@@ -1,11 +1,8 @@
-Refract
+patch
 {
- 	$model 				"1"
-	$nocull				"1"
- 	$refractamount 		"-0.01"
-	$normalmap 			"models/pbr/test_chambers/laser/redirection_focus"
-	$envmap 			"env_cubemap"
-	$envmaptint			"[0.2 0.2 0.2]"
-	$nowritez			"1"
-	$refracttint		"[1.4 0.84 0.8]"
+	include					"materials/models/pbr/test_chambers/laser/redirection_focus.vmt"
+	insert
+	{
+		$refracttint		"{300 180 200}"
+	}
 }
