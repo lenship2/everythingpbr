@@ -5,7 +5,7 @@ patch
 	{
 		$basetexture 			"pbr/overlays/concrete_damage_01_color"
 		$bumpmap 				"pbr/overlays/concrete_damage_03_Parallax"
-		$mraotexture			"dev/default_mrao"
+		$mraotexture			"vgui/white"
 		$detail					"pbr/overlays/concrete_damage_03_trans"
 		
 		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"

@@ -4,7 +4,7 @@ patch
 	insert
 	{
 		$basetexture		"models/pbr/lights/bts_strip_light/light_glass"
-		$mraotexture		"dev/default_mrao"
+		$mraotexture		"vgui/white"
 
 		$mraoscale			"[0 0.2 1]"
 		$srgbtint			"[1.25 0.95 0.8]"

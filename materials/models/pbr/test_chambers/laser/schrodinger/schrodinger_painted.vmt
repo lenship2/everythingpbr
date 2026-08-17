@@ -3,7 +3,7 @@ PBR
 $basetexture 			"models\pbr\test_chambers\laser\schrodinger\schrodinger_Color"
 $bumpmap				"models\pbr\test_chambers\laser\schrodinger\schrodinger_painted_Normal"
 $mraotexture			"models\pbr\test_chambers\laser\schrodinger\schrodinger_painted_MRAO"
-$detail					"dev/default_mrao"
+$detail					"vgui/white"
 $detailmask				"models\pbr\test_chambers\laser\schrodinger\schrodinger_detail"
 
 $detailblendmode		"1"

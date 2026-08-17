@@ -3,7 +3,7 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"dev/default_mrao"
+		$basetexture 			"vgui/white"
 		$mraotexture			"models\pbr\office\lab_display_MRAO"
 
 		$srgbtint				"{13 40 23}"

@@ -1,4 +1,8 @@
-vertexlitgeneric
+patch
 {
-$basetexture	"models\pbr\cable_black_baseColor"
+	include					"materials/models/pbr/cable_black.vmt"
+	insert
+	{
+		$mraoscale			"[0 0.35 1]"
+	}
 }

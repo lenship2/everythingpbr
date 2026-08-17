@@ -1,17 +1,8 @@
-Refract
+patch
 {
-$basetexture 		"models/pbr/test_chambers/testchmb_bits_color"
-$normalmap 			"models/pbr/test_chambers/testchmb_bits_normal"
-$envmap				"cubemaps/cubemap_glass_01"
-
-$model 				"1"
-
-$refractamount 		"1"
-$bluramount 		"0"
-
-$localrefract 		"1"
-$localrefractdepth 	"0.05"
-
-//rgb door color
-$refracttint 		"[0.5 0.8 1]"
+	include					"materials/models/pbr/test_chambers/testchmb_door_bits_off.vmt"
+	insert
+	{
+		$refracttint 		"[0.5 0.8 1]"
+	}
 }

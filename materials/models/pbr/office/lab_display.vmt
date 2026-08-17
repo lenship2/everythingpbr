@@ -1,6 +1,6 @@
 PBR
 {
-$basetexture 			"dev/default_mrao"
+$basetexture 			"vgui/white"
 $mraotexture			"models\pbr\office\lab_display_MRAO"
 $emissiontexture		"models\pbr\office\lab_display_Selfillum"
 

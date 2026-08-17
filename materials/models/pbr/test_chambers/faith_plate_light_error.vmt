@@ -1,20 +1,8 @@
-Refract
+patch
 {
-$basetexture 		"models/pbr/test_chambers/faithplate_light_color"
-$normalmap 			"models/pbr/test_chambers/faithplate_light_normal"
-
-$envmap				"cubemaps/cubemap_glass_01"
-
-$model 				"1"
-
-$refractamount 		"0.025"
-$bluramount 		"1"
-
-$localrefract 		"1"
-$localrefractdepth 	"0.05"
-
-$scale 				"[1 1]"
-
-//rgb plate color
-$refracttint		"[15 5.8 0.5]"
+	include					"materials/models/pbr/test_chambers/faith_plate_light_off.vmt"
+	insert
+	{
+		$refracttint		"[15 5.8 0.5]"
+	}
 }

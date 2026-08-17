@@ -3,7 +3,7 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"dev/default_mrao"
+		$basetexture 			"vgui/white"
 		$mraotexture			"models/pbr/test_chambers/testchmb_bits_mrao"
 		$bumpmap				"models/pbr/test_chambers/testchmb_bits_normal"
 		

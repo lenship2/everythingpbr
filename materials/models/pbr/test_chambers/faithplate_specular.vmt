@@ -1,6 +1,6 @@
 PBR
 {
-	$basetexture 			"dev/default_mrao"
+	$basetexture 			"vgui/white"
 	$mraotexture			"models/pbr/test_chambers/faithplate_specular_mrao"
 
 	$color2					"[0 0 0]"

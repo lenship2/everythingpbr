@@ -5,7 +5,7 @@ patch
 	{
 		$detail					"detail/garage_detail"
 		$bumpmap				"pbr/overlays/garage_normal"
-		$mraotexture			"dev/default_mrao"
+		$mraotexture			"vgui/white"
 		
 		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
 		
