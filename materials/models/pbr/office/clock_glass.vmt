@@ -4,7 +4,9 @@ patch
 	insert
 	{
 		$basetexture 			"models\pbr\office\clock_glass_Color"
-		$mraotexture			"models\pbr\office\clock_glass_MRAO"
+		$mraotexture			"vgui\white"
 		$translucent			"1"
+		
+		$mraoscale				"[0 0.15 1]"
 	}
 }

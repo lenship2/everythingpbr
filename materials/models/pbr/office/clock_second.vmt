@@ -1,8 +1,5 @@
-patch
+VertexLitGeneric
 {
-	include					"materials/models/pbr/cable_red.vmt"
-	insert
-	{
-		$mraoscale			"[0 0.35 1]"
-	}
+	$basetexture	"vgui\white"
+	$srgbtint		"{71 0 0}"
 }
