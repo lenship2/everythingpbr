@@ -1,0 +1,4 @@
+patch
+{
+	include					"materials/models/pbr/cable_black.vmt"
+}
