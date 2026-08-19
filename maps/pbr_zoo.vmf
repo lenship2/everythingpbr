@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10890"
-	"mapversion" "719"
+	"mapversion" "722"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,25 +23,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-331.169 -6736.73 153.799)"
-			"angle" "[77.2 -173.186 0]"
+			"position" "(125.226 735.336 350.365)"
+			"angle" "[14 2.81441 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-246.175 158.934 65536)"
-			"zoom" "1.79744"
+			"position" "(273.723 -6750.67 65536)"
+			"zoom" "1.04019"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -6669.77 85.7097)"
+			"position" "(0 -6669.77 85.7097)"
 			"zoom" "15.9716"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-356.968 -65536 81.0206)"
+			"position" "(-356.968 0 81.0206)"
 			"zoom" "9.58439"
 		}
 	}
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "719"
+	"mapversion" "722"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -92,7 +92,7 @@ world
 				"point" "2 -320 -6656 78"
 				"point" "3 -384 -6656 78"
 			}
-			"material" "PBR/GLASS/PANEL_GLASS"
+			"material" "PBR/GLASS/PANEL_GLASS_OFF"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0] 0.25"
 			"rotation" "90"
@@ -13831,29 +13831,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "104855"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/pbr/banner/banner_01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "0 -8832 416"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
