@@ -6,6 +6,6 @@ patch
 		$basetexture 			"vgui\white"
 		$mraotexture			"models\pbr\office\wall_plug_MRAO"
 		
-		$hsv					"[0 0 0.07]"
+		$hsv					"[0 0 0.02]"
 	}
 }

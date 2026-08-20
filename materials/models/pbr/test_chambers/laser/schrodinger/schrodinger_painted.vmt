@@ -6,7 +6,7 @@ $mraotexture			"models\pbr\test_chambers\laser\schrodinger\schrodinger_painted_M
 $detail					"vgui/white"
 $detailmask				"models\pbr\test_chambers\laser\schrodinger\schrodinger_detail"
 
-$detailblendmode		"1"
+$detailblendmode		"2"
 $detailblendfactor		"1"
 
 $model					"1"
