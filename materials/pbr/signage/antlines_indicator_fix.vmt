@@ -4,12 +4,10 @@ PBR
 	$bumpmap 				"pbr/signage/antlines_indicator_normal"
 	$mraotexture			"pbr/signage/antlines_indicator_MRAO"
 	$emissiontexture		"pbr/signage/antlines_indicator_selfillum"
-	
-	$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
 
 	$envmaptint				"[0.6 0.6 0.6]"
 
-	$decalscale				"0.125"
+	$decalscale				"0.03125"
 	$decal					"1"
 	$envmaplightscale		"0.6"
 
