@@ -15,6 +15,7 @@ patch
 		$mraoscale              "[0 0.6 1]"
 		
 		$decal					"1"
+		$decalscale				"0.25"
 
 		$alphatest				"1"
 		$allowalphatocoverage	"1"

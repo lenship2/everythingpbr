@@ -3,4 +3,5 @@ lightmappedgeneric
 	$basetexture 	"pbr/overlays/aperture_logo"
 	$translucent	1
 	$decal			1
+	$decalscale		"0.25"
 }

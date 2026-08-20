@@ -13,7 +13,7 @@ patch
 		$hsv					"[1 1 0.9]"
 
 		$decal					"1"
-		$decalscale				"0.25"
+		$decalscale				"0.125"
 		$translucent			"1"
 	}
 }

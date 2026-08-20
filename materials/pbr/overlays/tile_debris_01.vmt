@@ -10,7 +10,7 @@ patch
 		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
 
 		$decal					"1"
-		$decalscale				"0.25"
+		$decalscale				"0.0625"
 		$translucent			"1"
 	}
 }
