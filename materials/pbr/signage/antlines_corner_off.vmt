@@ -1,0 +1,21 @@
+PBR
+{
+	$basetexture 			"pbr/signage/antlines_corner_color"
+	$bumpmap 				"pbr/signage/antlines_corner_normal"
+	$mraotexture			"pbr/signage/antlines_corner_MRAO"
+	$detail					"pbr/signage/antlines_trans"
+	
+	$detailblendmode		"9"
+
+	$mraoscale              "[0.9 1 1]"
+	$envmaptint				"[0.6 0.6 0.6]"
+
+	$alphatest				"1"
+	$decal					"1"
+	$envmaplightscale		"0.6"
+
+	$surfaceprop			"glass"
+	$envmap					"env_cubemap"
+
+	"%noportal"				"1"
+}

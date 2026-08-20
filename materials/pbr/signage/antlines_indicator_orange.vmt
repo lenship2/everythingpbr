@@ -1,0 +1,20 @@
+PBR
+{
+	$basetexture 			"pbr/signage/antlines_indicator_color"
+	$bumpmap 				"pbr/signage/antlines_indicator_normal"
+	$mraotexture			"pbr/signage/antlines_indicator_MRAO"
+	$emissiontexture		"pbr/signage/antlines_indicator_selfillum"
+	
+	$emissionframe			"1"
+
+	$envmaptint				"[0.6 0.6 0.6]"
+
+	$decalscale				"0.03125"
+	$decal					"1"
+	$envmaplightscale		"0.6"
+
+	$surfaceprop			"glass"
+	$envmap					"env_cubemap"
+
+	"%noportal"				"1"
+}
