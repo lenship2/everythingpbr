@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10891"
-	"mapversion" "729"
+	"mapversion" "733"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,14 +23,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(124.567 -8654.9 240.359)"
-			"angle" "[87.2 -179.185 0]"
+			"position" "(13.8096 -9137.83 213.761)"
+			"angle" "[52.7999 124.016 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(189.902 -8649.88 65536)"
-			"zoom" "1.24823"
+			"position" "(-217.732 -9063.76 65536)"
+			"zoom" "1.49787"
 		}
 		v2
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "729"
+	"mapversion" "733"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14109,7 +14109,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 270 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "128 -8576 0"
+	"BasisOrigin" "192 -8576 0"
 	"BasisU" "-4.37114e-08 -1 0"
 	"BasisV" "1 -4.37114e-08 0"
 	"endu" "1"
@@ -14124,13 +14124,133 @@ entity
 	"uv1" "-128 128 0"
 	"uv2" "128 128 0"
 	"uv3" "128 -128 0"
-	"origin" "128 -8576 0"
+	"origin" "192 -8576 0"
 	editor
 	{
 		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "108762"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "128 -8832 0"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "pbr/overlays/bullseye"
+	"sides" "2693"
+	"startu" "0"
+	"startv" "1"
+	"tint" "255 255 255 255"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "128 -8832 0"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "108772"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "0 -8832 0"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "pbr/overlays/bullseye_off"
+	"sides" "2693"
+	"startu" "0"
+	"startv" "1"
+	"tint" "255 255 255 255"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "0 -8832 0"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "108827"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "-256 -8960 0"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "pbr/overlays/dirt_pile_01"
+	"sides" "2693"
+	"startu" "0"
+	"startv" "1"
+	"tint" "255 255 255 255"
+	"uv0" "-64 -64 0"
+	"uv1" "-64 64 0"
+	"uv2" "64 64 0"
+	"uv3" "64 -64 0"
+	"origin" "-256 -8960 0"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "108897"
+	"classname" "info_overlay"
+	"angles" "0 90 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "-256 -9088 7.62939e-06"
+	"BasisU" "1.31134e-07 1 0"
+	"BasisV" "-1 1.31134e-07 0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "pbr/overlays/dirt_pile_02"
+	"sides" "2693"
+	"startu" "0"
+	"startv" "1"
+	"tint" "255 255 255 255"
+	"uv0" "-128 -128 0"
+	"uv1" "-128 128 0"
+	"uv2" "128 128 0"
+	"uv3" "128 -128 0"
+	"origin" "-256 -9088 7.62939e-06"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
 	}
 }
 entity
@@ -17723,38 +17843,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "72459"
-	"classname" "infodecal"
-	"angles" "0 0 0"
-	"lowpriority" "1"
-	"texture" "pbr/overlays/bullseye"
-	"origin" "128 -8832 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "72465"
-	"classname" "infodecal"
-	"angles" "0 0 0"
-	"lowpriority" "1"
-	"texture" "pbr/overlays/bullseye_off"
-	"origin" "0 -8832 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
