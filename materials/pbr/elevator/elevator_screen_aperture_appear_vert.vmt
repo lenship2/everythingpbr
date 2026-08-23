@@ -4,9 +4,16 @@ PBR
 	$bumpmap 				"pbr\elevator\elevator_screen_Normal"
 	$mraotexture			"pbr\elevator\elevator_screen_MRAO"
 	%rectanglemap			"pbr\elevator\elevator_screen_hotspot"
+	$detailmask				"pbr\elevator\elevator_screen_detailmask"
+	$detail					"vgui\white"
+	
+	$detailblendmode		"2"
+	$detailblendfactor		"0.75"
 	
 	$surfaceprop			"glass"
 	
+	$detailtransform		"center 0 0 scale 1.333 1 rotate 0 translate 0 0"
+
 	$mraoscale              "[0.9 1 1]"
 	$envmaptint				"0.9"
 	$envmaplightscale		"0.5"
@@ -16,5 +23,13 @@ PBR
 	$envmap					"env_cubemap"
 
 	"%noportal"				"1"
+	
+	Proxies
+	{
+		MovieTexture
+		{
+			resultvar		"$detail"
+			movie			"media/aperture_appear_vert.webm"
+		}
+	}
 }
-
