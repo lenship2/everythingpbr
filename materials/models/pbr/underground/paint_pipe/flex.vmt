@@ -3,8 +3,10 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\underground\paint_pipe\flex_Color"
+		$basetexture 			"vgui\white"
 		$mraotexture			"models\pbr\underground\paint_pipe\flex_MRAO"
 		$bumpmap				"models\pbr\underground\paint_pipe\flex_Normal"
+		
+		$srgbtint				"{25 23 22}"
 	}
 }

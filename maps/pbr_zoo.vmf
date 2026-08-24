@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10891"
-	"mapversion" "733"
+	"editorbuild" "10894"
+	"mapversion" "734"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,13 +23,13 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(13.8096 -9137.83 213.761)"
-			"angle" "[52.7999 124.016 0]"
+			"position" "(19.9794 -2305.97 135.219)"
+			"angle" "[19.1999 141.216 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-217.732 -9063.76 65536)"
+			"position" "(-217.732 -9063.76 0)"
 			"zoom" "1.49787"
 		}
 		v2
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "733"
+	"mapversion" "734"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6807,9 +6807,9 @@ world
 				"point" "2 -136 -2240 0"
 				"point" "3 -136 -2112 0"
 			}
-			"material" "PBR/ELEVATOR/ELEVATOR_SCREEN"
-			"uaxis" "[0 1 0 1536] 0.125"
-			"vaxis" "[0 0 -1 0] 0.125"
+			"material" "PBR/ELEVATOR/ELEVATOR_SCREEN_COOP_BLUEBOT_LOAD"
+			"uaxis" "[0 1 0 739.555] 0.063"
+			"vaxis" "[0 0 -1 0] 0.063"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -6826,9 +6826,9 @@ world
 				"point" "2 -128 -2240 128"
 				"point" "3 -128 -2112 128"
 			}
-			"material" "PBR/ELEVATOR/ELEVATOR_SCREEN"
-			"uaxis" "[0 1 0 1536] 0.125"
-			"vaxis" "[0 0 -1 0] 0.125"
+			"material" "PBR/ELEVATOR/ELEVATOR_SCREEN_COOP_BLUEBOT_LOAD"
+			"uaxis" "[0 1 0 740] 0.063"
+			"vaxis" "[0 0 -1 0] 0.063"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"

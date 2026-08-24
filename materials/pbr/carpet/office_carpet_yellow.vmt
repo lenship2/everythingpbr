@@ -13,6 +13,7 @@ patch
 		$parallaxcenter 		"0.175"
 		$parallaxdepth 			"0.01"
 		
+		$mraoscale				"[0 0.9 1]"
 		$envmaptint				"[0.05 0.05 0.05]"
 		
 		$surfaceprop			"carpet"

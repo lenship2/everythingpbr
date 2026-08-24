@@ -3,7 +3,9 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\chain_Color"
+		$basetexture 			"vgui\white"
 		$mraotexture			"models\pbr\chain_MRAO"
+		
+		$srgbtint				"{195 198 197}"
 	}
 }
