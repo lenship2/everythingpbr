@@ -2,8 +2,8 @@ versioninfo
 {
 	"editorextension" "strata"
 	"editorversion" "400"
-	"editorbuild" "10894"
-	"mapversion" "734"
+	"editorbuild" "10897"
+	"mapversion" "735"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,14 +23,14 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(19.9794 -2305.97 135.219)"
-			"angle" "[19.1999 141.216 0]"
+			"position" "(242.212 -8621.64 70.1407)"
+			"angle" "[75.2 88.0159 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-217.732 -9063.76 0)"
-			"zoom" "1.49787"
+			"position" "(338.772 -8648.06 65536)"
+			"zoom" "1.79744"
 		}
 		v2
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "734"
+	"mapversion" "735"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13831,6 +13831,36 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "110126"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 0 1"
+	"BasisOrigin" "320 -8640 0"
+	"BasisU" "1 0 0"
+	"BasisV" "0 1 0"
+	"endu" "1"
+	"endv" "0"
+	"fademindist" "-1"
+	"material" "pbr/overlays/tideline"
+	"sides" "2693"
+	"startu" "0"
+	"startv" "1"
+	"tint" "255 255 255 255"
+	"uv0" "-63.9999 -16 0"
+	"uv1" "-63.9999 16 0"
+	"uv2" "63.9999 16 0"
+	"uv3" "63.9999 -16 0"
+	"origin" "320 -8640 0"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
