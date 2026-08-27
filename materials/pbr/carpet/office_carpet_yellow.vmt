@@ -5,7 +5,7 @@ patch
 	{
 		$basetexture 			"pbr/carpet/office_carpet_yellow_color"
 		$bumpmap 				"pbr/carpet/office_carpet_parallax"
-		$mraotexture			"pbr/carpet/office_carpet_MRAO"
+		$mraotexture			"vgui/white"
 		
 		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
@@ -13,6 +13,7 @@ patch
 		$parallaxcenter 		"0.175"
 		$parallaxdepth 			"0.01"
 		
+		$mraoscale				"[0 0.9 1]"
 		$mraoscale				"[0 0.9 1]"
 		$envmaptint				"[0.05 0.05 0.05]"
 		
