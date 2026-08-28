@@ -1,21 +1,17 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/glass/panel_glass_Color"
 		$bumpmap 				"pbr/glass/panel_glass_Parallax"
 		$mraotexture			"pbr/glass/panel_glass_MRAO"
 		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
 		$parallax 				"1"
 		$parallaxcenter 		"0.1"
 		$parallaxdepth 			"0.025"
 		
 		$translucent			"1"
-		
-		$envmaptint				"0.5"
 		
 		$surfaceprop			"glass"
 	}

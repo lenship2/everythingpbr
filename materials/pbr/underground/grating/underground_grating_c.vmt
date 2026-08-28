@@ -1,6 +1,6 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/underground/grating/underground_grating_color"
@@ -8,12 +8,9 @@ patch
 		$mraotexture			"pbr/underground/grating/underground_grating_mrao"
 		
 		$surfaceprop			"metalgrate"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
+
 		$srgbtint				"{156 138 115}"
-		$mraoscale              "[0.5 1.1 1]"
-		
+
 		$alphatest				"1"
 		$AlphaTestReference 	"0.55"
 		$allowalphatocoverage	"1"
@@ -24,5 +21,9 @@ patch
 		
 		"%compilepassbullets"	"1"
 		"%nopaint"				"1"
+	}
+	replace
+	{
+		$mraoscale              "[0.5 1.1 1]"
 	}
 }

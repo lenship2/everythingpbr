@@ -1,15 +1,13 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/metal/metal_treadplate_hs_color"
 		$bumpmap 				"pbr/metal/metal_treadplate_hs_normal"
 		$mraotexture			"pbr/metal/metal_treadplate_hs_mrao"
 		%rectanglemap			"dev/default_01"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
+
 		$surfaceprop			"metalpanel"
 		
 		$hsv					"[1 1 1.25]"

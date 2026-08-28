@@ -8,7 +8,9 @@ patch
 		$mraotexture			"pbr/tiles/eighties_tiles_b_MRAO"
 		
 		$surfaceprop			"tile"
-		
+	}
+	replace
+	{
 		"%noportal"				"0"
 	}
 }

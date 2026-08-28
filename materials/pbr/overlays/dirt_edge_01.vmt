@@ -1,6 +1,6 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_overlay_pbr.vmt"
 	insert
 	{
 		$basetexture 			"pbr/overlays/dirt_grunge_color"
@@ -8,19 +8,16 @@ patch
 		$mraotexture			"vgui/white"
 		$detail					"pbr/overlays/dirt_edge_01_trans"
 		
-		$basetexturetransform	"center 0 0 scale 1.5 1.5 rotate 0 translate 0 0"
 		$detailtransform		"center 0 0 scale 0.667 0.667 rotate 0 translate 0.167 0"
 		$decalscale				"0.25"
-		
-		$mraoscale              "[0 0.9 1]"
-		
-		$decal					"1"
-		// $alphatest				"1"
-		// $alphatestreference		"0.1"
-		// $allowalphatocoverage	"1"
-		
+
 		$translucent			"1"
 		
 		$detailblendmode		"9"
+	}
+	replace
+	{
+		$mraoscale              "[0 0.9 1]"
+		$basetexturetransform	"center 0 0 scale 1.5 1.5 rotate 0 translate 0 0"
 	}
 }

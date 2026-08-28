@@ -1,18 +1,19 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/metal/black_floor_01_color"
 		$bumpmap 				"pbr/metal/black_floor_01_normal"
 		$mraotexture			"pbr/metal/black_floor_01_mrao"
 
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-
 		$hsv					"[1 1 0.95]"
 		$reflectivity			"[0.6 0.6 0.6]"
-		$envmaptint				"0.1"
 		
 		$surfaceprop			"metalpanel"
+	}
+	replace
+	{
+		$envmaptint				"0.1"
 	}
 }

@@ -1,18 +1,18 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/carpet/motel_carpet_01_color"
 		$bumpmap 				"pbr/carpet/motel_carpet_01_normal"
 		$mraotexture			"pbr/carpet/motel_carpet_01_MRAO"
 		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
 		$hsv					"[1 0.05 1.2]"
 		
-		$envmaptint				"[0.05 0.05 0.05]"
-		
 		$surfaceprop			"carpet"
+	}
+	replace
+	{
+		$envmaptint				"0.05"
 	}
 }

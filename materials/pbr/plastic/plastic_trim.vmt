@@ -6,9 +6,11 @@ patch
 		$basetexture 			"pbr/plastic/plastic_trim_color"
 		$bumpmap 				"pbr/plastic/plastic_trim_normal"
 		$mraotexture			"pbr/plastic/plastic_trim_mrao"
-		
-		$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
-		
+
 		$surfaceprop			"plastic"
+	}
+	replace
+	{
+		$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
 	}
 }

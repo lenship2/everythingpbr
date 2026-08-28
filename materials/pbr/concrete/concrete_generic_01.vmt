@@ -1,6 +1,6 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/concrete/concrete_generic_01_color"
@@ -8,9 +8,9 @@ patch
 		$mraotexture			"pbr/concrete/concrete_generic_01_mrao"
 		
 		$surfaceprop			"concrete"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
+	}
+	replace
+	{
 		%noportal				"0"
 	}
 }

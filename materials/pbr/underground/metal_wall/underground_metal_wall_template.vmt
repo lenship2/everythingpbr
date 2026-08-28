@@ -1,13 +1,12 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{		
-		$mraoscale              "[0.67 1 1]"
-		$envmaptint				"[0.6 0.6 0.6]"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
 		$surfaceprop			"metalpanel"
+	}
+	replace
+	{
+		$mraoscale              "[0.67 1 1]"
 	}
 }

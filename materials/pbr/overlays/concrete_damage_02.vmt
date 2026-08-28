@@ -1,6 +1,6 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_overlay_pbr.vmt"
 	insert
 	{
 		$basetexture 			"pbr/overlays/concrete_damage_01_color"
@@ -8,14 +8,9 @@ patch
 		$mraotexture			"vgui/white"
 		$detail					"pbr/overlays/concrete_damage_02_trans"
 		
-		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
-		
 		$detailblendmode		"9"
-		
-		$mraoscale              "[0 0.6 1]"
-		
-		$decal					"1"
-		$decalscale				"0.25"
+
+		$decalscale				"0.125"
 
 		$alphatest				"1"
 		$allowalphatocoverage	"1"
@@ -23,5 +18,9 @@ patch
 		$parallax 				"1"
 		$parallaxcenter 		"0.7"
 		$parallaxdepth 			"0.03"
+	}
+	replace
+	{
+		$mraoscale              "[0 0.6 1]"
 	}
 }

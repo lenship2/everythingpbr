@@ -1,7 +1,7 @@
 patch
 {
 	include					"materials/pbr/glass/panel_glass.vmt"
-	insert
+	replace
 	{
 		$emissionscale			"[0.604 0 0]"
 	}

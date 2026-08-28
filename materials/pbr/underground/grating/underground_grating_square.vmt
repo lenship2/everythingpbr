@@ -1,14 +1,12 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/underground/grating/underground_grating_square_color"
 		$bumpmap 				"pbr/underground/grating/underground_grating_square_normal"
 		$mraotexture			"pbr/underground/grating/underground_grating_square_mrao"
-
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-
+		
 		$alphatest				"1"
 
 		$surfaceprop			metalgrate

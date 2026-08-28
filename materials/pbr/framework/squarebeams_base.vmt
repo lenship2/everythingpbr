@@ -1,17 +1,17 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		%rectanglemap			"pbr/framework/squarebeams_hotspot"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
-		
-		$envmaptint				"[0.7 0.7 0.7]"
 		
 		$parallaxcenter 		"0.01"
 		$parallaxdepth 			"0.02"
 		
 		$surfaceprop			"metal"
+	}
+	replace
+	{
+		$envmaptint				"[0.7 0.7 0.7]"
 	}
 }

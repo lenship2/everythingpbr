@@ -8,10 +8,7 @@ PBR
 	
 	$model					"1"
 
-	//disable parallax usually, but when it is enabled turn off dithering and set to the highest quality.
-	//pls don't do parallax on models unless u know what ur doing though
-	$parallax 				"0"
-	$parallaxdither        	"0"
+	//set parallax to the highest quality.
 	$parallaxscale          "2"
 
 	//there's not really a situation where you would want this off (for now). 
