@@ -1,6 +1,6 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/tiles/white_tile_floor_2_color"
@@ -9,10 +9,10 @@ patch
 		
 		$surfaceprop			"concrete"
 		
-		$basetexturetransform	"center 0.5 0.5 scale 4 4 rotate 0 translate 0 0"
-		
 		$reflectivity 			"[0.8 0.8 0.8]" 
-		
+	}
+	replace
+	{
 		"%noportal"				"0"
 	}
 }

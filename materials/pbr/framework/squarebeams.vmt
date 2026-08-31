@@ -6,10 +6,13 @@ patch
 		$basetexture 			"pbr/framework/squarebeams_color"
 		$bumpmap 				"pbr/framework/squarebeams_Parallax"
 		$mraotexture			"pbr/framework/squarebeams_mrao"
-		
-		$mraoscale              "[0.8 1.2 1]"
+
 		$hsv					"[1 1 0.9]"
 		
 		$parallax 				"1"
+	}
+	replace
+	{
+		$mraoscale              "[0.8 1.2 1]"
 	}
 }

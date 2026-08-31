@@ -1,0 +1,35 @@
+PBR
+{
+	$basetexture 			"pbr\elevator\elevator_screen_Color"
+	$bumpmap 				"pbr\elevator\elevator_screen_Normal"
+	$mraotexture			"pbr\elevator\elevator_screen_MRAO"
+	%rectanglemap			"pbr\elevator\elevator_screen_hotspot"
+	$detailmask				"pbr\elevator\elevator_screen_detailmask"
+	$detail					"vgui\white"
+	$emissiontexture		"pbr\elevator\elevator_screen_scanline"
+	
+	$detailblendmode		"1"
+	$detailblendfactor		"6"
+	
+	$surfaceprop			"glass"
+	$emissiontransform		"center 0 0 scale 4 2 rotate 0 translate 0 0"
+	$detailtransform		"center 0 0 scale 1.333 2 rotate 0 translate 0 0"
+
+	$mraoscale              "[0.9 1 1]"
+	$emissionscale			"0.02"
+	$envmaptint				"0.9"
+	$envmaplightscale		"0.5"
+	$envmap					"env_cubemap"
+
+	"%noportal"				"1"
+	
+	Proxies
+	{
+		MovieTexture
+		{
+			resultvar		"$detail"
+			movie			"media/bluescreen.webm"
+		}
+	}
+}
+

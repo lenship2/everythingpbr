@@ -6,7 +6,8 @@ PBR
 	$emissiontexture		"models\pbr\underground\fizzler_old_SelfIllum"
 
 	$mraoscale              "[0.9 1 1]"
-	$envmaptint				"[0.5 0.5 0.5]"
+	$envmaptint				"0.5"
+	$envmaplightscale		"0.5"
 	
 	$model					"1"
 

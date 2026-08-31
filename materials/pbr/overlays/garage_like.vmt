@@ -1,24 +1,22 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_overlay_pbr.vmt"
 	insert
 	{
 		$detail					"detail/garage_detail"
 		$bumpmap				"pbr/overlays/garage_normal"
-		$mraotexture			"dev/default_mrao"
-		
-		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
+		$mraotexture			"vgui/white"
 		
 		$detailtransform		"center 0 0 scale 1.5 1.5 rotate 0 translate 0 0"
 		$detailblendfactor		"0"
 		$detailblendmode 		"9"
 		
 		$hsv					"[1 1 0.65]"
-		$mraoscale              "[0 0.5 1]"
-		
-		$decal					"1"
-		$decalscale				"0.5"
 
 		$translucent			"1"
+	}
+	replace
+	{
+		$mraoscale              "[0 0.5 1]"
 	}
 }

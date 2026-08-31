@@ -5,10 +5,13 @@ patch
 	{
 		$basetexture 			"pbr/underground/wood/plywood_01_basecolor"
 		$bumpmap 				"pbr/underground/wood/plywood_01_normal"
-		$mraotexture			"pbr/underground/wood/plywood_01_mrao"
-		
-		$envmaptint				"[0.05 0.05 0.05]"
+		$mraotexture			"vgui/white"
 		
 		$surfaceprop			"wood"
+	}
+	replace
+	{
+		$mraoscale				"[0 0.9 1]"
+		$envmaptint				"[0.05 0.05 0.05]"		
 	}
 }

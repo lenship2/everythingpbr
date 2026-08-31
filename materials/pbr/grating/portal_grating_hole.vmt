@@ -1,13 +1,11 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/grating/portal_grating_hole_color"
 		$bumpmap 				"pbr/grating/portal_grating_hole_parallax"
 		$mraotexture			"pbr/grating/portal_grating_hole_MRAO"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
 		
 		$parallax 				"1"
 		$parallaxcenter 		"0.001"

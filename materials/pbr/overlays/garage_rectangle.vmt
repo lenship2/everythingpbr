@@ -4,6 +4,8 @@ patch
 	insert
 	{
 		$basetexture 			"pbr/overlays/rectangle"
-		$detailtransform		"center 0 0 scale 0.4 0.2 rotate 0 translate 0 0"
+		$detailtransform		"center 0 0 scale 0.2 0.1 rotate 0 translate 0 0"
+		
+		$decalscale				"0.5"
 	}
 }

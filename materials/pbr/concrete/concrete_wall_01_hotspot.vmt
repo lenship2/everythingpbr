@@ -6,14 +6,20 @@ patch
 		$basetexture 			"pbr/concrete/concrete_wall_01_hotspot_color"
 		$bumpmap 				"pbr/concrete/concrete_wall_01_hotspot_normal"
 		$mraotexture			"pbr/concrete/concrete_wall_01_hotspot_mrao"
-		$detail					"detail/generic_normal_detail_01"
+		//$detail					"detail/generic_normal_detail_01"
 		%rectanglemap			"dev/default_03"
+		
+		$hsv					"[1 1 0.8]"
 		
 		$detailblendmode		"10"
 		
-		$detailtransform		"center 0.5 0.5 scale 72 72 rotate 0 translate 0 0"
-		$basetexturetransform	"center 0.5 0.5 scale 8 8 rotate 0 translate 0 0"
-		
+		$detailtransform		"center 0 0 scale 72 72 rotate 0 translate 0 0"
+
 		$surfaceprop			"concrete"
+	}
+	replace
+	{
+		$basetexturetransform	"center 0 0 scale 8 8 rotate 0 translate 0 0"
+		%noportal				"0"
 	}
 }

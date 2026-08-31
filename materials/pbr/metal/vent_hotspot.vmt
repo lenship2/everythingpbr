@@ -1,0 +1,18 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
+	insert
+	{
+		$basetexture 			"pbr/metal/vent_hotspot_color"
+		$bumpmap 				"pbr/metal/vent_hotspot_parallax"
+		$mraotexture			"pbr/metal/vent_hotspot_mrao"
+		%rectanglemap			"dev/l2_hotspot"
+		
+		$surfaceprop			"metalvent"
+	}
+	replace
+	{
+		$mraoscale				"[0.85 1 1]"
+		$envmaptint				"0.8"
+	}
+}

@@ -1,19 +1,19 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_overlay_pbr.vmt"
 	insert
 	{
 		$basetexture 			"pbr/overlays/concrete_debris_01_color"
 		$bumpmap 				"pbr/overlays/concrete_debris_01_normal"
-		$mraotexture			"dev/default_mrao"
-
-		$basetexturetransform	"center 0.5 0.5 scale 1 1 rotate 0 translate 0 0"
-
-		$mraoscale				"[0 1 1]"
+		$mraotexture			"vgui/white"
+		
 		$hsv					"[1 1 0.9]"
 
-		$decal					"1"
-		$decalscale				"0.25"
+		$decalscale				"0.125"
 		$translucent			"1"
+	}
+	replace
+	{
+		$mraoscale				"[0 0.6 1]"
 	}
 }

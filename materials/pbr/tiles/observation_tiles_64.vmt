@@ -8,5 +8,7 @@ patch
 		$mraotexture			"pbr\tiles\observation_tiles_64_MRAO"
 		
 		$surfaceprop			"tile"
+		
+		$hsv					"[1 0.75 1.1]"
 	}
 }

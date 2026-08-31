@@ -7,5 +7,7 @@ patch
 		$mraotexture			"models\pbr\underground\construction_crane\construction_crane_cab_MRAO"
 		$bumpmap				"models\pbr\underground\construction_crane\construction_crane_cab_Normal"
 		$emissiontexture		"models\pbr\underground\construction_crane\construction_crane_cab_SelfIllum"
+		
+		$srgbtint				"{190 66 66}"
 	}
 }

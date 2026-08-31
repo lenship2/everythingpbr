@@ -1,9 +1,10 @@
 patch
 {
-	include					"materials/dev/l2_default_model_pbr.vmt"
+	include					"materials/models/pbr/office/mugs/mug_template.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\office\mugs\smile_Color"
-		$mraotexture			"models\pbr\office\mugs\mug_MRAO"
+		$detailmask			"models/pbr/office/mugs/smile_detail"
+		$srgbtint			"{173 170 132}"
+		$detailtint			"{0 0 0}"
 	}
 }

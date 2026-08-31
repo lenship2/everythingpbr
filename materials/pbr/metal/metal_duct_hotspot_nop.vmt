@@ -8,15 +8,14 @@ patch
 		$mraotexture			"pbr/metal/metal_duct_hotspot_mrao"
 		%rectanglemap			"pbr/metal/metal_duct_hotspot"
 		
-		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
-		
 		$hsv					"[1 1 1.1]"
 		
-		$mraoscale				"[0.8 1 1]"
-		
+		$surfaceprop			"metalvent"
+	}
+	replace
+	{
 		$envmaptint				"0.76"
 		$envmaplightscale		"0.67"
-		
-		$surfaceprop			"metalvent"
+		$mraoscale				"[0.8 1 1]"
 	}
 }

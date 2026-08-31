@@ -2,10 +2,10 @@ Refract
 {
  	$model 				"1"
 	$nocull				"1"
- 	$refractamount 		"-0.01"
+ 	$refractamount 		"-0.005"
 	$normalmap 			"models/pbr/test_chambers/laser/redirection_focus"
 	$envmap 			"env_cubemap"
-	$envmaptint			"[0.2 0.2 0.2]"
+	$envmaptint			"0.1"
 	$nowritez			"1"
-	$refracttint		"[0.85 1.03 0.95]"
+	$refracttint		"{220 280 320}"
 }

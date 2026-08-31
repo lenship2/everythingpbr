@@ -1,0 +1,21 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
+	insert
+	{
+		$basetexture 			"pbr/glass/panel_glass_Color"
+		$bumpmap 				"pbr/glass/panel_glass_Parallax"
+		$mraotexture			"pbr/glass/panel_glass_MRAO"
+		$emissiontexture		"pbr/glass/panel_glass_SelfIllum"
+		
+		$emissionscale			"[0 0.7 0.631]"
+		
+		$parallax 				"1"
+		$parallaxcenter 		"0.1"
+		$parallaxdepth 			"0.025"
+		
+		$translucent			"1"
+		
+		$surfaceprop			"glass"
+	}
+}

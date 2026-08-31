@@ -1,0 +1,11 @@
+lightmappedgeneric
+{
+	$basetexture 		"pbr/overlays/garage_stripes_02"
+	
+	$translucent		"1"
+	$decal				"1"
+	
+	$color				"[0.42 0.353 0.07]"
+	$srgbtint			"[2.3 2.3 2.3]"
+	$decalscale			"0.125"
+}

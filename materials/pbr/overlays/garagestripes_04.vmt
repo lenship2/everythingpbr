@@ -1,0 +1,10 @@
+patch
+{
+	include					"materials/pbr/overlays/garage_like.vmt"
+	insert
+	{
+		$basetexture 			"pbr/overlays/garage_stripes_02"
+		
+		$decalscale			"0.125"
+	}
+}

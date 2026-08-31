@@ -1,16 +1,17 @@
 patch
 {
-	include					"materials/dev/l2_default_pbr.vmt"
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
 		$basetexture 			"pbr/underground/wood/underground_white_wood_b_color"
 		$bumpmap 				"pbr/underground/wood/underground_white_wood_a_normal"
-		$mraotexture			"pbr/underground/wood/underground_white_wood_a_mrao"
-		
-		$basetexturetransform	"center 0 0 scale 4 4 rotate 0 translate 0 0"
+		$mraotexture			"vgui/white"
 		
 		$surfaceprop			"wood"
-		
+	}
+	replace
+	{
+		$mraoscale				"[0 0.9 1]"
 		%noportal				"0"
 	}
 }

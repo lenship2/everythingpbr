@@ -4,5 +4,6 @@ patch
 	insert
 	{
 		$basetexture 			"pbr/overlays/arrow"
+		$decalscale				"0.125"
 	}
 }

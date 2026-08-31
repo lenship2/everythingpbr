@@ -1,0 +1,23 @@
+patch
+{
+	include					"materials/dev/l2_default_overlay_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/overlays/dirt_grunge_color"
+		$bumpmap 				"pbr/overlays/dirt_grunge_normal"
+		$mraotexture			"vgui/white"
+		$detail					"pbr/overlays/dirt_edge_01_trans"
+		
+		$detailtransform		"center 0 0 scale 0.667 0.667 rotate 0 translate 0.167 0"
+		$decalscale				"0.25"
+
+		$translucent			"1"
+		
+		$detailblendmode		"9"
+	}
+	replace
+	{
+		$mraoscale              "[0 0.9 1]"
+		$basetexturetransform	"center 0 0 scale 1.5 1.5 rotate 0 translate 0 0"
+	}
+}

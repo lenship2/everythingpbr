@@ -1,4 +1,5 @@
-vertexlitgeneric
+VertexLitGeneric
 {
-$basetexture	"models\pbr\cable_red_baseColor"
+	$basetexture	"vgui\white"
+	$srgbtint		"{71 0 0}"
 }

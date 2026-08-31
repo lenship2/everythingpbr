@@ -1,0 +1,13 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\mugs\mug_Color"
+		$mraotexture			"models\pbr\office\mugs\mug_MRAO"
+		$detail					"vgui\white"
+		
+		$detailblendmode		"2"
+		$detailblendfactor		"1"
+	}
+}

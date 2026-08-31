@@ -7,12 +7,12 @@ patch
 		$bumpmap 				"pbr/glass/portal_glass_01_Normal"
 		$mraotexture			"pbr/glass/portal_glass_01_MRAO"
 		
-		$basetexturetransform	"center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
-		
 		$translucent			"1"
 		
-		$envmaptint				"[1 1 1]"
-		
 		$surfaceprop			"glass"
+	}
+	replace
+	{
+		$envmaptint				"1"
 	}
 }

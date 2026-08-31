@@ -3,8 +3,8 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 	"dev/default_mrao"
-		$mraotexture	"dev/default_mrao"
+		$basetexture 	"vgui/white"
+		$mraotexture	"vgui/white"
 		
 		$treesway	"2"
 		$treeswaystatic	"1"

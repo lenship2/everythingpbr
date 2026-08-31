@@ -1,29 +1,19 @@
-PBR
+patch
 {
-	//fixup for most higher-res basetextures
-	$basetexturetransform	"center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
-	$basetexturetransform2	"center 0.5 0.5 scale 2 2 rotate 0 translate 0 0"
-
-	//make cubemaps and metal look okayish. envmaplightscale doesnt account for clustered but its okay because  
-	//ambient lighting still affects it. maybe one day we can have better cubemap mipmapping
-	$mraoscale              "[0.9 1 1]"
-	$mraoscale2				"[0.9 1 1]"
-	$envmaptint				"0.5"	
-	$envmaptint2			"0.5"
-	$envmaplightscale		"0.5"
-	
-	//disable parallax usually, but when it is enabled turn off dithering and set to the highest quality
-	$parallax 				"0"
-	$parallaxdither        	"0"
-	$parallaxscale          "2"
-	
-	//there's not really a situation where you would want this off (for now). 
-	//the mrao maps have full alpha by default so enabling this doesnt change anything in most situations,
-	//therefore it's nice to have it on by default for when you do need it..
-	$blendtintbymraoalpha	"1"
-
-	$envmap					"env_cubemap"
-
-	//most materials aren't portalable
-	"%noportal"				"1"
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$model					"0"
+		
+		//fixup for most higher-res basetextures
+		$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+		$basetexturetransform2	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+		
+		//most materials aren't portalable
+		"%noportal"				"1"
+		
+		//setup envmap fixups for blend textures
+		$mraoscale2				"[0.9 1 1]"
+		$envmaptint2			"0.5"
+	}
 }

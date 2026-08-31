@@ -9,9 +9,11 @@ patch
 		%rectanglemap			"pbr/glass/glass_hotspot"
 		
 		$translucent			"1"
-		
-		$envmaptint				"[1 1 1]"
-		
+
 		$surfaceprop			"glass"
+	}
+	replace
+	{
+		$envmaptint				"1"
 	}
 }

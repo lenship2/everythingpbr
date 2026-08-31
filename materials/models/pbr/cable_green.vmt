@@ -3,9 +3,10 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\cable_green_baseColor"
-		$mraotexture			"dev\default_MRAO"
+		$basetexture 			"vgui/white"
+		$mraotexture			"vgui/white"
 		
+		$srgbtint				"{0 65 58}"
 		$mraoscale              "[0 0.6 1]"
 	}
 }

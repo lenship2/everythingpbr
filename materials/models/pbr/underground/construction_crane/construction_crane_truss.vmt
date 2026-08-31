@@ -6,5 +6,7 @@ patch
 		$basetexture 			"models\pbr\underground\construction_crane\construction_crane_truss_Color"
 		$mraotexture			"models\pbr\underground\construction_crane\construction_crane_truss_MRAO"
 		$bumpmap				"models\pbr\underground\construction_crane\construction_crane_truss_Normal"
+		
+		$srgbtint				"{190 66 66}"
 	}
 }

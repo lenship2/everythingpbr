@@ -7,8 +7,10 @@ patch
 		$bumpmap 				"pbr/framework/squarebeams_rust_Parallax"
 		$mraotexture			"pbr/framework/squarebeams_rust_MRAO"
 		
+		$parallax				"1"
+	}
+	replace
+	{
 		$envmaptint				"[0.45 0.45 0.45]"
-		
-		$parallax 				"1"
 	}
 }
