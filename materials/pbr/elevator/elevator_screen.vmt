@@ -1,63 +1,19 @@
-// PBR
-// {
-	// $basetexture 			"pbr\elevator\elevator_screen_Color"
-	// $bumpmap 				"pbr\elevator\elevator_screen_Normal"
-	// $mraotexture			"pbr\elevator\elevator_screen_MRAO"
-	// %rectanglemap			"pbr\elevator\elevator_screen_hotspot"
-	
-	// $surfaceprop			"glass"
-	
-	// $mraoscale              "[0.9 1 1]"
-	// $envmaptint				"0.9"
-	// $envmaplightscale		"0.5"
-	
-	// $detailtint				"4"
-
-	// $envmap					"env_cubemap"
-
-	// "%noportal"				"1"
-// }
-
 PBR
 {
 	$basetexture 			"pbr\elevator\elevator_screen_Color"
 	$bumpmap 				"pbr\elevator\elevator_screen_Normal"
 	$mraotexture			"pbr\elevator\elevator_screen_MRAO"
 	%rectanglemap			"pbr\elevator\elevator_screen_hotspot"
-	$detailmask				"pbr\elevator\elevator_screen_detailmask"
-	$detail					"vgui\white"
-	$emissiontexture		"pbr\elevator\elevator_screen_scanline"
-	
-	$emissiontexture		"pbr\elevator\elevator_screen_scanline"
-	
-	$detailblendmode		"1"
-	$detailblendfactor		"6"
 	
 	$surfaceprop			"glass"
 	
-	$detailtransform		"center 0 0 scale 0.5 1 rotate 0 translate 0 0"
-	$emissiontransform		"center 0 0 scale 4 2 rotate 0 translate 0 0"
-
 	$mraoscale              "[0.9 1 1]"
-	$emissionscale			"0.02"
 	$envmaptint				"0.9"
 	$envmaplightscale		"0.5"
 	
-	//$detailtint				"4"
+	$detailtint				"4"
 
 	$envmap					"env_cubemap"
 
 	"%noportal"				"1"
-	
-	$moviepath				"media/bluescreen.webm"
-	
-	Proxies
-	{
-		MovieTexture
-		{
-			resultvar		"$detail"
-			movie			"media/bluescreen.webm"
-		}
-	}
 }
-
