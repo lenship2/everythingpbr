@@ -6,7 +6,7 @@ $mraotexture			"models\pbr\test_chambers\cubes\sphere_MRAO"
 
 $decaltexture			"models/pbr/paint_color"
 $decalbump				"models/pbr/paint_normal"
-$decalmrao				"dev/default_mrao"
+$decalmrao				"vgui/white"
 
 $decalmraointensity		"[0 0.15 1]"
 

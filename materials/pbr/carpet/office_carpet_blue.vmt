@@ -14,5 +14,7 @@ patch
 		$hsv					"[0.55 0.8 0.7]"
 		
 		$surfaceprop			"carpet"
+		
+		$mraoscale				"[0 0.9 1]"
 	}
 }

@@ -7,7 +7,7 @@ $emissiontexture		"models\pbr\test_chambers\cubes\cube_rust_SelfIllum"
 
 $decaltexture			"models/pbr/paint_color"
 $decalbump				"models/pbr/paint_normal"
-$decalmrao				"dev/default_mrao"
+$decalmrao				"vgui/white"
 
 $decalmraointensity		"[0 0.15 1]"
 
