@@ -2,6 +2,7 @@ PBR
 {
 $basetexture 			"models\pbr\test_chambers\portal_emitter_Color"
 $mraotexture			"models\pbr\test_chambers\portal_emitter_MRAO"
+$bumpmap				"models\pbr\test_chambers\portal_emitter_normal"
 $emissiontexture		"models\pbr\test_chambers\portal_emitter_SelfIllum"
 
 $model					"1"
@@ -11,14 +12,16 @@ $mraoscale              "[0.9 1 1]"
 $parallax 				"0"
 
 $envmap					"env_cubemap"
-$envmaplightscale		"0.6"
-$envmaptint				"[0.3 0.3 0.3]"
+$envmaplightscale		"0.5"
+$envmaptint				"0.5"
 
 $v_alternate 			"0"
 $v_defaultColor 		"{233 78 2}"
 $v_zero 				"0"
 $v_defaultTint 			"[1 1 1]"
 $v_portalColor 			"{255 255 255}"
+$v_portaltype  			"{255 255 255}"
+$v_sineconstant			"1"
 
 Proxies
 {
@@ -43,7 +46,22 @@ Proxies
 		LessEqualVar    "$v_defaultColor"     
         greaterVar      "$v_portalColor"
 		
-        resultVar       "$emissionscale"      
+        resultVar       "$v_portaltype"      
     }
+	
+	Sine
+	{
+		sineperiod		"1.00"
+		sinemin			"1"
+		sinemax			"2"
+		resultVar		"$v_sineconstant"
+	}
+	
+	Multiply
+	{
+		srcVar1			"$v_portaltype"
+		srcVar2			"$v_sineconstant"
+		resultVar		"$emissionscale"
+	}
 }
 }

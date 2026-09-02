@@ -1,9 +1,12 @@
 patch
 {
 	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$decal					"1"
+	}
 	replace
 	{
 		$basetexturetransform	"center 0 0 scale 1 1 rotate 0 translate 0 0"
-		$decal					"1"
 	}
 }
