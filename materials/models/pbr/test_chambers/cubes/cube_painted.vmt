@@ -1,73 +1,13 @@
-PBR
+patch
 {
-$basetexture			"models\pbr\test_chambers\cubes\cube_Color"
-$bumpmap 				"models\pbr\test_chambers\cubes\cube_Normal"
-$mraotexture			"models\pbr\test_chambers\cubes\cube_MRAO"
-$emissiontexture		"models\pbr\test_chambers\cubes\cube_SelfIllum"
-
-$decaltexture			"models/pbr/paint_color"
-$decalbump				"models/pbr/paint_normal"
-$decalmrao				"vgui/white"
-
-$decalmraointensity		"[0 0.15 1]"
-
-$model					"1"
-
-$mraoscale				"[0.9 1 1]"
-$emissionscale			"[0.122 0.296 0.456]"
-
-$parallax 				"0"
-
-$envmap					"env_cubemap"
-$envmaptint				"[0.5 0.5 0.5]"
-$envmaplightscale		"0.9"
-
-$temp					"255"
-$one					"1"
-$zero					"0"
-$nine					"0.95"
-
-Proxies
-{
-	PaintOverlayColor
+	include					"materials\models\pbr\test_chambers\cubes\cube_painted_template.vmt"
+	insert
 	{
-		shouldalpha		"1"
-		"resultVar"		$decaltint
+		$basetexture 			"models\pbr\test_chambers\cubes\cube_Color"
+		$bumpmap 				"models\pbr\test_chambers\cubes\cube_Normal"
+		$mraotexture			"models\pbr\test_chambers\cubes\cube_MRAO"
+		$emissiontexture		"models\pbr\test_chambers\cubes\cube_SelfIllum"
+		
+		$emissionscale			"[0.122 0.296 0.456]"
 	}
-	
-	Multiply
-	{
-		srcVar1		$decaltint
-		srcVar2		$decaltint
-		resultVar	$decaltint
-	}
-	
-	Multiply
-	{
-		srcVar1		$decaltint
-		srcVar2		$nine
-		resultVar	$decaltint
-	}
-	
-	Clamp
-	{
-		max			$one
-		min			$zero
-		srcVar1		$decaltint
-		resultVar	$decaltint
-	}
-	
-	Multiply
-	{
-		srcVar1			$decaltint
-		srcVar2			$temp
-		resultVar		$decaltint
-	}
-
-	Equals
-	{
-		srcVar1			$temp
-		resultVar		"$decaltint[3]"
-	}
-}
 }

@@ -1,0 +1,65 @@
+PBR
+{
+$decaltexture			"models/pbr/paint_color"
+$decalbump				"models/pbr/paint_normal"
+$decalmrao				"vgui/white"
+
+$decalmraointensity		"[0 0.15 1]"
+
+$model					"1"
+
+$mraoscale				"[0.9 1 1]"
+
+$envmap					"env_cubemap"
+$envmaptint				"[0.5 0.5 0.5]"
+$envmaplightscale		"0.9"
+
+$temp					"255"
+$one					"1"
+$zero					"0"
+$nine					"0.95"
+
+Proxies
+{
+	PaintOverlayColor
+	{
+		shouldalpha		"1"
+		"resultVar"		$decaltint
+	}
+	
+	Multiply
+	{
+		srcVar1		$decaltint
+		srcVar2		$decaltint
+		resultVar	$decaltint
+	}
+	
+	Multiply
+	{
+		srcVar1		$decaltint
+		srcVar2		$nine
+		resultVar	$decaltint
+	}
+	
+	Clamp
+	{
+		max			$one
+		min			$zero
+		srcVar1		$decaltint
+		resultVar	$decaltint
+	}
+	
+	Multiply
+	{
+		srcVar1			$decaltint
+		srcVar2			$temp
+		resultVar		$decaltint
+	}
+
+	Equals
+	{
+		srcVar1			$temp
+		resultVar		"$decaltint[3]"
+	}
+}
+}
