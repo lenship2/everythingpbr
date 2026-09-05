@@ -1,9 +1,9 @@
 patch
 {
 	include					"materials/dev/l2_default_pbr_4x4.vmt"
-	replace
+	insert
 	{
-		$basetexture 			"pbr/concrete/modular_concrete_floor_checker_Color"
+		$basetexture 			"pbr/concrete/modular_concrete_floor_checker_color"
 		$bumpmap 				"pbr/concrete/modular_concrete_floor_Normal"
 		$mraotexture			"pbr/concrete/modular_concrete_floor_MRAO"
 		
