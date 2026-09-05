@@ -8,6 +8,8 @@ patch
 		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_crop_01_mrao"
 		
 		$parallax				"0"
+		
+		$hsv					"[1 1 0.45]"
 	}
 	replace
 	{

@@ -6,8 +6,10 @@ patch
 		$basetexture 			"pbr/framework/squarebeam_crop/squarebeams_crop_01_color"
 		$bumpmap 				"pbr/framework/squarebeam_crop/squarebeams_crop_01_Parallax"
 		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_crop_01_mrao"
+
+		$parallax 				"1"
 		
-		$parallax				"0"
+		$hsv					"[1 1 0.45]"
 	}
 	replace
 	{

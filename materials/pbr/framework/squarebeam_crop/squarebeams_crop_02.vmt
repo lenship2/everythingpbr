@@ -7,9 +7,10 @@ patch
 		$bumpmap 				"pbr/framework/squarebeam_crop/squarebeams_crop_02_Parallax"
 		$mraotexture			"pbr/framework/squarebeam_crop/squarebeams_crop_02_mrao"
 		
-		$mraoscale              "[0.8 1.2 1]"
-		$hsv					"[1 1 0.9]"
-		
 		$parallax 				"1"
+	}
+	replace
+	{
+		$mraoscale              "[0.5 1 1]"
 	}
 }

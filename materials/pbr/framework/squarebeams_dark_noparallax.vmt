@@ -7,7 +7,9 @@ patch
 		$bumpmap 				"pbr/framework/squarebeams_Parallax"
 		$mraotexture			"pbr/framework/squarebeams_mrao"
 		
-		$parallax 				"1"
+		$parallax				"0"
+		
+		$hsv					"[1 1 0.45]"
 	}
 	replace
 	{
