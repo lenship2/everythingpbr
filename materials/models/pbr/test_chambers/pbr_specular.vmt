@@ -8,6 +8,9 @@ patch
 		$bumpmap				"models/pbr/test_chambers/testchmb_bits_normal"
 		
 		$color2					"[0 0 0]"
+		
+		$mraoscale				"[0 0.8 1]"
+		
 		$additive				"1"
 	}
 }

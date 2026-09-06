@@ -5,5 +5,7 @@ patch
 	{
 		$basetexture 			"models\pbr\office\folding_chair_Color"
 		$mraotexture			"models\pbr\office\folding_chair_MRAO"
+		
+		$color2					"[3 3 3]"
 	}
 }

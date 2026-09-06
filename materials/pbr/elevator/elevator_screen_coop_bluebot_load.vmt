@@ -29,7 +29,7 @@ PBR
 		MovieTexture
 		{
 			resultvar		"$detail"
-			movie			"media/bluebot_load.webm"
+			movie			"media/bluescreen.webm"
 		}
 	}
 }
