@@ -3,9 +3,9 @@ patch
 	include					"materials/dev/l2_default_pbr_4x4.vmt"
 	insert
 	{
-		$basetexture 			"pbr/metal/metal_treadplate_grey_color"
-		$bumpmap 				"pbr/metal/metal_treadplate_normal"
-		$mraotexture			"pbr/metal/metal_treadplate_mrao"
+		$basetexture 			"pbr/metal/metal_treadplate_05_color"
+		$bumpmap 				"pbr/metal/metal_treadplate_04_normal"
+		$mraotexture			"pbr/metal/metal_treadplate_04_mrao"
 		
 		$surfaceprop			"metalpanel"
 
