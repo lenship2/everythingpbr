@@ -6,6 +6,11 @@ patch
 		$basetexture 			"pbr\tiles\observation_tiles_Color"
 		$bumpmap 				"pbr\tiles\observation_tiles_Normal"
 		$mraotexture			"pbr\tiles\observation_tiles_MRAO"
+		$detail					"detail\generic_detail_02"
+		
+		$detailblendmode		"0"
+		$detailtransform		"center 0 0 scale 1 1 rotate 0 translate 0 0"
+		$detailblendfactor		"0.4"
 		
 		$surfaceprop			"tile"
 		
