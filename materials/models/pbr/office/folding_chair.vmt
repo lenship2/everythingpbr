@@ -5,7 +5,8 @@ patch
 	{
 		$basetexture 			"models\pbr\office\folding_chair_Color"
 		$mraotexture			"models\pbr\office\folding_chair_MRAO"
+		$bumpmap				"models\pbr\office\folding_chair_Normal"
 		
-		$color2					"[3 3 3]"
+		$hsv					"[1 1 0.75]"
 	}
 }

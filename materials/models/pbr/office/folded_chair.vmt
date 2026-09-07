@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\office\folded_chair_Color"
+		$mraotexture			"models\pbr\office\folded_chair_MRAO"
+		$bumpmap				"models\pbr\office\folded_chair_Normal"
+		
+		$hsv					"[1 1 0.75]"
+	}
+}
