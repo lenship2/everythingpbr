@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10748"
-	"mapversion" "753"
+	"mapversion" "755"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,20 +23,20 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-368.658 -6309.18 53.1862)"
-			"angle" "[31.1999 114.417 0]"
+			"position" "(303.262 840.634 180.723)"
+			"angle" "[21.1999 -174.783 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(263.222 901.408 0)"
-			"zoom" "1.04018"
+			"position" "(66.8918 858.245 65536)"
+			"zoom" "7.72862"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 -3748.41 1915.8)"
-			"zoom" "0.0389375"
+			"position" "(65536 831.872 27.0454)"
+			"zoom" "4.45739"
 		}
 		v3
 		{
@@ -49,7 +49,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "753"
+	"mapversion" "755"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
