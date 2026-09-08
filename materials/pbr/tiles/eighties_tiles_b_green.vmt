@@ -8,6 +8,8 @@ patch
 		$mraotexture			"pbr/tiles/eighties_tiles_b_MRAO"
 		
 		$surfaceprop			"tile"
+		
+		$color					"{87 163 81}"
 	}
 	replace
 	{

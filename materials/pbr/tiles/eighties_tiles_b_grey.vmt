@@ -8,6 +8,8 @@ patch
 		$mraotexture			"pbr/tiles/eighties_tiles_b_MRAO"
 		
 		$surfaceprop			"tile"
+		
+		$srgbtint				"[0.5 0.5 0.5]"
 	}
 	replace
 	{
