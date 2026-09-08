@@ -22,7 +22,7 @@ Proxies
 {
 	PaintOverlayColor
 	{
-		"resultVar"		$paintcolor
+		resultVar		$paintcolor
 	}
 	
 	Expression

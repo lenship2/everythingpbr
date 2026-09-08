@@ -9,58 +9,44 @@ PBR
 	$detailblendmode		"1"
 	$detailblendfactor		"1"
 	
-	$envmaptint				"[0.05 0.05 0.05]"
+	$envmaptint				"0.5"
 	
 	$surfaceprop			"wood"
 	$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
 	$mraoscale              "[0.9 1 1]"
 	$envmaplightscale		"0.5"
 
-	$parallax 				"0"
-	$parallaxdither        	"0"
-	$parallaxscale          "2"
-	
-	$blendtintbymraoalpha	"1"
-
 	$envmap					"env_cubemap"
 
 	"%noportal"				"1"
 	
-	$one					"[1 1 1]"
-	$zero					"[0 0 0]"
-	$nine					"0.95"
+	$srgbfactor				"2.2"
+	$paintcolor				"[1 1 1]"
 
-	Proxies
+Proxies
+{
+	PaintOverlayColor
 	{
-		PaintOverlayColor
-		{
-			paintpower		"0"
-			resultVar 		"$detailtint"
-		}
-		
-		//srgb to linear approximation
-		
-		Multiply
-		{
-			srcVar1		$detailtint
-			srcVar2		$detailtint
-			resultVar	$detailtint
-		}
-		
-		Multiply
-		{
-			srcVar1		$detailtint
-			srcVar2		$nine
-			resultVar	$detailtint
-		}
-		
-		Clamp
-		{
-			max			$one
-			min			$zero
-			srcVar1		$detailtint
-			resultVar	$detailtint
-		}
-		
+		paintpower		"0"
+		resultVar		$paintcolor
 	}
+	
+	Expression
+	{
+		expression		"pow($paintcolor[0],$srgbfactor[0])"
+		resultvar		"$detailtint[0]"
+	}
+	
+	Expression
+	{
+		expression		"pow($paintcolor[1],$srgbfactor[1])"
+		resultvar		"$detailtint[1]"
+	}
+	
+	Expression
+	{
+		expression		"pow($paintcolor[2],$srgbfactor[2])"
+		resultvar		"$detailtint[2]"
+	}
+}
 }
