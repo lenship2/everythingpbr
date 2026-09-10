@@ -7,6 +7,6 @@ patch
 		$mraotexture			"models\pbr\office\folded_chair_MRAO"
 		$bumpmap				"models\pbr\office\folded_chair_Normal"
 		
-		$hsv					"[1 1 0.75]"
+		$hsv					"[1 1 0.45]"
 	}
 }

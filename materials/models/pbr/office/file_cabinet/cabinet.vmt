@@ -8,5 +8,6 @@ patch
 		$bumpmap				"models\pbr\office\file_cabinet\cabinet_Normal"
 		
 		$srgbtint					"[0.647 0.627 0.569]"
+		$color2						"[1.5 1.5 1.5]"
 	}
 }
