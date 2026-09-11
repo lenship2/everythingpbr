@@ -4,7 +4,7 @@ patch
 	insert
 	{
 		$basetexture 			"pbr/metal/generic_metal_01_color"
-		$mraotexture			"pbr/metal/generic_metal_01_color_mrao"
+		$mraotexture			"pbr/metal/generic_metal_01_mrao"
 		
 		$surfaceprop			"metal"
 	}
