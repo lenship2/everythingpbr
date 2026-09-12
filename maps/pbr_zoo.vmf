@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10751"
-	"mapversion" "771"
+	"mapversion" "776"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-46.5063 -6397.82 357.213)"
-			"angle" "[9.5999 -131.182 0]"
+			"position" "(96.7607 798.256 16.1958)"
+			"angle" "[9.99985 146.417 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(94.4639 -6073.47 65536)"
+			"position" "(96.5453 814.956 0)"
 			"zoom" "6.44053"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -6728.52 13.1534)"
-			"zoom" "1.79133"
+			"position" "(65536 799.836 11.0871)"
+			"zoom" "15.9717"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-201.991 -65536 29.0355)"
-			"zoom" "3.85174"
+			"position" "(267.161 0 30.3869)"
+			"zoom" "4.62209"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "771"
+	"mapversion" "776"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13831,6 +13831,136 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "119709"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/pbr/office/file_box_2_bottom.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "64 800 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "118349"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"enablelightbounce" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/pbr/underground/geodome.mdl"
+	"preventpropcombine" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"screenspacefade" "0"
+	"skin" "1"
+	"solid" "6"
+	"uniformscale" "0.025"
+	"origin" "-72 672 256"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "118468"
+	"classname" "prop_physics"
+	"allowfunnel" "1"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 -180"
+	"body" "0"
+	"damagetoenablemotion" "0"
+	"damagetype" "0"
+	"disablereceiveshadows" "0"
+	"explodedamage" "0"
+	"explodemagnitude" "0"
+	"exploderadius" "0"
+	"exploitablebyplayer" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"glowcolor" "255 255 255"
+	"glowdist" "1024"
+	"health" "0"
+	"inertiascale" "1.0"
+	"massscale" "0"
+	"minhealthdmg" "0"
+	"model" "models/pbr/office/file_box_2_top.mdl"
+	"nodamageforces" "0"
+	"performancemode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "256"
+	"texframeindex" "0"
+	"viewhideflags" "0"
+	"origin" "64 800 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
 	}
 }
 entity
@@ -29352,30 +29482,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "2174"
-	"classname" "prop_static"
-	"angles" "0 270 180"
-	"enablelightbounce" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/pbr/framework/l2_squarebeam_edge.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-410 64 96"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
 	}
 }
 entity
