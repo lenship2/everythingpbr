@@ -1,0 +1,12 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
+	insert
+	{
+		$basetexture 			"pbr/framework/aperture_insulation_01_bottom_color"
+		$bumpmap 				"pbr/framework/aperture_insulation_01_bottom_normal"
+		$mraotexture			"pbr/framework/aperture_insulation_01_bottom_MRAO"
+		
+		$surfaceprop			"cardboard"
+	}
+}
