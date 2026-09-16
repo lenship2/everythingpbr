@@ -9,7 +9,7 @@ patch
 		
 		$surfaceprop			"concrete"
 		
-		$hsv					"[1 0.9 0.8]"
+		$hsv					"[1 0.9 0.5]"
 	}
 	replace
 	{
