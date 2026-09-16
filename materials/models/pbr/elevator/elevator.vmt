@@ -1,0 +1,14 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\elevator\elevator_Color"
+		$mraotexture			"models\pbr\elevator\elevator_MRAO"
+		$bumpmap				"models\pbr\elevator\elevator_Normal"
+		
+		//$decaltexture			"models\pbr\elevator\elevator_MRAO"
+		//$decalbump				"models\pbr\stickersheet_01_normal"
+		//$decalmrao				"models\pbr\stickersheet_01_mrao"
+	}
+}

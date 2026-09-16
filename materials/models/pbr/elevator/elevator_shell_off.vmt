@@ -1,0 +1,16 @@
+patch
+{
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
+	{
+		$basetexture 			"models\pbr\elevator\elevator_shell_Color"
+		$mraotexture			"models\pbr\elevator\elevator_shell_MRAO"
+		$bumpmap				"models\pbr\elevator\elevator_shell_Normal"
+		
+		$detailmask				"models\pbr\elevator\elevator_shell_detail"
+		$detail					"vgui/white"
+		
+		$detailblendmode		"2"
+		$detailblendfactor		"1"
+	}
+}
