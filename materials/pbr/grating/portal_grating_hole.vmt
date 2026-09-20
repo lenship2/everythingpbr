@@ -15,7 +15,7 @@ patch
 		$AlphaTestReference 	"0.55"
 		$AllowAlphaToCoverage 	"1"
 		
-		$hsv					"[1 1 2]"
+		$hsv					"[1 1 0.35]"
 		
 		$surfaceprop			"metalgrate"
 		
