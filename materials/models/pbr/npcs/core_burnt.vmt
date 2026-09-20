@@ -3,9 +3,9 @@ patch
 	include					"materials/dev/l2_default_model_pbr.vmt"
 	insert
 	{
-		$basetexture 			"models\pbr\npcs\core_Color"
+		$basetexture 			"models\pbr\npcs\core_burnt_Color"
 		$bumpmap				"models\pbr\npcs\core_Normal"
-		$mraotexture			"models\pbr\npcs\core_MRAO"
+		$mraotexture			"models\pbr\npcs\core_burnt_MRAO"
 		
 		$srgbtint				"[0.2 0.2 0.2]"
 	}
