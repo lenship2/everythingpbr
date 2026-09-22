@@ -1,0 +1,23 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr_4x4.vmt"
+	insert
+	{
+		$basetexture 			"pbr/underground/grating/underground_grating_color"
+		$bumpmap 				"pbr/underground/grating/underground_grating_parallax"
+		$mraotexture			"pbr/underground/grating/underground_grating_mrao"
+		
+		$surfaceprop			"metalgrate"
+		
+		$alphatest				"1"
+		$AlphaTestReference 	"0.55"
+		$allowalphatocoverage	"1"
+		
+		"%compilepassbullets"	"1"
+		"%nopaint"				"1"
+	}
+	replace
+	{
+		$mraoscale              "[0.75 1 1]"
+	}
+}
