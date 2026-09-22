@@ -6,7 +6,5 @@ patch
 		$basetexture 			"models/pbr/framework/truss_square_color"
 		$bumpmap				"models/pbr/framework/truss_square_normal"
 		$mraotexture			"models/pbr/framework/truss_square_mrao"
-		
-		$srgbtint					"[0.67 0.64 0.6]"
 	}
 }
