@@ -1,0 +1,13 @@
+UnlitGeneric
+{
+	$basetexture	"vgui/white"
+	
+Proxies
+{
+	MovieTexture
+	{
+		movie		"media/attract02.webm"
+		resultvar	$basetexture
+	}
+}
+}

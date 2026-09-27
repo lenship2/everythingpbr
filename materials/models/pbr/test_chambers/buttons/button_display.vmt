@@ -1,0 +1,13 @@
+UnlitGeneric
+{
+	$basetexture	"vgui/white"
+	
+Proxies
+{
+	MovieTexture
+	{
+		movie		"media/coop_bluebot_load.webm"
+		resultvar	$basetexture
+	}
+}
+}

@@ -8,6 +8,6 @@ patch
 		$bumpmap				"models\pbr\test_chambers\buttons\pedestal_button_Normal"
 		$mraotexture			"models\pbr\test_chambers\buttons\pedestal_button_MRAO"
 		
-		$emissionscale			"[0.4851 0.305 0.0262]"
+		$emissionscale			"[0.708 0.491 0.063]"
 	}
 }
