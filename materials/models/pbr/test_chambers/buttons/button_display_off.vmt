@@ -1,13 +1,11 @@
-UnlitGeneric
+patch
 {
-	$basetexture	"vgui/white"
-	
-Proxies
-{
-	MovieTexture
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
 	{
-		movie		"media/attract02.webm"
-		resultvar	$basetexture
+		$basetexture 			"vgui/white"
+		$mraotexture			"models\pbr\test_chambers\buttons\button_display_mrao"
+		
+		$srgbtint				"[0.2 0.2 0.2]"
 	}
-}
 }

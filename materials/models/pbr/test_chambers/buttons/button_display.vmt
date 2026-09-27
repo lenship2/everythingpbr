@@ -1,13 +1,16 @@
-UnlitGeneric
+patch
 {
-	$basetexture	"vgui/white"
-	
-Proxies
-{
-	MovieTexture
+	include					"materials/dev/l2_default_model_pbr.vmt"
+	insert
 	{
-		movie		"media/coop_bluebot_load.webm"
-		resultvar	$basetexture
+		$basetexture 			"vgui/white"
+		$emissiontexture 		"models\pbr\test_chambers\buttons\button_display"
+		$mraotexture			"vgui/white"
+		
+		$srgbtint				"[0.2 0.2 0.2]"
+		
+		$mraoscale				"[0 0.25 1]"
+		
+		$emissionscale			"[0.122 0.296 0.456]"
 	}
-}
 }
