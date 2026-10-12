@@ -1,0 +1,22 @@
+patch
+{
+	include					"materials/dev/l2_default_pbr.vmt"
+	insert
+	{
+		$basetexture 			"pbr/nature/snow_01_color"
+		$bumpmap 				"pbr/nature/snow_01_normal"
+		$mraotexture			"pbr/nature/snow_01_mrao"
+		// when detailblendmode 10 isn't bugged with clustered, uncomment this
+		//$detail 				"pbr/nature/snow_01_detail"
+		
+		$detailtransform		"center 0 0 scale 0.25 0.25 rotate 0 translate 0 0"
+		$basetexturetransform	"center 0 0 scale 2 2 rotate 0 translate 0 0"
+		
+		$reflectivity			"[0.8 0.8 0.85]"
+		
+		$detailblendfactor 		"1"
+		$detailblendmode 		"10"
+		
+		$surfaceprop			"snow"
+	}
+}
